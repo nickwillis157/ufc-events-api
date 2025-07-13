@@ -1,0 +1,17 @@
+{
+  "event_id": "UFC_321",
+  "event_name": "UFC 321",
+  "event_date": "2025-10-25",
+  "venue": "Etihad Arena",
+  "location": null,
+  "status": "scheduled",
+  "attendance": null,
+  "gate": null,
+  "tv_broadcast": null,
+  "start_time": null,
+  "fights": [],
+  "scraped_at": "2025-07-12T19:00:08.671475",
+  "source_urls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/UFC_321"
+  }
+}

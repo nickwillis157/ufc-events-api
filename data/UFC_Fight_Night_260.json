@@ -1,0 +1,17 @@
+{
+  "event_id": "UFC_Fight_Night_260",
+  "event_name": "UFC Fight Night 260",
+  "event_date": "2025-10-18",
+  "venue": "Rogers Arena",
+  "location": null,
+  "status": "scheduled",
+  "attendance": null,
+  "gate": null,
+  "tv_broadcast": null,
+  "start_time": null,
+  "fights": [],
+  "scraped_at": "2025-07-12T19:00:09.185434",
+  "source_urls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night_260"
+  }
+}

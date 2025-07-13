@@ -1,0 +1,177 @@
+
+[
+    {
+        "event_id": "ufc-305",
+        "event_name": "UFC 305: Du Plessis vs Adesanya",
+        "event_date": "2024-08-17",
+        "venue": "RAC Arena",
+        "location": "Perth, Australia",
+        "status": "completed",
+        "fights": [
+            {
+                "bout_order": 1,
+                "fighter1": {
+                    "name": "Dricus du Plessis",
+                    "record": "22-2-0",
+                    "rank": 1,
+                    "country": "South Africa"
+                },
+                "fighter2": {
+                    "name": "Israel Adesanya",
+                    "record": "24-3-0",
+                    "rank": 2,
+                    "country": "Nigeria"
+                },
+                "weight_class": "Middleweight Championship",
+                "title_fight": "undisputed",
+                "method": "Submission (R4 3:38)",
+                "winner": "Dricus du Plessis"
+            },
+            {
+                "bout_order": 2,
+                "fighter1": {
+                    "name": "Kai Kara-France",
+                    "record": "24-11-0",
+                    "country": "New Zealand"
+                },
+                "fighter2": {
+                    "name": "Steve Erceg",
+                    "record": "12-2-0",
+                    "country": "Australia"
+                },
+                "weight_class": "Flyweight",
+                "title_fight": "none",
+                "method": "Decision (Unanimous)",
+                "winner": "Kai Kara-France"
+            }
+        ]
+    },
+    {
+        "event_id": "ufc-306",
+        "event_name": "UFC 306: O'Malley vs Dvalishvili",
+        "event_date": "2024-09-14",
+        "venue": "The Sphere",
+        "location": "Las Vegas, NV",
+        "status": "completed",
+        "fights": [
+            {
+                "bout_order": 1,
+                "fighter1": {
+                    "name": "Sean O'Malley",
+                    "record": "18-2-0",
+                    "rank": 1,
+                    "country": "USA"
+                },
+                "fighter2": {
+                    "name": "Merab Dvalishvili",
+                    "record": "17-4-0",
+                    "rank": 2,
+                    "country": "Georgia"
+                },
+                "weight_class": "Bantamweight Championship",
+                "title_fight": "undisputed",
+                "method": "Decision (Unanimous)",
+                "winner": "Merab Dvalishvili"
+            }
+        ]
+    },
+    {
+        "event_id": "ufc-310",
+        "event_name": "UFC 310: Pantoja vs Asakura",
+        "event_date": "2024-12-07",
+        "venue": "T-Mobile Arena",
+        "location": "Las Vegas, NV",
+        "status": "completed",
+        "fights": [
+            {
+                "bout_order": 1,
+                "fighter1": {
+                    "name": "Alexandre Pantoja",
+                    "record": "28-5-0",
+                    "rank": 1,
+                    "country": "Brazil"
+                },
+                "fighter2": {
+                    "name": "Kai Asakura",
+                    "record": "21-4-0",
+                    "country": "Japan"
+                },
+                "weight_class": "Flyweight Championship",
+                "title_fight": "undisputed",
+                "method": "Decision (Unanimous)",
+                "winner": "Alexandre Pantoja"
+            }
+        ]
+    },
+    {
+        "event_id": "ufc-311",
+        "event_name": "UFC 311: Makhachev vs Moicano",
+        "event_date": "2025-01-18",
+        "venue": "Intuit Dome",
+        "location": "Inglewood, CA",
+        "status": "scheduled",
+        "fights": [
+            {
+                "bout_order": 1,
+                "fighter1": {
+                    "name": "Islam Makhachev",
+                    "record": "26-1-0",
+                    "rank": 1,
+                    "country": "Russia"
+                },
+                "fighter2": {
+                    "name": "Renato Moicano",
+                    "record": "19-5-1",
+                    "rank": 4,
+                    "country": "Brazil"
+                },
+                "weight_class": "Lightweight Championship",
+                "title_fight": "undisputed"
+            },
+            {
+                "bout_order": 2,
+                "fighter1": {
+                    "name": "Merab Dvalishvili",
+                    "record": "18-4-0",
+                    "rank": 1,
+                    "country": "Georgia"
+                },
+                "fighter2": {
+                    "name": "Umar Nurmagomedov",
+                    "record": "18-0-0",
+                    "rank": 2,
+                    "country": "Russia"
+                },
+                "weight_class": "Bantamweight Championship",
+                "title_fight": "undisputed"
+            }
+        ]
+    },
+    {
+        "event_id": "ufc-312",
+        "event_name": "UFC 312",
+        "event_date": "2025-02-08",
+        "venue": "Qudos Bank Arena",
+        "location": "Sydney, Australia",
+        "status": "scheduled",
+        "fights": [
+            {
+                "bout_order": 1,
+                "fighter1": {
+                    "name": "Jon Jones",
+                    "record": "27-1-0",
+                    "rank": 1,
+                    "country": "USA"
+                },
+                "fighter2": {
+                    "name": "Tom Aspinall",
+                    "record": "15-3-0",
+                    "rank": 1,
+                    "country": "England"
+                },
+                "weight_class": "Heavyweight Championship",
+                "title_fight": "undisputed"
+            }
+        ]
+    }
+]

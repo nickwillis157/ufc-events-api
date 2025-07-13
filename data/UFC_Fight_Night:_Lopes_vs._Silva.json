@@ -1,0 +1,59 @@
+{
+  "event_id": "UFC_Fight_Night:_Lopes_vs._Silva",
+  "event_name": "UFC Fight Night: Lopes vs. Silva",
+  "event_date": "2025-09-13",
+  "venue": "Frost Bank Center",
+  "location": null,
+  "status": "scheduled",
+  "attendance": null,
+  "gate": null,
+  "tv_broadcast": null,
+  "start_time": null,
+  "fights": [
+    {
+      "bout_order": 1,
+      "fighter1": {
+        "name": "Diego Lopes",
+        "record": null,
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null
+      },
+      "fighter2": {
+        "name": "Jean Silva",
+        "record": null,
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null
+      },
+      "weight_class": "Featherweight",
+      "title_fight": "none",
+      "method": "",
+      "round": null,
+      "time": null,
+      "winner": "Diego Lopes",
+      "result": null,
+      "stats": null,
+      "referee": null,
+      "bonuses": null,
+      "fight_url": null,
+      "segment": "main-card"
+    }
+  ],
+  "scraped_at": "2025-07-12T19:00:10.191368",
+  "source_urls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Lopes_vs._Silva"
+  }
+}

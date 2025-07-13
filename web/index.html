@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFC Events Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">UFC Events</a>
+            <nav class="nav">
+                <button class="nav-btn active" data-view="upcoming">Upcoming</button>
+                <button class="nav-btn" data-view="recent">Recent</button>
+                <button class="nav-btn" data-view="all">All Events</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="controls">
+                <div class="search-bar">
+                    <input type="text" id="search-input" class="search-input" placeholder="Search events or fighters...">
+                    <button id="search-btn" class="search-btn">Search</button>
+                </div>
+                <div class="filters">
+                    <select id="year-filter" class="filter-select">
+                        <option value="">All Years</option>
+                        <!-- Years will be populated by JavaScript -->
+                    </select>
+                    <select id="status-filter" class="filter-select">
+                        <option value="">All Statuses</option>
+                        <option value="scheduled">Scheduled</option>
+                        <option value="completed">Completed</option>
+                        <option value="cancelled">Cancelled</option>
+                        <option value="postponed">Postponed</option>
+                    </select>
+                </div>
+            </section>
+
+            <section class="events">
+                <div id="loading" class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading events...</p>
+                </div>
+                <div id="no-results" class="no-results" style="display: none;">
+                    <p>No events found matching your criteria.</p>
+                </div>
+                <div id="events-grid" class="events-grid"></div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Event Details Modal -->
+    <div id="event-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="modal-close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

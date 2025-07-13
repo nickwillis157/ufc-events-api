@@ -1,0 +1,60 @@
+{
+  "event_id": "ufc-on-abc-whittaker-vs-de-ridder",
+  "event_name": "UFC on ABC: Whittaker vs. de Ridder",
+  "event_date": "2025-07-26",
+  "venue": "Etihad Arena",
+  "location": "Abu Dhabi, United Arab Emirates",
+  "status": "scheduled",
+  "attendance": null,
+  "gate": null,
+  "tv_broadcast": "ABC",
+  "start_time": null,
+  "fights": [
+    {
+      "bout_order": 1,
+      "fighter1": {
+        "name": "Robert Whittaker",
+        "record": null,
+        "rank": null,
+        "country": "Australia",
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": "The Reaper",
+        "bonus": null
+      },
+      "fighter2": {
+        "name": "Reinier de Ridder",
+        "record": null,
+        "rank": null,
+        "country": "Netherlands",
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": "The Dutch Knight",
+        "bonus": null
+      },
+      "weight_class": "Middleweight",
+      "title_fight": "none",
+      "method": null,
+      "round": null,
+      "time": null,
+      "winner": null,
+      "result": null,
+      "odds": null,
+      "stats": null,
+      "referee": null,
+      "bonuses": null,
+      "fight_url": null,
+      "segment": "main-card"
+    }
+  ],
+  "scraped_at": "2025-07-12T18:35:00.000000",
+  "source_urls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/List_of_UFC_events"
+  }
+}

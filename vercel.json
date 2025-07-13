@@ -1,0 +1,21 @@
+{
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/events/recent",
+      "destination": "/api/events/recent.js"
+    },
+    {
+      "source": "/api/events/upcoming", 
+      "destination": "/api/events/upcoming.js"
+    },
+    {
+      "source": "/api/events/:id",
+      "destination": "/api/events/[id].js"
+    }
+  ]
+}

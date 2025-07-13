@@ -1,0 +1,4 @@
+module UFC_Events_iOS {
+    header "/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/UFC_Events_iOS-Swift.h"
+    requires objc
+}

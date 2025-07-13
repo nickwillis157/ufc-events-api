@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01279D442E17BA4800521A68 /* UFC_Events_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01279D432E17BA4800521A68 /* UFC_Events_iOSApp.swift */; };
+		01279D482E17BA4900521A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01279D472E17BA4900521A68 /* Assets.xcassets */; };
+		01279D4B2E17BA4900521A68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01279D4A2E17BA4900521A68 /* Preview Assets.xcassets */; };
+		013665E42E1873F8005B4EFA /* UFCEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013665E02E1873F8005B4EFA /* UFCEvent.swift */; };
+		013665E52E1873F8005B4EFA /* FightSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013665E12E1873F8005B4EFA /* FightSegmentView.swift */; };
+		013665E62E1873F8005B4EFA /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013665E22E1873F8005B4EFA /* FilterView.swift */; };
+		013665E72E1873F8005B4EFA /* EventCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013665E32E1873F8005B4EFA /* EventCardView.swift */; };
+		013665E92E233D3D005B4EFA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013665E82E233D3D005B4EFA /* NetworkService.swift */; };
+		3351C3C80BA441909A63DDC3 /* UFC_SampleData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A19B12BB3C54896AC0524E9 /* UFC_SampleData.json */; };
+		497B5BCAC3144C0C938D8C02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7FE5856BD34E4CB7F920DC /* ContentView.swift */; };
+		52C864BBFF554DB2A8F9C0DB /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAAA213E438493783693038 /* EventListView.swift */; };
+		7EB4524B76B2482C884CFD45 /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB62D160832498494A78FDF /* EventDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01279D402E17BA4800521A68 /* UFC_Events_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UFC_Events_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01279D432E17BA4800521A68 /* UFC_Events_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFC_Events_iOSApp.swift; sourceTree = "<group>"; };
+		01279D472E17BA4900521A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01279D4A2E17BA4900521A68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		013665E02E1873F8005B4EFA /* UFCEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UFCEvent.swift; sourceTree = "<group>"; };
+		013665E12E1873F8005B4EFA /* FightSegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FightSegmentView.swift; sourceTree = "<group>"; };
+		013665E22E1873F8005B4EFA /* FilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		013665E32E1873F8005B4EFA /* EventCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCardView.swift; sourceTree = "<group>"; };
+		013665E82E233D3D005B4EFA /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		0FB62D160832498494A78FDF /* EventDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		1A7FE5856BD34E4CB7F920DC /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5A19B12BB3C54896AC0524E9 /* UFC_SampleData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UFC_SampleData.json; sourceTree = "<group>"; };
+		ACAAA213E438493783693038 /* EventListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01279D3D2E17BA4800521A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01279D372E17BA4800521A68 = {
+			isa = PBXGroup;
+			children = (
+				01279D422E17BA4800521A68 /* UFC_Events_iOS */,
+				01279D412E17BA4800521A68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01279D412E17BA4800521A68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01279D402E17BA4800521A68 /* UFC_Events_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01279D422E17BA4800521A68 /* UFC_Events_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				013665E82E233D3D005B4EFA /* NetworkService.swift */,
+				01279D432E17BA4800521A68 /* UFC_Events_iOSApp.swift */,
+				1A7FE5856BD34E4CB7F920DC /* ContentView.swift */,
+				ACAAA213E438493783693038 /* EventListView.swift */,
+				0FB62D160832498494A78FDF /* EventDetailView.swift */,
+				013665E32E1873F8005B4EFA /* EventCardView.swift */,
+				013665E12E1873F8005B4EFA /* FightSegmentView.swift */,
+				013665E22E1873F8005B4EFA /* FilterView.swift */,
+				013665E02E1873F8005B4EFA /* UFCEvent.swift */,
+				01279D472E17BA4900521A68 /* Assets.xcassets */,
+				01279D492E17BA4900521A68 /* Preview Content */,
+				5A19B12BB3C54896AC0524E9 /* UFC_SampleData.json */,
+			);
+			path = UFC_Events_iOS;
+			sourceTree = "<group>";
+		};
+		01279D492E17BA4900521A68 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				01279D4A2E17BA4900521A68 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01279D3F2E17BA4800521A68 /* UFC_Events_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01279D4E2E17BA4900521A68 /* Build configuration list for PBXNativeTarget "UFC_Events_iOS" */;
+			buildPhases = (
+				01279D3C2E17BA4800521A68 /* Sources */,
+				01279D3D2E17BA4800521A68 /* Frameworks */,
+				01279D3E2E17BA4800521A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UFC_Events_iOS;
+			productName = UFC_Events_iOS;
+			productReference = 01279D402E17BA4800521A68 /* UFC_Events_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01279D382E17BA4800521A68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					01279D3F2E17BA4800521A68 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 01279D3B2E17BA4800521A68 /* Build configuration list for PBXProject "UFC_Events_iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01279D372E17BA4800521A68;
+			productRefGroup = 01279D412E17BA4800521A68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01279D3F2E17BA4800521A68 /* UFC_Events_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01279D3E2E17BA4800521A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01279D4B2E17BA4900521A68 /* Preview Assets.xcassets in Resources */,
+				01279D482E17BA4900521A68 /* Assets.xcassets in Resources */,
+				3351C3C80BA441909A63DDC3 /* UFC_SampleData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01279D3C2E17BA4800521A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013665E62E1873F8005B4EFA /* FilterView.swift in Sources */,
+				01279D442E17BA4800521A68 /* UFC_Events_iOSApp.swift in Sources */,
+				497B5BCAC3144C0C938D8C02 /* ContentView.swift in Sources */,
+				52C864BBFF554DB2A8F9C0DB /* EventListView.swift in Sources */,
+				013665E92E233D3D005B4EFA /* NetworkService.swift in Sources */,
+				7EB4524B76B2482C884CFD45 /* EventDetailView.swift in Sources */,
+				013665E52E1873F8005B4EFA /* FightSegmentView.swift in Sources */,
+				013665E42E1873F8005B4EFA /* UFCEvent.swift in Sources */,
+				013665E72E1873F8005B4EFA /* EventCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		01279D4C2E17BA4900521A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01279D4D2E17BA4900521A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01279D4F2E17BA4900521A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UFC_Events_iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 3QGW8S7659;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nick.UFC-Events-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01279D502E17BA4900521A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UFC_Events_iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 3QGW8S7659;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nick.UFC-Events-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01279D3B2E17BA4800521A68 /* Build configuration list for PBXProject "UFC_Events_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01279D4C2E17BA4900521A68 /* Debug */,
+				01279D4D2E17BA4900521A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01279D4E2E17BA4900521A68 /* Build configuration list for PBXNativeTarget "UFC_Events_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01279D4F2E17BA4900521A68 /* Debug */,
+				01279D502E17BA4900521A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01279D382E17BA4800521A68 /* Project object */;
+}

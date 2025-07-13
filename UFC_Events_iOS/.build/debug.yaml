@@ -1,0 +1,58 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "UFC_Events_iOS-debug.module": ["<UFC_Events_iOS-debug.module>"]
+  "main": ["<UFC_Events_iOS-debug.module>"]
+  "test": ["<UFC_Events_iOS-debug.module>"]
+default: "main"
+nodes:
+  "/Users/nick/UFC Scraper/UFC_Events_iOS/UFC_Events_iOS/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/nick/UFC Scraper/UFC_Events_iOS/UFC_Events_iOS/ContentView.swift","/Users/nick/UFC Scraper/UFC_Events_iOS/UFC_Events_iOS/EventCardView.swift","/Users/nick/UFC Scraper/UFC_Events_iOS/UFC_Events_iOS/EventDetailView.swift","/Users/nick/UFC Scraper/UFC_Events_iOS/UFC_Events_iOS/EventListView.swift","/Users/nick/UFC Scraper/UFC_Events_iOS/UFC_Events_iOS/FightSegmentView.swift","/Users/nick/UFC Scraper/UFC_Events_iOS/UFC_Events_iOS/FilterView.swift","/Users/nick/UFC Scraper/UFC_Events_iOS/UFC_Events_iOS/UFCEvent.swift","/Users/nick/UFC Scraper/UFC_Events_iOS/UFC_Events_iOS/UFC_Events_iOSApp.swift","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/DerivedSources/resource_bundle_accessor.swift"]
+    outputs: ["/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/sources"]
+    description: "Write auxiliary file /Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/sources"
+
+  "/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS_UFC_Events_iOS.bundle/UFC_SampleData.json":
+    tool: copy-tool
+    inputs: ["/Users/nick/UFC Scraper/UFC_Events_iOS/UFC_Events_iOS/Resources/UFC_SampleData.json"]
+    outputs: ["/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS_UFC_Events_iOS.bundle/UFC_SampleData.json"]
+    description: "Copying /Users/nick/UFC Scraper/UFC_Events_iOS/UFC_Events_iOS/Resources/UFC_SampleData.json"
+
+  "/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+
+  "<UFC_Events_iOS-debug.module>":
+    tool: phony
+    inputs: ["/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/ContentView.swift.o","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/EventCardView.swift.o","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/EventDetailView.swift.o","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/EventListView.swift.o","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/FightSegmentView.swift.o","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/FilterView.swift.o","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/UFCEvent.swift.o","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/UFC_Events_iOSApp.swift.o","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/resource_bundle_accessor.swift.o","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.swiftmodule"]
+    outputs: ["<UFC_Events_iOS-debug.module>"]
+
+  "C.UFC_Events_iOS-debug.module":
+    tool: shell
+    inputs: ["/Users/nick/UFC Scraper/UFC_Events_iOS/UFC_Events_iOS/ContentView.swift","/Users/nick/UFC Scraper/UFC_Events_iOS/UFC_Events_iOS/EventCardView.swift","/Users/nick/UFC Scraper/UFC_Events_iOS/UFC_Events_iOS/EventDetailView.swift","/Users/nick/UFC Scraper/UFC_Events_iOS/UFC_Events_iOS/EventListView.swift","/Users/nick/UFC Scraper/UFC_Events_iOS/UFC_Events_iOS/FightSegmentView.swift","/Users/nick/UFC Scraper/UFC_Events_iOS/UFC_Events_iOS/FilterView.swift","/Users/nick/UFC Scraper/UFC_Events_iOS/UFC_Events_iOS/UFCEvent.swift","/Users/nick/UFC Scraper/UFC_Events_iOS/UFC_Events_iOS/UFC_Events_iOSApp.swift","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/DerivedSources/resource_bundle_accessor.swift","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","<UFC_Events_iOS-debug.module-resources>","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/sources"]
+    outputs: ["/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/ContentView.swift.o","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/EventCardView.swift.o","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/EventDetailView.swift.o","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/EventListView.swift.o","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/FightSegmentView.swift.o","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/FilterView.swift.o","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/UFCEvent.swift.o","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/UFC_Events_iOSApp.swift.o","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/resource_bundle_accessor.swift.o","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.swiftmodule"]
+    description: "Compiling Swift Module 'UFC_Events_iOS' (9 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","UFC_Events_iOS","-emit-dependencies","-emit-module","-emit-module-path","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.swiftmodule","-output-file-map","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/sources","-I","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug","-target","arm64-apple-macosx10.13","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j11","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS.build/UFC_Events_iOS-Swift.h","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","ufc_events_ios"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/nick/UFC Scraper/UFC_Events_iOS/UFC_Events_iOS/","/Users/nick/UFC Scraper/UFC_Events_iOS/Package.swift","/Users/nick/UFC Scraper/UFC_Events_iOS/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
+  "UFC_Events_iOS-debug.module-resources":
+    tool: phony
+    inputs: ["/Users/nick/UFC Scraper/UFC_Events_iOS/.build/arm64-apple-macosx/debug/UFC_Events_iOS_UFC_Events_iOS.bundle/UFC_SampleData.json"]
+    outputs: ["<UFC_Events_iOS-debug.module-resources>"]
+
