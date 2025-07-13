@@ -3,7 +3,10 @@
   "event_name": "UFC 285",
   "event_date": "2023-03-04",
   "venue": "T-Mobile Arena",
-  "location": null,
+  "location": "Paradise, Nevada, United States",
+  "city": "Paradise",
+  "state": "Nevada",
+  "country": "United States",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -15,6 +18,7 @@
       "fighter1": {
         "name": "Jon Jones",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +28,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Ciryl Gane",
-        "record": null,
+        "record": "12-2-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,7 +49,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ciryl_Gane"
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -57,7 +69,13 @@
       "bout_order": 13,
       "fighter1": {
         "name": "Alexa Grasso",
-        "record": null,
+        "record": "16-5-1",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 5,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +85,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Alexa_Grasso"
       },
       "fighter2": {
         "name": "Valentina Shevchenko",
-        "record": null,
+        "record": "25-5-1",
+        "record_breakdown": {
+          "wins": 25,
+          "losses": 5,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,7 +106,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": true
+        "is_champion": true,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Valentina_Shevchenko"
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "undisputed",
@@ -100,7 +126,13 @@
       "bout_order": 12,
       "fighter1": {
         "name": "Shavkat Rakhmonov",
-        "record": null,
+        "record": "19-0-0",
+        "record_breakdown": {
+          "wins": 19,
+          "losses": 0,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +142,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shavkat_Rakhmonov"
       },
       "fighter2": {
         "name": "Geoff Neal",
-        "record": null,
+        "record": "16-6-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +163,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Geoff_Neal"
       },
       "weight_class": "Catchweight (175 lb)",
       "title_fight": "none",
@@ -143,7 +183,13 @@
       "bout_order": 11,
       "fighter1": {
         "name": "Mateusz Gamrot",
-        "record": null,
+        "record": "25-3-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 25,
+          "losses": 3,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +199,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mateusz_Gamrot"
       },
       "fighter2": {
         "name": "Jalin Turner",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -167,11 +215,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
-      "method": "Decision (split) (29–28, 28–29, 30–27)",
+      "method": "Decision (split) (29\u201328, 28\u201329, 30\u201327)",
       "round": null,
       "time": null,
       "winner": "Mateusz Gamrot",
@@ -186,7 +235,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Bo Nickal",
-        "record": null,
+        "record": "7-1-0",
+        "record_breakdown": {
+          "wins": 7,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +251,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bo_Nickal"
       },
       "fighter2": {
         "name": "Jamie Pickett",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -210,7 +267,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -229,7 +287,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Cody Garbrandt",
-        "record": null,
+        "record": "14-7-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +303,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cody_Garbrandt"
       },
       "fighter2": {
         "name": "Trevin Jones",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -253,11 +319,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Cody Garbrandt",
@@ -272,7 +339,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Dricus du Plessis",
-        "record": null,
+        "record": "23-2-0",
+        "record_breakdown": {
+          "wins": 23,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +355,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dricus_du_Plessis"
       },
       "fighter2": {
         "name": "Derek Brunson",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -296,7 +371,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -315,7 +391,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Amanda Ribas",
-        "record": null,
+        "record": "12-6-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +407,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Amanda_Ribas"
       },
       "fighter2": {
-        "name": "Viviane Araújo",
+        "name": "Viviane Ara\u00fajo",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -339,11 +423,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–27, 30–26, 30–27)",
+      "method": "Decision (unanimous) (29\u201327, 30\u201326, 30\u201327)",
       "round": null,
       "time": null,
       "winner": "Amanda Ribas",
@@ -357,8 +442,14 @@
     {
       "bout_order": 6,
       "fighter1": {
-        "name": "Marc-André Barriault",
-        "record": null,
+        "name": "Marc-Andr\u00e9 Barriault",
+        "record": "17-8-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 8,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +459,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Marc-Andr\u00e9_Barriault"
       },
       "fighter2": {
         "name": "Julian Marquez",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -382,14 +475,15 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
       "method": "TKO (punches)",
       "round": null,
       "time": null,
-      "winner": "Marc-André Barriault",
+      "winner": "Marc-Andr\u00e9 Barriault",
       "result": null,
       "stats": null,
       "referee": null,
@@ -401,7 +495,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Ian Machado Garry",
-        "record": null,
+        "record": "16-1-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +511,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ian_Machado_Garry"
       },
       "fighter2": {
         "name": "Song Kenan",
-        "record": null,
+        "record": "22-9-0",
+        "record_breakdown": {
+          "wins": 22,
+          "losses": 9,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -425,7 +532,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Song_Kenan"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -444,7 +552,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Cameron Saaiman",
-        "record": null,
+        "record": "9-3-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +568,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cameron_Saaiman"
       },
       "fighter2": {
         "name": "Leomana Martinez",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -468,11 +584,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Catchweight (137 lb)",
       "title_fight": "none",
-      "method": "Decision (majority) (29–26, 28–27, 28–28)",
+      "method": "Decision (majority) (29\u201326, 28\u201327, 28\u201328)",
       "round": null,
       "time": null,
       "winner": "Cameron Saaiman",
@@ -487,7 +604,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Tabatha Ricci",
-        "record": null,
+        "record": "11-3-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -497,11 +620,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tabatha_Ricci"
       },
       "fighter2": {
         "name": "Jessica Penne",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -511,7 +636,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
@@ -530,7 +656,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Farid Basharat",
-        "record": null,
+        "record": "13-0-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 0,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -540,11 +672,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Farid_Basharat"
       },
       "fighter2": {
         "name": "Da'Mon Blackshear",
-        "record": null,
+        "record": "17-7-1",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 7,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -554,11 +693,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/DaMon_Blackshear"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Farid Basharat",
@@ -573,7 +713,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Loik Radzhabov",
-        "record": null,
+        "record": "18-5-1",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 5,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -583,11 +729,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Loik_Radzhabov"
       },
       "fighter2": {
         "name": "Esteban Ribovics",
-        "record": null,
+        "record": "14-2-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -597,11 +750,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Esteban_Ribovics"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Loik Radzhabov",
@@ -613,7 +767,7 @@
       "segment": "early-prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:56:20.329727",
+  "scraped_at": "2025-07-13 15:39:57.704636",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_285"
   }

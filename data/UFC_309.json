@@ -3,7 +3,10 @@
   "event_name": "UFC 309",
   "event_date": "2024-11-16",
   "venue": "Madison Square Garden",
-  "location": null,
+  "location": "New York City, New York, United States",
+  "city": "New York City",
+  "state": "New York",
+  "country": "United States",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -15,6 +18,7 @@
       "fighter1": {
         "name": "Jon Jones",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +28,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": true
+        "is_champion": true,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Stipe Miocic",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -38,7 +44,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Heavyweight",
       "title_fight": "undisputed",
@@ -57,7 +64,13 @@
       "bout_order": 11,
       "fighter1": {
         "name": "Charles Oliveira",
-        "record": null,
+        "record": "35-11-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 35,
+          "losses": 11,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +80,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Oliveira"
       },
       "fighter2": {
         "name": "Michael Chandler",
-        "record": null,
+        "record": "23-10-0",
+        "record_breakdown": {
+          "wins": 23,
+          "losses": 10,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,11 +101,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Chandler"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (49–46, 49–46, 49–45)",
+      "method": "Decision (unanimous) (49\u201346, 49\u201346, 49\u201345)",
       "round": null,
       "time": null,
       "winner": "Charles Oliveira",
@@ -100,7 +121,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Bo Nickal",
-        "record": null,
+        "record": "7-1-0",
+        "record_breakdown": {
+          "wins": 7,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +137,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bo_Nickal"
       },
       "fighter2": {
         "name": "Paul Craig",
-        "record": null,
+        "record": "17-9-1 (1 NC)",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 9,
+          "draws": 1,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -124,11 +158,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Craig"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 30–27, 30–27)",
+      "method": "Decision (unanimous) (30\u201327, 30\u201327, 30\u201327)",
       "round": null,
       "time": null,
       "winner": "Bo Nickal",
@@ -142,8 +177,9 @@
     {
       "bout_order": 9,
       "fighter1": {
-        "name": "Viviane Araújo",
+        "name": "Viviane Ara\u00fajo",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +189,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Karine Silva",
-        "record": null,
+        "record": "18-5-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -167,14 +210,15 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Karine_Silva"
       },
-      "weight_class": "Women’s Flyweight",
+      "weight_class": "Women\u2019s Flyweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
-      "winner": "Viviane Araújo",
+      "winner": "Viviane Ara\u00fajo",
       "result": null,
       "stats": null,
       "referee": null,
@@ -185,8 +229,14 @@
     {
       "bout_order": 8,
       "fighter1": {
-        "name": "Maurício Ruffy",
-        "record": null,
+        "name": "Maur\u00edcio Ruffy",
+        "record": "12-1-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +246,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Maur\u00edcio_Ruffy"
       },
       "fighter2": {
         "name": "James Llontop",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -210,14 +262,15 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Catchweight (166.2 lb)",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
-      "winner": "Maurício Ruffy",
+      "winner": "Maur\u00edcio Ruffy",
       "result": null,
       "stats": null,
       "referee": null,
@@ -229,7 +282,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Marcus McGhee",
-        "record": null,
+        "record": "10-1-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +298,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Marcus_McGhee"
       },
       "fighter2": {
         "name": "Jonathan Martinez",
-        "record": null,
+        "record": "19-6-0",
+        "record_breakdown": {
+          "wins": 19,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -253,11 +319,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jonathan_Martinez"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Marcus McGhee",
@@ -272,7 +339,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Jim Miller",
-        "record": null,
+        "record": "38-19-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 38,
+          "losses": 19,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +355,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jim_Miller"
       },
       "fighter2": {
         "name": "Damon Jackson",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -296,7 +371,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -315,7 +391,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "David Onama",
-        "record": null,
+        "record": "14-2-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +407,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/David_Onama"
       },
       "fighter2": {
         "name": "Roberto Romero",
-        "record": null,
+        "record": "8-5-1",
+        "record_breakdown": {
+          "wins": 8,
+          "losses": 5,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -339,11 +428,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Roberto_Romero"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 30–27, 30–27)",
+      "method": "Decision (unanimous) (30\u201327, 30\u201327, 30\u201327)",
       "round": null,
       "time": null,
       "winner": "David Onama",
@@ -358,7 +448,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Marcin Tybura",
-        "record": null,
+        "record": "27-9-0",
+        "record_breakdown": {
+          "wins": 27,
+          "losses": 9,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +464,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Marcin_Tybura"
       },
       "fighter2": {
         "name": "Jhonata Diniz",
-        "record": null,
+        "record": "9-1-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -382,7 +485,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jhonata_Diniz"
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -401,7 +505,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Ramiz Brahimaj",
-        "record": null,
+        "record": "12-5-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +521,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ramiz_Brahimaj"
       },
       "fighter2": {
         "name": "Mickey Gall",
-        "record": null,
+        "record": "7-7-0",
+        "record_breakdown": {
+          "wins": 7,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -425,7 +542,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mickey_Gall"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -444,7 +562,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Oban Elliott",
-        "record": null,
+        "record": "12-3-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +578,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Oban_Elliott"
       },
       "fighter2": {
         "name": "Bassil Hafez",
-        "record": null,
+        "record": "9-5-1",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 5,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -468,7 +599,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bassil_Hafez"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -487,7 +619,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Eduarda Moura",
-        "record": null,
+        "record": "12-1-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -497,11 +635,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Eduarda_Moura"
       },
       "fighter2": {
         "name": "Veronica Hardy",
-        "record": null,
+        "record": "9-5-1",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 5,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -511,11 +656,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Veronica_Hardy"
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 29–28, 29–28)",
+      "method": "Decision (unanimous) (30\u201327, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Eduarda Moura",
@@ -527,7 +673,7 @@
       "segment": "early-prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:54:06.244828",
+  "scraped_at": "2025-07-13 15:39:52.844847",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_309"
   }

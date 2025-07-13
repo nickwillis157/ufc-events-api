@@ -3,7 +3,10 @@
   "event_name": "UFC 286",
   "event_date": "2023-03-18",
   "venue": "The O2Arena",
-  "location": null,
+  "location": "London,England, United Kingdom",
+  "city": "London",
+  "state": "England",
+  "country": "United Kingdom",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 15,
       "fighter1": {
         "name": "Leon Edwards",
-        "record": null,
+        "record": "22-5-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 22,
+          "losses": 5,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": true
+        "is_champion": true,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Leon_Edwards"
       },
       "fighter2": {
         "name": "Kamaru Usman",
-        "record": null,
+        "record": "21-4-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,11 +54,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kamaru_Usman"
       },
       "weight_class": "Welterweight",
       "title_fight": "undisputed",
-      "method": "Decision (majority) (48–46, 48–46, 47–47)",
+      "method": "Decision (majority) (48\u201346, 48\u201346, 47\u201347)",
       "round": null,
       "time": null,
       "winner": "Leon Edwards",
@@ -57,7 +74,13 @@
       "bout_order": 14,
       "fighter1": {
         "name": "Justin Gaethje",
-        "record": null,
+        "record": "26-5-0",
+        "record_breakdown": {
+          "wins": 26,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Justin_Gaethje"
       },
       "fighter2": {
         "name": "Rafael Fiziev",
-        "record": null,
+        "record": "13-4-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,11 +111,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rafael_Fiziev"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
-      "method": "Decision (majority) (29–28, 29–28, 28–28)",
+      "method": "Decision (majority) (29\u201328, 29\u201328, 28\u201328)",
       "round": null,
       "time": null,
       "winner": "Justin Gaethje",
@@ -100,7 +131,13 @@
       "bout_order": 13,
       "fighter1": {
         "name": "Gunnar Nelson",
-        "record": null,
+        "record": "19-6-1",
+        "record_breakdown": {
+          "wins": 19,
+          "losses": 6,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +147,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gunnar_Nelson"
       },
       "fighter2": {
         "name": "Bryan Barberena",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +163,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -144,6 +184,7 @@
       "fighter1": {
         "name": "Jennifer Maia",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +194,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Casey O'Neill",
-        "record": null,
+        "record": "11-2-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -167,11 +215,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Casey_ONeill"
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 29–28, 29–28)",
+      "method": "Decision (unanimous) (30\u201327, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Jennifer Maia",
@@ -186,7 +235,13 @@
       "bout_order": 11,
       "fighter1": {
         "name": "Marvin Vettori",
-        "record": null,
+        "record": "19-7-1",
+        "record_breakdown": {
+          "wins": 19,
+          "losses": 7,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +251,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Marvin_Vettori"
       },
       "fighter2": {
         "name": "Roman Dolidze",
-        "record": null,
+        "record": "15-3-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,11 +272,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Roman_Dolidze"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 30–27)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 30\u201327)",
       "round": null,
       "time": null,
       "winner": "Marvin Vettori",
@@ -230,6 +293,7 @@
       "fighter1": {
         "name": "Jack Shore",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +303,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Makwan Amirkhani",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +319,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -272,7 +339,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Chris Duncan",
-        "record": null,
+        "record": "13-1-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +355,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Duncan"
       },
       "fighter2": {
         "name": "Omar Morales",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -296,11 +371,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
-      "method": "Decision (split) (27–30, 29–28, 29–28)",
+      "method": "Decision (split) (27\u201330, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Chris Duncan",
@@ -315,7 +391,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Yanal Ashmouz",
-        "record": null,
+        "record": "8-2-0",
+        "record_breakdown": {
+          "wins": 8,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +407,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Yanal_Ashmouz"
       },
       "fighter2": {
         "name": "Sam Patterson",
-        "record": null,
+        "record": "13-2-1",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 2,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -339,7 +428,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sam_Patterson"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -359,6 +449,7 @@
       "fighter1": {
         "name": "Muhammad Mokaev",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +459,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Jafel Filho",
-        "record": null,
+        "record": "16-4-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -382,7 +480,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jafel_Filho"
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
@@ -401,7 +500,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Lerone Murphy",
-        "record": null,
+        "record": "16-0-1",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 0,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +516,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lerone_Murphy"
       },
       "fighter2": {
         "name": "Gabriel Santos",
-        "record": null,
+        "record": "12-2-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -425,11 +537,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gabriel_Santos"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
-      "method": "Decision (split) (28–29, 29–28, 29–28)",
+      "method": "Decision (split) (28\u201329, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Lerone Murphy",
@@ -444,7 +557,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Christian Leroy Duncan",
-        "record": null,
+        "record": "11-2-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +573,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Christian_Leroy_Duncan"
       },
       "fighter2": {
-        "name": "Duško Todorović",
-        "record": null,
+        "name": "Du\u0161ko Todorovi\u0107",
+        "record": "12-6-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -468,7 +594,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Du\u0161ko_Todorovi\u0107"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -488,6 +615,7 @@
       "fighter1": {
         "name": "Jake Hadley",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -497,11 +625,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Malcolm Gordon",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -511,7 +641,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Catchweight (129.5 lb)",
       "title_fight": "none",
@@ -531,6 +662,7 @@
       "fighter1": {
         "name": "Joanne Wood",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -540,11 +672,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Luana Carolina",
-        "record": null,
+        "record": "11-4-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -554,11 +693,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Luana_Carolina"
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
-      "method": "Decision (split) (28–29, 30–27, 29–28)",
+      "method": "Decision (split) (28\u201329, 30\u201327, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Joanne Wood",
@@ -573,7 +713,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Jai Herbert",
-        "record": null,
+        "record": "13-6-1",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 6,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -583,11 +729,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jai_Herbert"
       },
       "fighter2": {
-        "name": "Ľudovít Klein",
-        "record": null,
+        "name": "\u013dudov\u00edt Klein",
+        "record": "23-5-1",
+        "record_breakdown": {
+          "wins": 23,
+          "losses": 5,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -597,11 +750,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/\u013dudov\u00edt_Klein"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
-      "method": "Draw (majority) (29–27, 28–28, 28–28)",
+      "method": "Draw (majority) (29\u201327, 28\u201328, 28\u201328)",
       "round": null,
       "time": null,
       "winner": "Jai Herbert",
@@ -616,7 +770,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Veronica Hardy",
-        "record": null,
+        "record": "9-5-1",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 5,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -626,11 +786,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Veronica_Hardy"
       },
       "fighter2": {
         "name": "Juliana Miller",
-        "record": null,
+        "record": "4-3-0",
+        "record_breakdown": {
+          "wins": 4,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -640,11 +807,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Juliana_Miller"
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 30–27, 30–27)",
+      "method": "Decision (unanimous) (30\u201327, 30\u201327, 30\u201327)",
       "round": null,
       "time": null,
       "winner": "Veronica Hardy",
@@ -656,7 +824,7 @@
       "segment": "early-prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:56:16.351132",
+  "scraped_at": "2025-07-13 15:39:57.479255",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_286"
   }

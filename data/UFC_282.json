@@ -3,7 +3,10 @@
   "event_name": "UFC 282",
   "event_date": "2022-12-10",
   "venue": "T-Mobile Arena",
-  "location": null,
+  "location": "Paradise, Nevada, United States",
+  "city": "Paradise",
+  "state": "Nevada",
+  "country": "United States",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -13,8 +16,14 @@
     {
       "bout_order": 12,
       "fighter1": {
-        "name": "Jan Błachowicz",
-        "record": null,
+        "name": "Jan B\u0142achowicz",
+        "record": "29-11-1",
+        "record_breakdown": {
+          "wins": 29,
+          "losses": 11,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jan_B\u0142achowicz"
       },
       "fighter2": {
         "name": "Magomed Ankalaev",
-        "record": null,
+        "record": "21-1-1 (1 NC)",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 1,
+          "draws": 1,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,14 +54,15 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Magomed_Ankalaev"
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
-      "method": "Draw (split) (48–47, 46–48, 47–47)",
+      "method": "Draw (split) (48\u201347, 46\u201348, 47\u201347)",
       "round": null,
       "time": null,
-      "winner": "Jan Błachowicz",
+      "winner": "Jan B\u0142achowicz",
       "result": null,
       "stats": null,
       "referee": null,
@@ -57,7 +74,13 @@
       "bout_order": 11,
       "fighter1": {
         "name": "Paddy Pimblett",
-        "record": null,
+        "record": "23-3-0",
+        "record_breakdown": {
+          "wins": 23,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Paddy_Pimblett"
       },
       "fighter2": {
         "name": "Jared Gordon",
-        "record": null,
+        "record": "21-7-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 7,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,11 +111,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jared_Gordon"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Paddy Pimblett",
@@ -100,7 +131,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Santiago Ponzinibbio",
-        "record": null,
+        "record": "30-9-0",
+        "record_breakdown": {
+          "wins": 30,
+          "losses": 9,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +147,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Santiago_Ponzinibbio"
       },
       "fighter2": {
         "name": "Alex Morono",
-        "record": null,
+        "record": "24-12-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 24,
+          "losses": 12,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +168,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Alex_Morono"
       },
       "weight_class": "Catchweight (180 lb)",
       "title_fight": "none",
@@ -143,7 +188,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Dricus du Plessis",
-        "record": null,
+        "record": "23-2-0",
+        "record_breakdown": {
+          "wins": 23,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +204,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dricus_du_Plessis"
       },
       "fighter2": {
         "name": "Darren Till",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -167,7 +220,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -186,7 +240,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Ilia Topuria",
-        "record": null,
+        "record": "17-0-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 0,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +256,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ilia_Topuria"
       },
       "fighter2": {
         "name": "Bryce Mitchell",
-        "record": null,
+        "record": "17-3-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,7 +277,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bryce_Mitchell"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -229,7 +297,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Raul Rosas Jr.",
-        "record": null,
+        "record": "11-1-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +313,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Raul_Rosas_Jr"
       },
       "fighter2": {
         "name": "Jay Perrin",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +329,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -273,6 +350,7 @@
       "fighter1": {
         "name": "Jairzinho Rozenstruik",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +360,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Chris Daukaus",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -296,7 +376,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -315,7 +396,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Edmen Shahbazyan",
-        "record": null,
+        "record": "15-5-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +412,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Edmen_Shahbazyan"
       },
       "fighter2": {
         "name": "Dalcha Lungiambula",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -339,7 +428,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -358,7 +448,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Chris Curtis",
-        "record": null,
+        "record": "32-12-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 32,
+          "losses": 12,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +464,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Curtis"
       },
       "fighter2": {
         "name": "Joaquin Buckley",
-        "record": null,
+        "record": "21-7-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -382,7 +485,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Joaquin_Buckley"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -401,7 +505,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Billy Quarantillo",
-        "record": null,
+        "record": "18-7-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +521,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Billy_Quarantillo"
       },
       "fighter2": {
         "name": "Alexander Hernandez",
-        "record": null,
+        "record": "16-8-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 8,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -425,7 +542,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Alexander_Hernandez"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -445,6 +563,7 @@
       "fighter1": {
         "name": "T.J. Brown",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +573,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Erik Silva",
-        "record": null,
+        "record": "9-3-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -468,7 +594,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Erik_Silva"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -487,7 +614,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Cameron Saaiman",
-        "record": null,
+        "record": "9-3-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -497,11 +630,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cameron_Saaiman"
       },
       "fighter2": {
         "name": "Steven Koslow",
-        "record": null,
+        "record": "6-1-0",
+        "record_breakdown": {
+          "wins": 6,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -511,7 +651,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Steven_Koslow"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -527,7 +668,7 @@
       "segment": "early-prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:56:32.373013",
+  "scraped_at": "2025-07-13 15:39:58.281083",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_282"
   }

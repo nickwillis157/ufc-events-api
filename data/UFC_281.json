@@ -3,7 +3,10 @@
   "event_name": "UFC 281",
   "event_date": "2022-11-12",
   "venue": "Madison Square Garden",
-  "location": null,
+  "location": "New York City, New York, United States",
+  "city": "New York City",
+  "state": "New York",
+  "country": "United States",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 14,
       "fighter1": {
         "name": "Alex Pereira",
-        "record": null,
+        "record": "12-3-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Alex_Pereira"
       },
       "fighter2": {
         "name": "Israel Adesanya",
-        "record": null,
+        "record": "24-5-0",
+        "record_breakdown": {
+          "wins": 24,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,7 +54,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": true
+        "is_champion": true,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Israel_Adesanya"
       },
       "weight_class": "Middleweight",
       "title_fight": "undisputed",
@@ -57,7 +74,13 @@
       "bout_order": 13,
       "fighter1": {
         "name": "Zhang Weili",
-        "record": null,
+        "record": "26-3-0",
+        "record_breakdown": {
+          "wins": 26,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Zhang_Weili"
       },
       "fighter2": {
         "name": "Carla Esparza",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -81,7 +106,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": true
+        "is_champion": true,
+        "wikipedia_url": null
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "undisputed",
@@ -100,7 +126,13 @@
       "bout_order": 12,
       "fighter1": {
         "name": "Dustin Poirier",
-        "record": null,
+        "record": "30-9-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 30,
+          "losses": 9,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +142,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dustin_Poirier"
       },
       "fighter2": {
         "name": "Michael Chandler",
-        "record": null,
+        "record": "23-10-0",
+        "record_breakdown": {
+          "wins": 23,
+          "losses": 10,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +163,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Chandler"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -142,8 +182,14 @@
     {
       "bout_order": 11,
       "fighter1": {
-        "name": "Chris Gutiérrez",
-        "record": null,
+        "name": "Chris Guti\u00e9rrez",
+        "record": "22-6-2",
+        "record_breakdown": {
+          "wins": 22,
+          "losses": 6,
+          "draws": 2,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +199,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Guti\u00e9rrez"
       },
       "fighter2": {
         "name": "Frankie Edgar",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -167,14 +215,15 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
       "method": "KO (knee)",
       "round": null,
       "time": null,
-      "winner": "Chris Gutiérrez",
+      "winner": "Chris Guti\u00e9rrez",
       "result": null,
       "stats": null,
       "referee": null,
@@ -186,7 +235,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Dan Hooker",
-        "record": null,
+        "record": "24-12-0",
+        "record_breakdown": {
+          "wins": 24,
+          "losses": 12,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +251,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dan_Hooker"
       },
       "fighter2": {
         "name": "Claudio Puelles",
-        "record": null,
+        "record": "12-4-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,7 +272,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Claudio_Puelles"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -229,7 +292,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Renato Moicano",
-        "record": null,
+        "record": "20-7-1",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 7,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +308,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Renato_Moicano"
       },
       "fighter2": {
         "name": "Brad Riddell",
-        "record": null,
+        "record": "10-4-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +329,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brad_Riddell"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -272,7 +349,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Ryan Spann",
-        "record": null,
+        "record": "22-11-0",
+        "record_breakdown": {
+          "wins": 22,
+          "losses": 11,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +365,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ryan_Spann"
       },
       "fighter2": {
         "name": "Dominick Reyes",
-        "record": null,
+        "record": "15-4-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -296,7 +386,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dominick_Reyes"
       },
       "weight_class": "Catchweight (206.6 lb)",
       "title_fight": "none",
@@ -315,7 +406,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Erin Blanchfield",
-        "record": null,
+        "record": "13-2-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +422,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Erin_Blanchfield"
       },
       "fighter2": {
         "name": "Molly McCann",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -339,7 +438,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
@@ -358,7 +458,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Andre Petroski",
-        "record": null,
+        "record": "13-4-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +474,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Andre_Petroski"
       },
       "fighter2": {
         "name": "Wellington Turman",
-        "record": null,
+        "record": "18-8-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 8,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -382,11 +495,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Wellington_Turman"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 30–27, 29–28)",
+      "method": "Decision (unanimous) (30\u201327, 30\u201327, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Andre Petroski",
@@ -401,7 +515,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Matt Frevola",
-        "record": null,
+        "record": "11-5-1",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 5,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +531,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Matt_Frevola"
       },
       "fighter2": {
         "name": "Ottman Azaitar",
-        "record": null,
+        "record": "13-3-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -425,7 +552,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ottman_Azaitar"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -444,7 +572,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Karolina Kowalkiewicz",
-        "record": null,
+        "record": "17-8-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 8,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +588,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Karolina_Kowalkiewicz"
       },
       "fighter2": {
-        "name": "Silvana Gómez Juárez",
+        "name": "Silvana G\u00f3mez Ju\u00e1rez",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -468,11 +604,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Karolina Kowalkiewicz",
@@ -488,6 +625,7 @@
       "fighter1": {
         "name": "Michael Trizano",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -497,11 +635,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Seung Woo Choi",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -511,7 +651,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Catchweight (147.6 lb)",
       "title_fight": "none",
@@ -530,7 +671,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Montel Jackson",
-        "record": null,
+        "record": "15-2-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -540,11 +687,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Montel_Jackson"
       },
       "fighter2": {
         "name": "Julio Arce",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -554,11 +703,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 30–27, 29–28)",
+      "method": "Decision (unanimous) (30\u201327, 30\u201327, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Montel Jackson",
@@ -573,7 +723,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Carlos Ulberg",
-        "record": null,
+        "record": "12-1-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -583,11 +739,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Carlos_Ulberg"
       },
       "fighter2": {
         "name": "Nicolae Negumereanu",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -597,7 +755,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -613,7 +772,7 @@
       "segment": "early-prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:56:38.374740",
+  "scraped_at": "2025-07-13 15:39:58.481038",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_281"
   }

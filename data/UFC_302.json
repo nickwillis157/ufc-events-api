@@ -3,7 +3,10 @@
   "event_name": "UFC 302",
   "event_date": "2024-06-01",
   "venue": "Prudential Center",
-  "location": null,
+  "location": "Newark, New Jersey, United States",
+  "city": "Newark",
+  "state": "New Jersey",
+  "country": "United States",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 12,
       "fighter1": {
         "name": "Islam Makhachev",
-        "record": null,
+        "record": "27-1-0",
+        "record_breakdown": {
+          "wins": 27,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": true
+        "is_champion": true,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Islam_Makhachev"
       },
       "fighter2": {
         "name": "Dustin Poirier",
-        "record": null,
+        "record": "30-9-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 30,
+          "losses": 9,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,7 +54,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dustin_Poirier"
       },
       "weight_class": "Lightweight",
       "title_fight": "undisputed",
@@ -57,7 +74,13 @@
       "bout_order": 11,
       "fighter1": {
         "name": "Sean Strickland",
-        "record": null,
+        "record": "29-7-0",
+        "record_breakdown": {
+          "wins": 29,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sean_Strickland"
       },
       "fighter2": {
         "name": "Paulo Costa",
-        "record": null,
+        "record": "14-4-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,11 +111,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Paulo_Costa"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
-      "method": "Decision (split) (46–49, 50–45, 49–46)",
+      "method": "Decision (split) (46\u201349, 50\u201345, 49\u201346)",
       "round": null,
       "time": null,
       "winner": "Sean Strickland",
@@ -100,7 +131,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Kevin Holland",
-        "record": null,
+        "record": "28-13-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 28,
+          "losses": 13,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +147,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kevin_Holland"
       },
       "fighter2": {
-        "name": "Michał Oleksiejczuk",
-        "record": null,
+        "name": "Micha\u0142 Oleksiejczuk",
+        "record": "20-9-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 9,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +168,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Micha\u0142_Oleksiejczuk"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -143,7 +188,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Niko Price",
-        "record": null,
+        "record": "16-9-0 (2 NC)",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 9,
+          "draws": null,
+          "no_contests": 2
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +204,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Niko_Price"
       },
       "fighter2": {
         "name": "Alex Morono",
-        "record": null,
+        "record": "24-12-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 24,
+          "losses": 12,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -167,11 +225,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Alex_Morono"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Niko Price",
@@ -186,7 +245,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Randy Brown",
-        "record": null,
+        "record": "20-6-0",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +261,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Randy_Brown"
       },
       "fighter2": {
         "name": "Elizeu Zaleski dos Santos",
-        "record": null,
+        "record": "25-9-1",
+        "record_breakdown": {
+          "wins": 25,
+          "losses": 9,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,11 +282,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Elizeu_Zaleski_dos_Santos"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Randy Brown",
@@ -229,7 +302,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Roman Kopylov",
-        "record": null,
+        "record": "14-3-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +318,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Roman_Kopylov"
       },
       "fighter2": {
-        "name": "César Almeida",
-        "record": null,
+        "name": "C\u00e9sar Almeida",
+        "record": "7-1-0",
+        "record_breakdown": {
+          "wins": 7,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -253,11 +339,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/C\u00e9sar_Almeida"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
-      "method": "Decision (split) (29–28, 28–29, 30–27)",
+      "method": "Decision (split) (29\u201328, 28\u201329, 30\u201327)",
       "round": null,
       "time": null,
       "winner": "Roman Kopylov",
@@ -272,7 +359,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Jailton Almeida",
-        "record": null,
+        "record": "22-3-0",
+        "record_breakdown": {
+          "wins": 22,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +375,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jailton_Almeida"
       },
       "fighter2": {
         "name": "Alexander Romanov",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -296,7 +391,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -315,7 +411,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Grant Dawson",
-        "record": null,
+        "record": "23-2-1",
+        "record_breakdown": {
+          "wins": 23,
+          "losses": 2,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +427,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Grant_Dawson"
       },
       "fighter2": {
         "name": "Joe Solecki",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -339,11 +443,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 30–27, 30–27)",
+      "method": "Decision (unanimous) (29\u201328, 30\u201327, 30\u201327)",
       "round": null,
       "time": null,
       "winner": "Grant Dawson",
@@ -358,7 +463,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Jake Matthews",
-        "record": null,
+        "record": "22-7-0",
+        "record_breakdown": {
+          "wins": 22,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +479,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jake_Matthews"
       },
       "fighter2": {
         "name": "Philip Rowe",
-        "record": null,
+        "record": "11-5-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -382,11 +500,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Philip_Rowe"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 30–27)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 30\u201327)",
       "round": null,
       "time": null,
       "winner": "Jake Matthews",
@@ -401,7 +520,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Bassil Hafez",
-        "record": null,
+        "record": "9-5-1",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 5,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +536,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bassil_Hafez"
       },
       "fighter2": {
         "name": "Mickey Gall",
-        "record": null,
+        "record": "7-7-0",
+        "record_breakdown": {
+          "wins": 7,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -425,11 +557,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mickey_Gall"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 30–27, 29–28)",
+      "method": "Decision (unanimous) (30\u201327, 30\u201327, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Bassil Hafez",
@@ -443,8 +576,14 @@
     {
       "bout_order": 2,
       "fighter1": {
-        "name": "Ailín Pérez",
-        "record": null,
+        "name": "Ail\u00edn P\u00e9rez",
+        "record": "12-2-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +593,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ail\u00edn_P\u00e9rez"
       },
       "fighter2": {
         "name": "Joselyne Edwards",
-        "record": null,
+        "record": "15-6-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -468,14 +614,15 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Joselyne_Edwards"
       },
       "weight_class": "Women's Bantamweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 29–28, 29–28)",
+      "method": "Decision (unanimous) (30\u201327, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
-      "winner": "Ailín Pérez",
+      "winner": "Ail\u00edn P\u00e9rez",
       "result": null,
       "stats": null,
       "referee": null,
@@ -486,8 +633,14 @@
     {
       "bout_order": 1,
       "fighter1": {
-        "name": "André Lima",
-        "record": null,
+        "name": "Andr\u00e9 Lima",
+        "record": "11-0-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 0,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -497,11 +650,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Andr\u00e9_Lima"
       },
       "fighter2": {
         "name": "Mitch Raposo",
-        "record": null,
+        "record": "9-2-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -511,14 +671,15 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mitch_Raposo"
       },
       "weight_class": "Catchweight (130 lb)",
       "title_fight": "none",
-      "method": "Decision (split) (30–27, 28–29, 30–27)",
+      "method": "Decision (split) (30\u201327, 28\u201329, 30\u201327)",
       "round": null,
       "time": null,
-      "winner": "André Lima",
+      "winner": "Andr\u00e9 Lima",
       "result": null,
       "stats": null,
       "referee": null,
@@ -527,7 +688,7 @@
       "segment": "early-prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:54:44.271261",
+  "scraped_at": "2025-07-13 15:39:54.254539",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_302"
   }

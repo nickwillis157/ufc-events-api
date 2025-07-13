@@ -3,7 +3,10 @@
   "event_name": "UFC 310",
   "event_date": "2024-12-07",
   "venue": "T-Mobile Arena",
-  "location": null,
+  "location": "Paradise, Nevada, United States",
+  "city": "Paradise",
+  "state": "Nevada",
+  "country": "United States",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 14,
       "fighter1": {
         "name": "Alexandre Pantoja",
-        "record": null,
+        "record": "30-5-0",
+        "record_breakdown": {
+          "wins": 30,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": true
+        "is_champion": true,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Alexandre_Pantoja"
       },
       "fighter2": {
         "name": "Kai Asakura",
-        "record": null,
+        "record": "21-5-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,7 +54,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kai_Asakura"
       },
       "weight_class": "Flyweight",
       "title_fight": "undisputed",
@@ -57,7 +74,13 @@
       "bout_order": 13,
       "fighter1": {
         "name": "Shavkat Rakhmonov",
-        "record": null,
+        "record": "19-0-0",
+        "record_breakdown": {
+          "wins": 19,
+          "losses": 0,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shavkat_Rakhmonov"
       },
       "fighter2": {
         "name": "Ian Machado Garry",
-        "record": null,
+        "record": "16-1-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,11 +111,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ian_Machado_Garry"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (48–47, 48–47, 48–47)",
+      "method": "Decision (unanimous) (48\u201347, 48\u201347, 48\u201347)",
       "round": null,
       "time": null,
       "winner": "Shavkat Rakhmonov",
@@ -100,7 +131,13 @@
       "bout_order": 12,
       "fighter1": {
         "name": "Ciryl Gane",
-        "record": null,
+        "record": "12-2-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +147,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ciryl_Gane"
       },
       "fighter2": {
         "name": "Alexander Volkov",
-        "record": null,
+        "record": "38-11-0",
+        "record_breakdown": {
+          "wins": 38,
+          "losses": 11,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -124,11 +168,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Alexander_Volkov"
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
-      "method": "Decision (split) (29–28, 28–29, 29–28)",
+      "method": "Decision (split) (29\u201328, 28\u201329, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Ciryl Gane",
@@ -143,7 +188,13 @@
       "bout_order": 11,
       "fighter1": {
         "name": "Bryce Mitchell",
-        "record": null,
+        "record": "17-3-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +204,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bryce_Mitchell"
       },
       "fighter2": {
         "name": "Kron Gracie",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -167,7 +220,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -186,7 +240,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Choi Doo-ho",
-        "record": null,
+        "record": "16-4-1",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 4,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +256,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Choi_Doo-ho"
       },
       "fighter2": {
         "name": "Nate Landwehr",
-        "record": null,
+        "record": "18-7-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,7 +277,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nate_Landwehr"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -229,7 +297,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Dominick Reyes",
-        "record": null,
+        "record": "15-4-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +313,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dominick_Reyes"
       },
       "fighter2": {
         "name": "Anthony Smith",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +329,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -272,7 +349,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Vicente Luque",
-        "record": null,
+        "record": "23-11-1",
+        "record_breakdown": {
+          "wins": 23,
+          "losses": 11,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +365,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vicente_Luque"
       },
       "fighter2": {
         "name": "Themba Gorimbo",
-        "record": null,
+        "record": "14-5-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -296,7 +386,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Themba_Gorimbo"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -315,7 +406,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Movsar Evloev",
-        "record": null,
+        "record": "19-0-0",
+        "record_breakdown": {
+          "wins": 19,
+          "losses": 0,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +422,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Movsar_Evloev"
       },
       "fighter2": {
         "name": "Aljamain Sterling",
-        "record": null,
+        "record": "24-5-0",
+        "record_breakdown": {
+          "wins": 24,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -339,11 +443,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Aljamain_Sterling"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Movsar Evloev",
@@ -358,7 +463,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Bryan Battle",
-        "record": null,
+        "record": "12-2-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 2,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +479,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bryan_Battle"
       },
       "fighter2": {
         "name": "Randy Brown",
-        "record": null,
+        "record": "20-6-0",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -382,11 +500,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Randy_Brown"
       },
       "weight_class": "Catchweight (175 lb)",
       "title_fight": "none",
-      "method": "Decision (split) (28–29, 29–28, 29–28)",
+      "method": "Decision (split) (28\u201329, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Bryan Battle",
@@ -401,7 +520,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Eryk Anders",
-        "record": null,
+        "record": "17-8-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 8,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +536,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Eryk_Anders"
       },
       "fighter2": {
         "name": "Chris Weidman",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -425,7 +552,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Catchweight (195 lb)",
       "title_fight": "none",
@@ -444,7 +572,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Joshua Van",
-        "record": null,
+        "record": "15-2-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +588,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Joshua_Van"
       },
       "fighter2": {
         "name": "Cody Durden",
-        "record": null,
+        "record": "17-8-1",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 8,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -468,11 +609,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cody_Durden"
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 30–26, 30–27)",
+      "method": "Decision (unanimous) (29\u201328, 30\u201326, 30\u201327)",
       "round": null,
       "time": null,
       "winner": "Joshua Van",
@@ -487,7 +629,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Michael Chiesa",
-        "record": null,
+        "record": "21-7-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -497,11 +645,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Chiesa"
       },
       "fighter2": {
         "name": "Max Griffin",
-        "record": null,
+        "record": "20-12-0",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 12,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -511,7 +666,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Max_Griffin"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -530,7 +686,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Chase Hooper",
-        "record": null,
+        "record": "16-3-1",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 3,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -540,11 +702,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chase_Hooper"
       },
       "fighter2": {
         "name": "Clay Guida",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -554,7 +718,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -573,7 +738,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Kennedy Nzechukwu",
-        "record": null,
+        "record": "14-6-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -583,11 +754,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kennedy_Nzechukwu"
       },
       "fighter2": {
-        "name": "Łukasz Brzeski",
-        "record": null,
+        "name": "\u0141ukasz Brzeski",
+        "record": "9-6-1 (1 NC)",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 6,
+          "draws": 1,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -597,7 +775,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/\u0141ukasz_Brzeski"
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -613,7 +792,7 @@
       "segment": "early-prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:54:02.241703",
+  "scraped_at": "2025-07-13 15:39:52.752756",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_310"
   }

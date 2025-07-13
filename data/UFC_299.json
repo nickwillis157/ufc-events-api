@@ -3,7 +3,10 @@
   "event_name": "UFC 299",
   "event_date": "2024-03-09",
   "venue": "Kaseya Center",
-  "location": null,
+  "location": "Miami, Florida, United States",
+  "city": "Miami",
+  "state": "Florida",
+  "country": "United States",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 14,
       "fighter1": {
         "name": "Sean O'Malley",
-        "record": null,
+        "record": "18-3-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 3,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": true
+        "is_champion": true,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sean_OMalley"
       },
       "fighter2": {
         "name": "Marlon Vera",
-        "record": null,
+        "record": "23-10-1",
+        "record_breakdown": {
+          "wins": 23,
+          "losses": 10,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,11 +54,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Marlon_Vera"
       },
       "weight_class": "Bantamweight",
       "title_fight": "undisputed",
-      "method": "Decision (unanimous) (50–45, 50–45, 50–44)",
+      "method": "Decision (unanimous) (50\u201345, 50\u201345, 50\u201344)",
       "round": null,
       "time": null,
       "winner": "Sean O'Malley",
@@ -57,7 +74,13 @@
       "bout_order": 13,
       "fighter1": {
         "name": "Dustin Poirier",
-        "record": null,
+        "record": "30-9-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 30,
+          "losses": 9,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dustin_Poirier"
       },
       "fighter2": {
-        "name": "Benoît Saint Denis",
-        "record": null,
+        "name": "Beno\u00eet Saint Denis",
+        "record": "14-3-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 3,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,7 +111,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Beno\u00eet_Saint_Denis"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -100,7 +131,13 @@
       "bout_order": 12,
       "fighter1": {
         "name": "Michael Page",
-        "record": null,
+        "record": "23-3-0",
+        "record_breakdown": {
+          "wins": 23,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +147,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Page"
       },
       "fighter2": {
         "name": "Kevin Holland",
-        "record": null,
+        "record": "28-13-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 28,
+          "losses": 13,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -124,11 +168,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kevin_Holland"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Michael Page",
@@ -143,7 +188,13 @@
       "bout_order": 11,
       "fighter1": {
         "name": "Jack Della Maddalena",
-        "record": null,
+        "record": "18-2-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +204,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jack_Della_Maddalena"
       },
       "fighter2": {
         "name": "Gilbert Burns",
-        "record": null,
+        "record": "22-9-0",
+        "record_breakdown": {
+          "wins": 22,
+          "losses": 9,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -167,7 +225,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gilbert_Burns"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -186,7 +245,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Petr Yan",
-        "record": null,
+        "record": "18-5-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +261,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Petr_Yan"
       },
       "fighter2": {
         "name": "Song Yadong",
-        "record": null,
+        "record": "22-8-1 (1 NC)",
+        "record_breakdown": {
+          "wins": 22,
+          "losses": 8,
+          "draws": 1,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,11 +282,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Song_Yadong"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Petr Yan",
@@ -229,7 +302,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Curtis Blaydes",
-        "record": null,
+        "record": "19-5-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 19,
+          "losses": 5,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +318,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Curtis_Blaydes"
       },
       "fighter2": {
         "name": "Jailton Almeida",
-        "record": null,
+        "record": "22-3-0",
+        "record_breakdown": {
+          "wins": 22,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +339,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jailton_Almeida"
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -272,7 +359,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Maycee Barber",
-        "record": null,
+        "record": "14-2-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +375,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Maycee_Barber"
       },
       "fighter2": {
         "name": "Katlyn Cerminara",
-        "record": null,
+        "record": "18-6-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -296,11 +396,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Katlyn_Cerminara"
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 30–27, 29–28)",
+      "method": "Decision (unanimous) (30\u201327, 30\u201327, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Maycee Barber",
@@ -315,7 +416,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Mateusz Gamrot",
-        "record": null,
+        "record": "25-3-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 25,
+          "losses": 3,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +432,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mateusz_Gamrot"
       },
       "fighter2": {
         "name": "Rafael dos Anjos",
-        "record": null,
+        "record": "32-17-0",
+        "record_breakdown": {
+          "wins": 32,
+          "losses": 17,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -339,11 +453,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rafael_dos_Anjos"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 30–27)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 30\u201327)",
       "round": null,
       "time": null,
       "winner": "Mateusz Gamrot",
@@ -358,7 +473,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Kyler Phillips",
-        "record": null,
+        "record": "12-3-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +489,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kyler_Phillips"
       },
       "fighter2": {
         "name": "Pedro Munhoz",
-        "record": null,
+        "record": "20-10-0 (2 NC)",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 10,
+          "draws": null,
+          "no_contests": 2
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -382,11 +510,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pedro_Munhoz"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 30–27, 30–27)",
+      "method": "Decision (unanimous) (30\u201327, 30\u201327, 30\u201327)",
       "round": null,
       "time": null,
       "winner": "Kyler Phillips",
@@ -402,6 +531,7 @@
       "fighter1": {
         "name": "Philipe Lins",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +541,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
-        "name": "Ion Cuțelaba",
-        "record": null,
+        "name": "Ion Cu\u021belaba",
+        "record": "19-11-1 (1 NC)",
+        "record_breakdown": {
+          "wins": 19,
+          "losses": 11,
+          "draws": 1,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -425,11 +562,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ion_Cu\u021belaba"
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Philipe Lins",
@@ -444,7 +582,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Michel Pereira",
-        "record": null,
+        "record": "31-13-0 (2 NC)",
+        "record_breakdown": {
+          "wins": 31,
+          "losses": 13,
+          "draws": null,
+          "no_contests": 2
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +598,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Michel_Pereira"
       },
       "fighter2": {
-        "name": "Michał Oleksiejczuk",
-        "record": null,
+        "name": "Micha\u0142 Oleksiejczuk",
+        "record": "20-9-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 9,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -468,7 +619,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Micha\u0142_Oleksiejczuk"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -488,6 +640,7 @@
       "fighter1": {
         "name": "Robelis Despaigne",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -497,11 +650,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Josh Parisian",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -511,7 +666,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -530,7 +686,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Asu Almabayev",
-        "record": null,
+        "record": "21-3-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -540,11 +702,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Asu_Almabayev"
       },
       "fighter2": {
         "name": "C.J. Vergara",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -554,11 +718,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Catchweight (127 lb)",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 30–27, 30–27)",
+      "method": "Decision (unanimous) (30\u201327, 30\u201327, 30\u201327)",
       "round": null,
       "time": null,
       "winner": "Asu Almabayev",
@@ -574,6 +739,7 @@
       "fighter1": {
         "name": "Joanne Wood",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -583,11 +749,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Maryna Moroz",
-        "record": null,
+        "record": "11-6-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -597,11 +770,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Maryna_Moroz"
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
-      "method": "Decision (split) (28–29, 29–28, 29–28)",
+      "method": "Decision (split) (28\u201329, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Joanne Wood",
@@ -613,7 +787,7 @@
       "segment": "early-prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:55:02.272915",
+  "scraped_at": "2025-07-13 15:39:54.879451",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_299"
   }

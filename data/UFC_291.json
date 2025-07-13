@@ -3,7 +3,10 @@
   "event_name": "UFC 291",
   "event_date": "2023-07-29",
   "venue": "Delta Center",
-  "location": null,
+  "location": "Salt Lake City, Utah, United States",
+  "city": "Salt Lake City",
+  "state": "Utah",
+  "country": "United States",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 11,
       "fighter1": {
         "name": "Justin Gaethje",
-        "record": null,
+        "record": "26-5-0",
+        "record_breakdown": {
+          "wins": 26,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Justin_Gaethje"
       },
       "fighter2": {
         "name": "Dustin Poirier",
-        "record": null,
+        "record": "30-9-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 30,
+          "losses": 9,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,7 +54,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dustin_Poirier"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -57,7 +74,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Alex Pereira",
-        "record": null,
+        "record": "12-3-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Alex_Pereira"
       },
       "fighter2": {
-        "name": "Jan Błachowicz",
-        "record": null,
+        "name": "Jan B\u0142achowicz",
+        "record": "29-11-1",
+        "record_breakdown": {
+          "wins": 29,
+          "losses": 11,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,11 +111,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jan_B\u0142achowicz"
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
-      "method": "Decision (split) (29–28, 28–29, 29–28)",
+      "method": "Decision (split) (29\u201328, 28\u201329, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Alex Pereira",
@@ -100,7 +131,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Derrick Lewis",
-        "record": null,
+        "record": "28-12-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 28,
+          "losses": 12,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +147,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Derrick_Lewis"
       },
       "fighter2": {
-        "name": "Marcos Rogério de Lima",
+        "name": "Marcos Rog\u00e9rio de Lima",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +163,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -144,6 +184,7 @@
       "fighter1": {
         "name": "Bobby Green",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +194,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Tony Ferguson",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -167,7 +210,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -186,7 +230,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Kevin Holland",
-        "record": null,
+        "record": "28-13-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 28,
+          "losses": 13,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +246,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kevin_Holland"
       },
       "fighter2": {
         "name": "Michael Chiesa",
-        "record": null,
+        "record": "21-7-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,7 +267,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Chiesa"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -229,7 +287,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Gabriel Bonfim",
-        "record": null,
+        "record": "18-1-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +303,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gabriel_Bonfim"
       },
       "fighter2": {
         "name": "Trevin Giles",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +319,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -273,6 +340,7 @@
       "fighter1": {
         "name": "C.J. Vergara",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +350,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Vinicius Salvador",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -296,11 +366,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Catchweight (128.5 lb)",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "C.J. Vergara",
@@ -315,7 +386,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Roman Kopylov",
-        "record": null,
+        "record": "14-3-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +402,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Roman_Kopylov"
       },
       "fighter2": {
         "name": "Claudio Ribeiro",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -339,7 +418,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -358,7 +438,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Jake Matthews",
-        "record": null,
+        "record": "22-7-0",
+        "record_breakdown": {
+          "wins": 22,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +454,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jake_Matthews"
       },
       "fighter2": {
         "name": "Darrius Flowers",
-        "record": null,
+        "record": "12-8-1",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 8,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -382,7 +475,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Darrius_Flowers"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -400,8 +494,14 @@
     {
       "bout_order": 2,
       "fighter1": {
-        "name": "Uroš Medić",
-        "record": null,
+        "name": "Uro\u0161 Medi\u0107",
+        "record": "10-3-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +511,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Uro\u0161_Medi\u0107"
       },
       "fighter2": {
         "name": "Matthew Semelsberger",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -425,14 +527,15 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
       "method": "TKO (spinning backfist and punches)",
       "round": null,
       "time": null,
-      "winner": "Uroš Medić",
+      "winner": "Uro\u0161 Medi\u0107",
       "result": null,
       "stats": null,
       "referee": null,
@@ -444,7 +547,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Miranda Maverick",
-        "record": null,
+        "record": "15-6-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +563,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Miranda_Maverick"
       },
       "fighter2": {
         "name": "Priscila Cachoeira",
-        "record": null,
+        "record": "13-6-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -468,7 +584,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Priscila_Cachoeira"
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
@@ -484,7 +601,7 @@
       "segment": "early-prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:55:46.302557",
+  "scraped_at": "2025-07-13 15:39:56.464481",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_291"
   }

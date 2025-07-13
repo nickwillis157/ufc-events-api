@@ -3,7 +3,10 @@
   "event_name": "UFC 293",
   "event_date": "2023-09-10",
   "venue": "Qudos Bank Arena",
-  "location": null,
+  "location": "Sydney, Australia",
+  "city": "Sydney",
+  "state": null,
+  "country": "Australia",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 12,
       "fighter1": {
         "name": "Sean Strickland",
-        "record": null,
+        "record": "29-7-0",
+        "record_breakdown": {
+          "wins": 29,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sean_Strickland"
       },
       "fighter2": {
         "name": "Israel Adesanya",
-        "record": null,
+        "record": "24-5-0",
+        "record_breakdown": {
+          "wins": 24,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,11 +54,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": true
+        "is_champion": true,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Israel_Adesanya"
       },
       "weight_class": "Middleweight",
       "title_fight": "undisputed",
-      "method": "Decision (unanimous) (49–46, 49–46, 49–46)",
+      "method": "Decision (unanimous) (49\u201346, 49\u201346, 49\u201346)",
       "round": null,
       "time": null,
       "winner": "Sean Strickland",
@@ -57,7 +74,13 @@
       "bout_order": 11,
       "fighter1": {
         "name": "Alexander Volkov",
-        "record": null,
+        "record": "38-11-0",
+        "record_breakdown": {
+          "wins": 38,
+          "losses": 11,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Alexander_Volkov"
       },
       "fighter2": {
         "name": "Tai Tuivasa",
-        "record": null,
+        "record": "15-8-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 8,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,7 +111,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tai_Tuivasa"
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -100,7 +131,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Manel Kape",
-        "record": null,
+        "record": "21-7-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +147,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Manel_Kape"
       },
       "fighter2": {
         "name": "Felipe dos Santos",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -124,11 +163,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 29–28, 29–28)",
+      "method": "Decision (unanimous) (30\u201327, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Manel Kape",
@@ -143,7 +183,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Justin Tafa",
-        "record": null,
+        "record": "7-5-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 7,
+          "losses": 5,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +199,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Justin_Tafa"
       },
       "fighter2": {
         "name": "Austen Lane",
-        "record": null,
+        "record": "13-7-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 7,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -167,7 +220,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Austen_Lane"
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -187,6 +241,7 @@
       "fighter1": {
         "name": "Tyson Pedro",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +251,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Anton Turkalj",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -210,7 +267,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -229,7 +287,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Carlos Ulberg",
-        "record": null,
+        "record": "12-1-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +303,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Carlos_Ulberg"
       },
       "fighter2": {
         "name": "Jung Da-un",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +319,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -272,7 +339,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Chepe Mariscal",
-        "record": null,
+        "record": "18-6-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +355,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chepe_Mariscal"
       },
       "fighter2": {
         "name": "Jack Jenkins",
-        "record": null,
+        "record": "13-4-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -296,7 +376,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jack_Jenkins"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -315,7 +396,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Jamie Mullarkey",
-        "record": null,
+        "record": "17-8-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 8,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +412,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jamie_Mullarkey"
       },
       "fighter2": {
         "name": "John Makdessi",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -339,11 +428,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Jamie Mullarkey",
@@ -358,7 +448,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Nasrat Haqparast",
-        "record": null,
+        "record": "18-5-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +464,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nasrat_Haqparast"
       },
       "fighter2": {
-        "name": "Landon Quiñones",
+        "name": "Landon Qui\u00f1ones",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -382,11 +480,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 30–27, 30–27)",
+      "method": "Decision (unanimous) (30\u201327, 30\u201327, 30\u201327)",
       "round": null,
       "time": null,
       "winner": "Nasrat Haqparast",
@@ -401,7 +500,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Charlie Radtke",
-        "record": null,
+        "record": "10-5-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +516,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Charlie_Radtke"
       },
       "fighter2": {
         "name": "Mike Mathetha",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -425,11 +532,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–27, 29–27, 29–27)",
+      "method": "Decision (unanimous) (29\u201327, 29\u201327, 29\u201327)",
       "round": null,
       "time": null,
       "winner": "Charlie Radtke",
@@ -445,6 +553,7 @@
       "fighter1": {
         "name": "Gabriel Miranda",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +563,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Shane Young",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -468,7 +579,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Catchweight (149.75 lb)",
       "title_fight": "none",
@@ -488,6 +600,7 @@
       "fighter1": {
         "name": "Kevin Jousset",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -497,11 +610,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Kiefer Crosbie",
-        "record": null,
+        "record": "10-5-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -511,7 +631,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kiefer_Crosbie"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -527,7 +648,7 @@
       "segment": "early-prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:55:34.299880",
+  "scraped_at": "2025-07-13 15:39:56.069016",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_293"
   }

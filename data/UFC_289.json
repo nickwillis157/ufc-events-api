@@ -3,7 +3,10 @@
   "event_name": "UFC 289",
   "event_date": "2023-06-10",
   "venue": "Rogers Arena",
-  "location": null,
+  "location": "Vancouver,British Columbia, Canada",
+  "city": "Vancouver",
+  "state": "British Columbia",
+  "country": "Canada",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -15,6 +18,7 @@
       "fighter1": {
         "name": "Amanda Nunes",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +28,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": true
+        "is_champion": true,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Irene Aldana",
-        "record": null,
+        "record": "15-8-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 8,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,11 +49,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Irene_Aldana"
       },
       "weight_class": "Women's Bantamweight",
       "title_fight": "undisputed",
-      "method": "Decision (unanimous) (50–44, 50–44, 50–43)",
+      "method": "Decision (unanimous) (50\u201344, 50\u201344, 50\u201343)",
       "round": null,
       "time": null,
       "winner": "Amanda Nunes",
@@ -57,7 +69,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Charles Oliveira",
-        "record": null,
+        "record": "35-11-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 35,
+          "losses": 11,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +85,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Oliveira"
       },
       "fighter2": {
         "name": "Beneil Dariush",
-        "record": null,
+        "record": "23-6-1",
+        "record_breakdown": {
+          "wins": 23,
+          "losses": 6,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,7 +106,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Beneil_Dariush"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -100,7 +126,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Mike Malott",
-        "record": null,
+        "record": "12-2-1",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 2,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +142,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mike_Malott"
       },
       "fighter2": {
         "name": "Adam Fugitt",
-        "record": null,
+        "record": "10-4-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +163,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Adam_Fugitt"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -143,7 +183,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Dan Ige",
-        "record": null,
+        "record": "19-9-0",
+        "record_breakdown": {
+          "wins": 19,
+          "losses": 9,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +199,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dan_Ige"
       },
       "fighter2": {
         "name": "Nate Landwehr",
-        "record": null,
+        "record": "18-7-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -167,11 +220,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nate_Landwehr"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 30–27)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 30\u201327)",
       "round": null,
       "time": null,
       "winner": "Dan Ige",
@@ -185,8 +239,14 @@
     {
       "bout_order": 7,
       "fighter1": {
-        "name": "Marc-André Barriault",
-        "record": null,
+        "name": "Marc-Andr\u00e9 Barriault",
+        "record": "17-8-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 8,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +256,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Marc-Andr\u00e9_Barriault"
       },
       "fighter2": {
         "name": "Eryk Anders",
-        "record": null,
+        "record": "17-8-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 8,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,14 +277,15 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Eryk_Anders"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 30–27, 30–27)",
+      "method": "Decision (unanimous) (30\u201327, 30\u201327, 30\u201327)",
       "round": null,
       "time": null,
-      "winner": "Marc-André Barriault",
+      "winner": "Marc-Andr\u00e9 Barriault",
       "result": null,
       "stats": null,
       "referee": null,
@@ -229,7 +297,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Nassourdine Imavov",
-        "record": null,
+        "record": "16-4-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 4,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +313,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nassourdine_Imavov"
       },
       "fighter2": {
         "name": "Chris Curtis",
-        "record": null,
+        "record": "32-12-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 32,
+          "losses": 12,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +334,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Curtis"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -272,7 +354,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Jasmine Jasudavicius",
-        "record": null,
+        "record": "14-3-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +370,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jasmine_Jasudavicius"
       },
       "fighter2": {
         "name": "Miranda Maverick",
-        "record": null,
+        "record": "15-6-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -296,11 +391,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Miranda_Maverick"
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Jasmine Jasudavicius",
@@ -315,7 +411,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Aiemann Zahabi",
-        "record": null,
+        "record": "13-2-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +427,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Aiemann_Zahabi"
       },
       "fighter2": {
         "name": "Aori Qileng",
-        "record": null,
+        "record": "25-12-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 25,
+          "losses": 12,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -339,7 +448,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Aori_Qileng"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -358,7 +468,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Kyle Nelson",
-        "record": null,
+        "record": "16-6-1",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 6,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +484,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kyle_Nelson"
       },
       "fighter2": {
         "name": "Blake Bilder",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -382,11 +500,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 30–27, 29–28)",
+      "method": "Decision (unanimous) (30\u201327, 30\u201327, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Kyle Nelson",
@@ -401,7 +520,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Steve Erceg",
-        "record": null,
+        "record": "12-4-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +536,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_Erceg"
       },
       "fighter2": {
-        "name": "David Dvořák",
+        "name": "David Dvo\u0159\u00e1k",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -425,11 +552,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 30–27)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 30\u201327)",
       "round": null,
       "time": null,
       "winner": "Steve Erceg",
@@ -443,8 +571,9 @@
     {
       "bout_order": 1,
       "fighter1": {
-        "name": "Diana Belbiţă",
+        "name": "Diana Belbi\u0163\u0103",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +583,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Maria Oliveira",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -468,14 +599,15 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 30–27, 29–28)",
+      "method": "Decision (unanimous) (30\u201327, 30\u201327, 29\u201328)",
       "round": null,
       "time": null,
-      "winner": "Diana Belbiţă",
+      "winner": "Diana Belbi\u0163\u0103",
       "result": null,
       "stats": null,
       "referee": null,
@@ -484,7 +616,7 @@
       "segment": "early-prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:56:00.351912",
+  "scraped_at": "2025-07-13 15:39:56.878265",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_289"
   }

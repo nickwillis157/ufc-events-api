@@ -3,7 +3,10 @@
   "event_name": "UFC 304",
   "event_date": "2024-07-27",
   "venue": "Co-op Live",
-  "location": null,
+  "location": "Manchester, England",
+  "city": "Manchester",
+  "state": null,
+  "country": "England",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 14,
       "fighter1": {
         "name": "Belal Muhammad",
-        "record": null,
+        "record": "24-4-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 24,
+          "losses": 4,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Belal_Muhammad"
       },
       "fighter2": {
         "name": "Leon Edwards",
-        "record": null,
+        "record": "22-5-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 22,
+          "losses": 5,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,11 +54,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": true
+        "is_champion": true,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Leon_Edwards"
       },
       "weight_class": "Welterweight",
       "title_fight": "undisputed",
-      "method": "Decision (unanimous) (48–47, 48–47, 49–46)",
+      "method": "Decision (unanimous) (48\u201347, 48\u201347, 49\u201346)",
       "round": null,
       "time": null,
       "winner": "Belal Muhammad",
@@ -57,7 +74,13 @@
       "bout_order": 13,
       "fighter1": {
         "name": "Tom Aspinall",
-        "record": null,
+        "record": "15-3-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tom_Aspinall"
       },
       "fighter2": {
         "name": "Curtis Blaydes",
-        "record": null,
+        "record": "19-5-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 19,
+          "losses": 5,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,7 +111,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Curtis_Blaydes"
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -100,7 +131,13 @@
       "bout_order": 12,
       "fighter1": {
         "name": "Paddy Pimblett",
-        "record": null,
+        "record": "23-3-0",
+        "record_breakdown": {
+          "wins": 23,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +147,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Paddy_Pimblett"
       },
       "fighter2": {
         "name": "King Green",
-        "record": null,
+        "record": "32-17-1 (1 NC)",
+        "record_breakdown": {
+          "wins": 32,
+          "losses": 17,
+          "draws": 1,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +168,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/King_Green"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -143,7 +188,13 @@
       "bout_order": 11,
       "fighter1": {
         "name": "Gregory Rodrigues",
-        "record": null,
+        "record": "17-6-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +204,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gregory_Rodrigues"
       },
       "fighter2": {
         "name": "Christian Leroy Duncan",
-        "record": null,
+        "record": "11-2-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -167,11 +225,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Christian_Leroy_Duncan"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 30–27, 30–27)",
+      "method": "Decision (unanimous) (30\u201327, 30\u201327, 30\u201327)",
       "round": null,
       "time": null,
       "winner": "Gregory Rodrigues",
@@ -186,7 +245,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Arnold Allen",
-        "record": null,
+        "record": "20-3-0",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +261,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Arnold_Allen"
       },
       "fighter2": {
         "name": "Giga Chikadze",
-        "record": null,
+        "record": "15-5-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,11 +282,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Giga_Chikadze"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Arnold Allen",
@@ -229,7 +302,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Nathaniel Wood",
-        "record": null,
+        "record": "22-6-0",
+        "record_breakdown": {
+          "wins": 22,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +318,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nathaniel_Wood"
       },
       "fighter2": {
         "name": "Daniel Pineda",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -253,11 +334,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–27, 29–27, 29–28)",
+      "method": "Decision (unanimous) (29\u201327, 29\u201327, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Nathaniel Wood",
@@ -272,7 +354,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Bruna Brasil",
-        "record": null,
+        "record": "10-5-1",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 5,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +370,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bruna_Brasil"
       },
       "fighter2": {
         "name": "Molly McCann",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -296,11 +386,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 30–27, 29–28)",
+      "method": "Decision (unanimous) (30\u201327, 30\u201327, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Bruna Brasil",
@@ -316,6 +407,7 @@
       "fighter1": {
         "name": "Jake Hadley",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +417,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
-        "name": "Caolán Loughran",
+        "name": "Caol\u00e1n Loughran",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -339,11 +433,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Catchweight (137 lb)",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 30–27, 29–28)",
+      "method": "Decision (unanimous) (30\u201327, 30\u201327, 29\u201328)",
       "round": null,
       "time": null,
       "winner": "Jake Hadley",
@@ -359,6 +454,7 @@
       "fighter1": {
         "name": "Muhammad Mokaev",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +464,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Manel Kape",
-        "record": null,
+        "record": "21-7-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -382,11 +485,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Manel_Kape"
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 29–28, 30–27)",
+      "method": "Decision (unanimous) (29\u201328, 29\u201328, 30\u201327)",
       "round": null,
       "time": null,
       "winner": "Muhammad Mokaev",
@@ -401,7 +505,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Oban Elliott",
-        "record": null,
+        "record": "12-3-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +521,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Oban_Elliott"
       },
       "fighter2": {
         "name": "Preston Parsons",
-        "record": null,
+        "record": "11-6-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -425,11 +542,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Preston_Parsons"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29–28, 30–27, 30–27)",
+      "method": "Decision (unanimous) (29\u201328, 30\u201327, 30\u201327)",
       "round": null,
       "time": null,
       "winner": "Oban Elliott",
@@ -444,7 +562,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Modestas Bukauskas",
-        "record": null,
+        "record": "18-6-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +578,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Modestas_Bukauskas"
       },
       "fighter2": {
         "name": "Marcin Prachnio",
-        "record": null,
+        "record": "17-8-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 8,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -468,7 +599,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Marcin_Prachnio"
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -487,7 +619,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Sam Patterson",
-        "record": null,
+        "record": "13-2-1",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 2,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -497,11 +635,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sam_Patterson"
       },
       "fighter2": {
         "name": "Kiefer Crosbie",
-        "record": null,
+        "record": "10-5-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -511,7 +656,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kiefer_Crosbie"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -530,7 +676,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Mick Parkin",
-        "record": null,
+        "record": "10-1-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -540,11 +692,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mick_Parkin"
       },
       "fighter2": {
-        "name": "Łukasz Brzeski",
-        "record": null,
+        "name": "\u0141ukasz Brzeski",
+        "record": "9-6-1 (1 NC)",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 6,
+          "draws": 1,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -554,7 +713,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/\u0141ukasz_Brzeski"
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -573,7 +733,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Shauna Bannon",
-        "record": null,
+        "record": "7-1-0",
+        "record_breakdown": {
+          "wins": 7,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -583,11 +749,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shauna_Bannon"
       },
       "fighter2": {
         "name": "Alice Ardelean",
-        "record": null,
+        "record": "10-7-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -597,11 +770,12 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Alice_Ardelean"
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
-      "method": "Decision (split) (28–29, 29–28, 30–27)",
+      "method": "Decision (split) (28\u201329, 29\u201328, 30\u201327)",
       "round": null,
       "time": null,
       "winner": "Shauna Bannon",
@@ -613,7 +787,7 @@
       "segment": "early-prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:54:30.247227",
+  "scraped_at": "2025-07-13 15:39:53.859636",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_304"
   }

@@ -13,7 +13,9 @@ from tenacity import retry, stop_after_attempt, wait_exponential
 
 from models.ufc_models import UFCEvent, Fight, Fighter, FighterRecord, EventStatus, TitleFightType
 from utils.rate_limiter import RateLimiter
-from scrapers.ufc_stats import UFCStatsScaper
+from scrapers.fighter_database import build_fighter_database
+import json
+from pathlib import Path
 
 logger = logging.getLogger(__name__)
 
@@ -38,8 +40,44 @@ class WikipediaUFCScraper:
         self.session.headers.update({
             'User-Agent': 'UFC-Scraper/1.0 (Educational/Research Purpose)'
         })
-        # Initialize UFC Stats scraper for fighter records
-        self.ufc_stats_scraper = UFCStatsScaper(rate_limiter)
+        # Initialize fighter database
+        self.fighter_database = None
+        self._database_loaded = False
+    
+    async def _load_fighter_database(self):
+        """Load fighter database from file or build it"""
+        if self._database_loaded:
+            return
+        
+        database_file = Path('data/fighter_database.json')
+        
+        try:
+            # Try to load existing database
+            if database_file.exists():
+                with open(database_file, 'r') as f:
+                    fighters_data = json.load(f)
+                
+                # Convert to Fighter objects
+                self.fighter_database = {}
+                for name, fighter_data in fighters_data.items():
+                    # Reconstruct Fighter object from dict
+                    fighter = Fighter(**fighter_data)
+                    self.fighter_database[name.lower()] = fighter  # Use lowercase for lookup
+                
+                logger.info(f"Loaded fighter database with {len(self.fighter_database)} fighters")
+            else:
+                logger.info("No existing fighter database found, building new one...")
+                # Build database from scratch
+                fighters_dict = await build_fighter_database()
+                self.fighter_database = {name.lower(): fighter for name, fighter in fighters_dict.items()}
+                logger.info(f"Built fighter database with {len(self.fighter_database)} fighters")
+            
+            self._database_loaded = True
+            
+        except Exception as e:
+            logger.error(f"Failed to load fighter database: {e}")
+            self.fighter_database = {}
+            self._database_loaded = True
     
     @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
     async def _fetch_page(self, url: str) -> BeautifulSoup:
@@ -747,37 +785,64 @@ class WikipediaUFCScraper:
             return None
 
     async def _fetch_fighter_record(self, fighter_name: str) -> Optional[FighterRecord]:
-        """Fetch fighter's MMA record from UFC Stats (primary) with Wikipedia fallback"""
+        """Fetch fighter's MMA record from database only (fast lookup)"""
         try:
-            # First try UFC Stats - more reliable and comprehensive
-            ufc_stats_record = await self.ufc_stats_scraper.fetch_fighter_record(fighter_name)
-            if ufc_stats_record:
-                logger.info(f"Found UFC Stats record for {fighter_name}: {ufc_stats_record.to_record_string()}")
-                return ufc_stats_record
+            # Ensure fighter database is loaded
+            await self._load_fighter_database()
             
-            # Fallback to Wikipedia if UFC Stats doesn't have the fighter
-            logger.info(f"UFC Stats record not found for {fighter_name}, trying Wikipedia fallback")
+            if not self.fighter_database:
+                return None
             
-            # Generate potential Wikipedia URLs for the fighter
-            fighter_urls = self._generate_fighter_urls(fighter_name)
+            # Try exact match first
+            fighter_key = fighter_name.lower().strip()
+            if fighter_key in self.fighter_database:
+                database_fighter = self.fighter_database[fighter_key]
+                if database_fighter.record_breakdown:
+                    logger.debug(f"Found database record for {fighter_name}: {database_fighter.record_breakdown.to_record_string()}")
+                    return database_fighter.record_breakdown
             
-            for url in fighter_urls:
-                try:
-                    soup = await self._fetch_page(url)
-                    record = self._parse_fighter_record_from_page(soup)
-                    if record:
-                        logger.info(f"Found Wikipedia record for {fighter_name}: {record.to_record_string()}")
-                        return record
-                except Exception as e:
-                    logger.debug(f"Failed to fetch fighter page {url}: {e}")
-                    continue
+            # Try fuzzy matching for name variations
+            for db_name, db_fighter in self.fighter_database.items():
+                if self._names_match_fuzzy(fighter_name, db_name):
+                    if db_fighter.record_breakdown:
+                        logger.debug(f"Found database record for {fighter_name} (matched as {db_name}): {db_fighter.record_breakdown.to_record_string()}")
+                        return db_fighter.record_breakdown
             
-            logger.warning(f"Could not find record in UFC Stats or Wikipedia for fighter: {fighter_name}")
+            # Fighter not found in database - that's okay, just return None
+            logger.debug(f"Fighter {fighter_name} not found in database (likely retired/historical)")
             return None
             
         except Exception as e:
             logger.error(f"Error fetching record for {fighter_name}: {e}")
             return None
+
+    def _names_match_fuzzy(self, target_name: str, candidate_name: str) -> bool:
+        """Fuzzy name matching for fighter database lookup"""
+        target = target_name.lower().strip()
+        candidate = candidate_name.lower().strip()
+        
+        # Exact match
+        if target == candidate:
+            return True
+        
+        # Remove common variations
+        target_clean = target.replace('.', '').replace('-', ' ').replace('  ', ' ')
+        candidate_clean = candidate.replace('.', '').replace('-', ' ').replace('  ', ' ')
+        
+        if target_clean == candidate_clean:
+            return True
+        
+        # Check if all words in target are in candidate
+        target_words = target_clean.split()
+        candidate_words = candidate_clean.split()
+        
+        if len(target_words) >= 2 and len(candidate_words) >= 2:
+            # Check if first and last names match
+            if (target_words[0] == candidate_words[0] and 
+                target_words[-1] == candidate_words[-1]):
+                return True
+        
+        return False
 
     def _generate_fighter_urls(self, fighter_name: str) -> List[str]:
         """Generate potential Wikipedia URLs for a fighter"""
