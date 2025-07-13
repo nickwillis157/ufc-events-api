@@ -11,7 +11,7 @@ import requests
 from bs4 import BeautifulSoup
 from tenacity import retry, stop_after_attempt, wait_exponential
 
-from models.ufc_models import UFCEvent, Fight, Fighter, EventStatus, TitleFightType
+from models.ufc_models import UFCEvent, Fight, Fighter, FighterRecord, EventStatus, TitleFightType
 from utils.rate_limiter import RateLimiter
 
 logger = logging.getLogger(__name__)
@@ -368,4 +368,204 @@ class UFCStatsScaper:
             
         except Exception as e:
             logger.error(f"Error parsing fight row: {e}")
+            return None
+
+    async def fetch_fighter_record(self, fighter_name: str) -> Optional[FighterRecord]:
+        """Fetch fighter's record from UFC Stats"""
+        try:
+            # Search for fighter
+            fighter_url = await self._search_fighter(fighter_name)
+            if not fighter_url:
+                logger.warning(f"Could not find UFC Stats page for fighter: {fighter_name}")
+                return None
+            
+            # Fetch fighter page and extract record
+            soup = await self._fetch_page(fighter_url)
+            record = self._parse_fighter_record_from_page(soup)
+            
+            if record:
+                logger.info(f"Found UFC Stats record for {fighter_name}: {record.to_record_string()}")
+                return record
+            
+            return None
+            
+        except Exception as e:
+            logger.error(f"Error fetching UFC Stats record for {fighter_name}: {e}")
+            return None
+
+    async def _search_fighter(self, fighter_name: str) -> Optional[str]:
+        """Search for fighter on UFC Stats and return their profile URL"""
+        try:
+            # UFC Stats has a fighters listing page
+            search_url = f"{self.BASE_URL}/statistics/fighters"
+            
+            # Try multiple search approaches
+            search_patterns = [
+                fighter_name.strip(),
+                fighter_name.replace(' ', '%20'),
+                fighter_name.split()[-1]  # Try last name only
+            ]
+            
+            for pattern in search_patterns:
+                try:
+                    soup = await self._fetch_page(search_url)
+                    
+                    # Look for fighter links on the page
+                    fighter_links = soup.find_all('a', href=lambda x: x and '/fighter-details/' in x)
+                    
+                    for link in fighter_links:
+                        link_text = link.text.strip()
+                        # Check if this link matches our fighter
+                        if self._names_match(fighter_name, link_text):
+                            return urljoin(self.BASE_URL, link.get('href'))
+                
+                except Exception as e:
+                    logger.debug(f"Search attempt failed for pattern '{pattern}': {e}")
+                    continue
+            
+            # If direct search fails, try constructing URL patterns
+            # UFC Stats URLs are often in format: /fighter-details/[id]
+            name_variants = self._generate_fighter_url_variants(fighter_name)
+            for variant in name_variants:
+                try:
+                    test_url = f"{self.BASE_URL}/fighter-details/{variant}"
+                    # Test if URL exists by making a head request
+                    response = self.session.head(test_url, timeout=10)
+                    if response.status_code == 200:
+                        return test_url
+                except:
+                    continue
+            
+            return None
+            
+        except Exception as e:
+            logger.error(f"Error searching for fighter {fighter_name}: {e}")
+            return None
+
+    def _names_match(self, target_name: str, candidate_name: str) -> bool:
+        """Check if two fighter names match, accounting for variations"""
+        target = target_name.lower().strip()
+        candidate = candidate_name.lower().strip()
+        
+        # Exact match
+        if target == candidate:
+            return True
+        
+        # Split names and check if all parts match
+        target_parts = target.split()
+        candidate_parts = candidate.split()
+        
+        # Check if all target parts are in candidate
+        if all(part in candidate_parts for part in target_parts):
+            return True
+        
+        # Check reversed order (Last, First vs First Last)
+        if len(target_parts) >= 2 and len(candidate_parts) >= 2:
+            if (target_parts[0] == candidate_parts[-1] and 
+                target_parts[-1] == candidate_parts[0]):
+                return True
+        
+        return False
+
+    def _generate_fighter_url_variants(self, fighter_name: str) -> List[str]:
+        """Generate possible URL variants for a fighter name"""
+        variants = []
+        
+        # Clean name
+        clean_name = fighter_name.lower().strip()
+        
+        # Remove common words and clean up
+        clean_name = re.sub(r'[^\w\s-]', '', clean_name)
+        parts = clean_name.split()
+        
+        if len(parts) >= 2:
+            # first-last format
+            variants.append(f"{parts[0]}-{parts[-1]}")
+            # last-first format  
+            variants.append(f"{parts[-1]}-{parts[0]}")
+            # full name with dashes
+            variants.append('-'.join(parts))
+        
+        return variants
+
+    def _parse_fighter_record_from_page(self, soup: BeautifulSoup) -> Optional[FighterRecord]:
+        """Parse fighter record from UFC Stats fighter page"""
+        try:
+            # Look for record information in fighter stats
+            record_info = {}
+            
+            # UFC Stats typically shows record in format like "22-3-0"
+            # Look for this in various sections
+            
+            # Method 1: Look for specific record elements
+            record_elements = soup.find_all('span', class_='b-list__box-list-item__value')
+            for elem in record_elements:
+                text = elem.text.strip()
+                # Look for W-L-D pattern
+                match = re.search(r'(\d+)-(\d+)-(\d+)', text)
+                if match:
+                    record_info['wins'] = int(match.group(1))
+                    record_info['losses'] = int(match.group(2))
+                    record_info['draws'] = int(match.group(3))
+                    break
+            
+            # Method 2: Look in list items for individual stats
+            if not record_info:
+                list_items = soup.find_all('li', class_='b-list__box-list-item')
+                
+                for item in list_items:
+                    label_elem = item.find('i', class_='b-list__box-list-item__label')
+                    value_elem = item.find('i', class_='b-list__box-list-item__value')
+                    
+                    if label_elem and value_elem:
+                        label = label_elem.text.strip().lower()
+                        value = value_elem.text.strip()
+                        
+                        if 'wins' in label and value.isdigit():
+                            record_info['wins'] = int(value)
+                        elif 'losses' in label and value.isdigit():
+                            record_info['losses'] = int(value)
+                        elif 'draws' in label and value.isdigit():
+                            record_info['draws'] = int(value)
+                        elif 'no contest' in label and value.isdigit():
+                            record_info['no_contests'] = int(value)
+            
+            # Method 3: Look for record in fighter career section
+            if not record_info:
+                # Find tables with fight history
+                tables = soup.find_all('table')
+                for table in tables:
+                    rows = table.find_all('tr')
+                    wins = losses = draws = nc = 0
+                    
+                    for row in rows[1:]:  # Skip header
+                        cols = row.find_all('td')
+                        if len(cols) >= 1:
+                            result = cols[0].text.strip()
+                            if result == 'W':
+                                wins += 1
+                            elif result == 'L':
+                                losses += 1
+                            elif result == 'D':
+                                draws += 1
+                            elif result == 'NC':
+                                nc += 1
+                    
+                    if wins > 0 or losses > 0:
+                        record_info = {
+                            'wins': wins,
+                            'losses': losses,
+                            'draws': draws if draws > 0 else None,
+                            'no_contests': nc if nc > 0 else None
+                        }
+                        break
+            
+            # Create FighterRecord if we found data
+            if record_info:
+                return FighterRecord(**record_info)
+            
+            return None
+            
+        except Exception as e:
+            logger.error(f"Error parsing fighter record from UFC Stats page: {e}")
             return None

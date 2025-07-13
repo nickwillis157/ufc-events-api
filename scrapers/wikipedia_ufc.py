@@ -13,6 +13,7 @@ from tenacity import retry, stop_after_attempt, wait_exponential
 
 from models.ufc_models import UFCEvent, Fight, Fighter, FighterRecord, EventStatus, TitleFightType
 from utils.rate_limiter import RateLimiter
+from scrapers.ufc_stats import UFCStatsScaper
 
 logger = logging.getLogger(__name__)
 
@@ -37,6 +38,8 @@ class WikipediaUFCScraper:
         self.session.headers.update({
             'User-Agent': 'UFC-Scraper/1.0 (Educational/Research Purpose)'
         })
+        # Initialize UFC Stats scraper for fighter records
+        self.ufc_stats_scraper = UFCStatsScaper(rate_limiter)
     
     @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
     async def _fetch_page(self, url: str) -> BeautifulSoup:
@@ -744,8 +747,17 @@ class WikipediaUFCScraper:
             return None
 
     async def _fetch_fighter_record(self, fighter_name: str) -> Optional[FighterRecord]:
-        """Fetch fighter's MMA record from their Wikipedia page"""
+        """Fetch fighter's MMA record from UFC Stats (primary) with Wikipedia fallback"""
         try:
+            # First try UFC Stats - more reliable and comprehensive
+            ufc_stats_record = await self.ufc_stats_scraper.fetch_fighter_record(fighter_name)
+            if ufc_stats_record:
+                logger.info(f"Found UFC Stats record for {fighter_name}: {ufc_stats_record.to_record_string()}")
+                return ufc_stats_record
+            
+            # Fallback to Wikipedia if UFC Stats doesn't have the fighter
+            logger.info(f"UFC Stats record not found for {fighter_name}, trying Wikipedia fallback")
+            
             # Generate potential Wikipedia URLs for the fighter
             fighter_urls = self._generate_fighter_urls(fighter_name)
             
@@ -754,13 +766,13 @@ class WikipediaUFCScraper:
                     soup = await self._fetch_page(url)
                     record = self._parse_fighter_record_from_page(soup)
                     if record:
-                        logger.info(f"Found record for {fighter_name}: {record.to_record_string()}")
+                        logger.info(f"Found Wikipedia record for {fighter_name}: {record.to_record_string()}")
                         return record
                 except Exception as e:
                     logger.debug(f"Failed to fetch fighter page {url}: {e}")
                     continue
             
-            logger.warning(f"Could not find Wikipedia page or record for fighter: {fighter_name}")
+            logger.warning(f"Could not find record in UFC Stats or Wikipedia for fighter: {fighter_name}")
             return None
             
         except Exception as e:
