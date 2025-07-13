@@ -13,13 +13,18 @@ export default function handler(req, res) {
     
     for (const file of files) {
       if (file.endsWith('.json')) {
-        const filePath = path.join(dataDir, file);
-        const eventData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-        
-        // Filter for upcoming events (scheduled events from today onwards)
-        const eventDate = new Date(eventData.event_date);
-        if (eventDate >= today) {
-          events.push(eventData);
+        try {
+          const filePath = path.join(dataDir, file);
+          const eventData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+          
+          // Filter for upcoming events (scheduled events from today onwards)
+          const eventDate = new Date(eventData.event_date);
+          if (eventDate >= today) {
+            events.push(eventData);
+          }
+        } catch (fileError) {
+          console.warn(`Skipping invalid JSON file: ${file}`, fileError.message);
+          continue;
         }
       }
     }
