@@ -3,7 +3,10 @@
   "event_name": "UFC on ABC: Whittaker vs. de Ridder",
   "event_date": "2025-07-26",
   "venue": "Etihad Arena",
-  "location": null,
+  "location": "Abu Dhabi, United Arab Emirates",
+  "city": "Abu Dhabi",
+  "state": null,
+  "country": "United Arab Emirates",
   "status": "scheduled",
   "attendance": null,
   "gate": null,
@@ -11,10 +14,16 @@
   "start_time": null,
   "fights": [
     {
-      "bout_order": 11,
+      "bout_order": 12,
       "fighter1": {
         "name": "Robert Whittaker",
-        "record": null,
+        "record": "26-8-0",
+        "record_breakdown": {
+          "wins": 26,
+          "losses": 8,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -23,11 +32,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Whittaker"
       },
       "fighter2": {
         "name": "Reinier de Ridder",
-        "record": null,
+        "record": "20-2-0",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -36,7 +53,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Reinier_de_Ridder"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -52,10 +71,16 @@
       "segment": "main-card"
     },
     {
-      "bout_order": 10,
+      "bout_order": 11,
       "fighter1": {
         "name": "Movsar Evloev",
-        "record": null,
+        "record": "19-0-0",
+        "record_breakdown": {
+          "wins": 19,
+          "losses": 0,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -64,11 +89,14 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Movsar_Evloev"
       },
       "fighter2": {
         "name": "Aaron Pico",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -77,7 +105,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -93,10 +123,16 @@
       "segment": "main-card"
     },
     {
-      "bout_order": 9,
+      "bout_order": 10,
       "fighter1": {
         "name": "Petr Yan",
-        "record": null,
+        "record": "18-5-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -105,11 +141,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Petr_Yan"
       },
       "fighter2": {
         "name": "Marcus McGhee",
-        "record": null,
+        "record": "10-1-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -118,7 +162,66 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Marcus_McGhee"
+      },
+      "weight_class": "Bantamweight",
+      "title_fight": "none",
+      "method": null,
+      "round": null,
+      "time": null,
+      "winner": null,
+      "result": null,
+      "stats": null,
+      "referee": null,
+      "bonuses": null,
+      "fight_url": null,
+      "segment": "main-card"
+    },
+    {
+      "bout_order": 9,
+      "fighter1": {
+        "name": "Bryce Mitchell",
+        "record": "17-3-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bryce_Mitchell"
+      },
+      "fighter2": {
+        "name": "Said Nurmagomedov",
+        "record": "18-4-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Said_Nurmagomedov"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -136,49 +239,14 @@
     {
       "bout_order": 8,
       "fighter1": {
-        "name": "Bryce Mitchell",
-        "record": null,
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null
-      },
-      "fighter2": {
-        "name": "Said Nurmagomedov",
-        "record": null,
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null
-      },
-      "weight_class": "Bantamweight",
-      "title_fight": "none",
-      "method": null,
-      "round": null,
-      "time": null,
-      "winner": null,
-      "result": null,
-      "stats": null,
-      "referee": null,
-      "bonuses": null,
-      "fight_url": null,
-      "segment": "main-card"
-    },
-    {
-      "bout_order": 7,
-      "fighter1": {
         "name": "Sharabutdin Magomedov",
-        "record": null,
+        "record": "15-1-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -187,11 +255,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sharabutdin_Magomedov"
       },
       "fighter2": {
         "name": "Marc-André Barriault",
-        "record": null,
+        "record": "17-8-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 8,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -200,7 +276,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Marc-André_Barriault"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -216,10 +294,16 @@
       "segment": "main-card"
     },
     {
-      "bout_order": 6,
+      "bout_order": 7,
       "fighter1": {
         "name": "Nikita Krylov",
-        "record": null,
+        "record": "30-10-0",
+        "record_breakdown": {
+          "wins": 30,
+          "losses": 10,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -228,11 +312,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nikita_Krylov"
       },
       "fighter2": {
         "name": "Bogdan Guskov",
-        "record": null,
+        "record": "17-3-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -241,7 +333,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bogdan_Guskov"
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -257,10 +351,16 @@
       "segment": "prelims"
     },
     {
-      "bout_order": 5,
+      "bout_order": 6,
       "fighter1": {
         "name": "Amanda Ribas",
-        "record": null,
+        "record": "12-6-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -269,11 +369,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Amanda_Ribas"
       },
       "fighter2": {
         "name": "Tabatha Ricci",
-        "record": null,
+        "record": "11-3-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,9 +390,68 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tabatha_Ricci"
       },
       "weight_class": "Women's Straweight",
+      "title_fight": "none",
+      "method": null,
+      "round": null,
+      "time": null,
+      "winner": null,
+      "result": null,
+      "stats": null,
+      "referee": null,
+      "bonuses": null,
+      "fight_url": null,
+      "segment": "prelims"
+    },
+    {
+      "bout_order": 5,
+      "fighter1": {
+        "name": "Muslim Salikhov",
+        "record": "21-5-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Muslim_Salikhov"
+      },
+      "fighter2": {
+        "name": "Carlos Leal Miranda",
+        "record": "22-6-0",
+        "record_breakdown": {
+          "wins": 22,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Carlos_Leal_Miranda"
+      },
+      "weight_class": "Welterweight",
       "title_fight": "none",
       "method": null,
       "round": null,
@@ -301,7 +468,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "İbo Aslan",
-        "record": null,
+        "record": "14-2-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -310,11 +483,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/İbo_Aslan"
       },
       "fighter2": {
         "name": "Billy Elekana",
-        "record": null,
+        "record": "7-2-0",
+        "record_breakdown": {
+          "wins": 7,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -323,7 +504,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Billy_Elekana"
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -342,7 +525,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Martin Buday",
-        "record": null,
+        "record": "15-2-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -351,11 +540,14 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Martin_Buday"
       },
       "fighter2": {
         "name": "Marcus Buchecha",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -364,7 +556,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -383,7 +577,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Mohammad Yahya",
-        "record": null,
+        "record": "12-5-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -392,11 +592,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mohammad_Yahya"
       },
       "fighter2": {
         "name": "Steven Nguyen",
-        "record": null,
+        "record": "9-2-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -405,7 +613,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Steven_Nguyen"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -424,7 +634,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Davey Grant",
-        "record": null,
+        "record": "16-7-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -433,11 +649,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Davey_Grant"
       },
       "fighter2": {
         "name": "Da'Mon Blackshear",
-        "record": null,
+        "record": "17-7-1",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 7,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -446,7 +670,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/DaMon_Blackshear"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -462,7 +688,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T22:38:17.060632",
+  "scraped_at": "2025-07-13T16:21:18.569682",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_ABC:_Whittaker_vs._de_Ridder"
   }

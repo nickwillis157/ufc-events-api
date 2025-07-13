@@ -3,14 +3,17 @@
   "event_name": "UFC 320",
   "event_date": "2025-10-04",
   "venue": "T-Mobile Arena",
-  "location": null,
+  "location": "Paradise, Nevada, United States",
+  "city": "Paradise",
+  "state": "Nevada",
+  "country": "United States",
   "status": "scheduled",
   "attendance": null,
   "gate": null,
   "tv_broadcast": null,
   "start_time": null,
   "fights": [],
-  "scraped_at": "2025-07-12T22:38:14.029983",
+  "scraped_at": "2025-07-13T16:21:12.578615",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_320"
   }

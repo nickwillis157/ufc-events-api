@@ -3,7 +3,10 @@
   "event_name": "UFC on ESPN: Dolidze vs. Hernandez",
   "event_date": "2025-08-09",
   "venue": "UFC Apex",
-  "location": null,
+  "location": "Enterprise, Nevada, United States",
+  "city": "Enterprise",
+  "state": "Nevada",
+  "country": "United States",
   "status": "scheduled",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Roman Dolidze",
-        "record": null,
+        "record": "15-3-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -23,11 +32,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Roman_Dolidze"
       },
       "fighter2": {
         "name": "Anthony Hernandez",
-        "record": null,
+        "record": "14-2-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 2,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -36,7 +53,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Anthony_Hernandez"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -55,7 +74,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Alex Perez",
-        "record": null,
+        "record": "25-9-0",
+        "record_breakdown": {
+          "wins": 25,
+          "losses": 9,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -64,11 +89,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Alex_Perez"
       },
       "fighter2": {
         "name": "Steve Erceg",
-        "record": null,
+        "record": "12-4-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -77,7 +110,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_Erceg"
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
@@ -96,7 +131,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Andre Fili",
-        "record": null,
+        "record": "24-12-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 24,
+          "losses": 12,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -105,11 +146,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Andre_Fili"
       },
       "fighter2": {
         "name": "Christian Rodriguez",
-        "record": null,
+        "record": "12-3-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -118,7 +167,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Christian_Rodriguez"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -137,7 +188,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Elijah Smith",
-        "record": null,
+        "record": "8-1-0",
+        "record_breakdown": {
+          "wins": 8,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -146,11 +203,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Elijah_Smith"
       },
       "fighter2": {
         "name": "Toshiomi Kazama",
-        "record": null,
+        "record": "11-4-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -159,7 +224,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Toshiomi_Kazama"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -178,7 +245,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Miles Johns",
-        "record": null,
+        "record": "15-3-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 3,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -187,11 +260,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Miles_Johns"
       },
       "fighter2": {
         "name": "Jean Matsumoto",
-        "record": null,
+        "record": "16-1-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -200,7 +281,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jean_Matsumoto"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -219,7 +302,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Joselyne Edwards",
-        "record": null,
+        "record": "15-6-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -228,11 +317,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Joselyne_Edwards"
       },
       "fighter2": {
         "name": "Priscila Cachoeira",
-        "record": null,
+        "record": "13-6-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -241,7 +338,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Priscila_Cachoeira"
       },
       "weight_class": "Women's Bantamweight",
       "title_fight": "none",
@@ -260,7 +359,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Eryk Anders",
-        "record": null,
+        "record": "17-8-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 8,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -269,11 +374,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Eryk_Anders"
       },
       "fighter2": {
         "name": "Christian Leroy Duncan",
-        "record": null,
+        "record": "11-2-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,7 +395,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Christian_Leroy_Duncan"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -301,7 +416,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Iasmin Lucindo",
-        "record": null,
+        "record": "17-6-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -310,11 +431,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Iasmin_Lucindo"
       },
       "fighter2": {
         "name": "Angela Hill",
-        "record": null,
+        "record": "18-14-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 14,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -323,7 +452,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Angela_Hill"
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
@@ -342,7 +473,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Julius Walker",
-        "record": null,
+        "record": "6-1-0",
+        "record_breakdown": {
+          "wins": 6,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -351,11 +488,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Julius_Walker"
       },
       "fighter2": {
         "name": "Raffael Cerqueira",
-        "record": null,
+        "record": "11-2-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -364,7 +509,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Raffael_Cerqueira"
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -383,7 +530,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Gabriella Fernandes",
-        "record": null,
+        "record": "10-3-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -392,11 +545,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gabriella_Fernandes"
       },
       "fighter2": {
         "name": "Julija Stoliarenko",
-        "record": null,
+        "record": "11-8-2",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 8,
+          "draws": 2,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -405,7 +566,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Julija_Stoliarenko"
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
@@ -421,7 +584,7 @@
       "segment": "main-card"
     }
   ],
-  "scraped_at": "2025-07-12T22:38:16.536002",
+  "scraped_at": "2025-07-13T16:21:17.545401",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_ESPN:_Dolidze_vs._Hernandez"
   }

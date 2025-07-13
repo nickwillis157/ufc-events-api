@@ -3,14 +3,17 @@
   "event_name": "UFC 321",
   "event_date": "2025-10-25",
   "venue": "Etihad Arena",
-  "location": null,
+  "location": "Abu Dhabi, United Arab Emirates",
+  "city": "Abu Dhabi",
+  "state": null,
+  "country": "United Arab Emirates",
   "status": "scheduled",
   "attendance": null,
   "gate": null,
   "tv_broadcast": null,
   "start_time": null,
   "fights": [],
-  "scraped_at": "2025-07-12T22:38:13.021341",
+  "scraped_at": "2025-07-13T16:21:10.536570",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_321"
   }

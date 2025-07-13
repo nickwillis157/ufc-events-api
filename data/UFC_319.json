@@ -3,7 +3,10 @@
   "event_name": "UFC 319",
   "event_date": "2025-08-16",
   "venue": "United Center",
-  "location": null,
+  "location": "Chicago, Illinois, United States",
+  "city": "Chicago",
+  "state": "Illinois",
+  "country": "United States",
   "status": "scheduled",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Dricus du Plessis",
-        "record": null,
+        "record": "23-2-0",
+        "record_breakdown": {
+          "wins": 23,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -23,11 +32,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": true,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dricus_du_Plessis"
       },
       "fighter2": {
         "name": "Khamzat Chimaev",
-        "record": null,
+        "record": "14-0-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 0,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -36,10 +53,12 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Khamzat_Chimaev"
       },
       "weight_class": "Middleweight",
-      "title_fight": "none",
+      "title_fight": "undisputed",
       "method": null,
       "round": null,
       "time": null,
@@ -55,7 +74,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Jared Cannonier",
-        "record": null,
+        "record": "18-8-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 8,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -64,11 +89,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jared_Cannonier"
       },
       "fighter2": {
         "name": "Michael Page",
-        "record": null,
+        "record": "23-3-0",
+        "record_breakdown": {
+          "wins": 23,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -77,7 +110,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Page"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -96,7 +131,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Gerald Meerschaert",
-        "record": null,
+        "record": "37-19-0",
+        "record_breakdown": {
+          "wins": 37,
+          "losses": 19,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -105,11 +146,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gerald_Meerschaert"
       },
       "fighter2": {
         "name": "Michał Oleksiejczuk",
-        "record": null,
+        "record": "20-9-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 9,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -118,7 +167,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Michał_Oleksiejczuk"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -137,7 +188,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Edson Barboza",
-        "record": null,
+        "record": "24-12-0",
+        "record_breakdown": {
+          "wins": 24,
+          "losses": 12,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -146,11 +203,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Edson_Barboza"
       },
       "fighter2": {
         "name": "Drakkar Klose",
-        "record": null,
+        "record": "15-3-1",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 3,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -159,7 +224,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Drakkar_Klose"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -178,7 +245,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "King Green",
-        "record": null,
+        "record": "32-17-1 (1 NC)",
+        "record_breakdown": {
+          "wins": 32,
+          "losses": 17,
+          "draws": 1,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -187,11 +260,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/King_Green"
       },
       "fighter2": {
         "name": "Carlos Diego Ferreira",
-        "record": null,
+        "record": "19-6-0",
+        "record_breakdown": {
+          "wins": 19,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -200,7 +281,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Carlos_Diego_Ferreira"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -219,7 +302,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Karine Silva",
-        "record": null,
+        "record": "18-5-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -228,11 +317,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Karine_Silva"
       },
       "fighter2": {
         "name": "JJ Aldrich",
-        "record": null,
+        "record": "14-7-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -241,7 +338,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/JJ_Aldrich"
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
@@ -260,7 +359,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Bryan Battle",
-        "record": null,
+        "record": "12-2-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 2,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -269,11 +374,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bryan_Battle"
       },
       "fighter2": {
         "name": "Nursulton Ruziboev",
-        "record": null,
+        "record": "36-9-2 (2 NC)",
+        "record_breakdown": {
+          "wins": 36,
+          "losses": 9,
+          "draws": 2,
+          "no_contests": 2
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,7 +395,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nursulton_Ruziboev"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -301,7 +416,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Tim Elliott",
-        "record": null,
+        "record": "19-14-1",
+        "record_breakdown": {
+          "wins": 19,
+          "losses": 14,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -310,11 +431,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tim_Elliott"
       },
       "fighter2": {
         "name": "Kai Asakura",
-        "record": null,
+        "record": "21-5-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -323,7 +452,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kai_Asakura"
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
@@ -342,7 +473,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Chase Hooper",
-        "record": null,
+        "record": "16-3-1",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 3,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -351,11 +488,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chase_Hooper"
       },
       "fighter2": {
         "name": "Alexander Hernandez",
-        "record": null,
+        "record": "16-8-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 8,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -364,7 +509,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Alexander_Hernandez"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -383,7 +530,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Jéssica Andrade",
-        "record": null,
+        "record": "26-14-0",
+        "record_breakdown": {
+          "wins": 26,
+          "losses": 14,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -392,11 +545,19 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jéssica_Andrade"
       },
       "fighter2": {
         "name": "Loopy Godinez",
-        "record": null,
+        "record": "13-5-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -405,7 +566,9 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Loopy_Godinez"
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
@@ -421,7 +584,7 @@
       "segment": "main-card"
     }
   ],
-  "scraped_at": "2025-07-12T22:38:16.041387",
+  "scraped_at": "2025-07-13T16:21:16.551619",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_319"
   }

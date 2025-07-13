@@ -3,14 +3,17 @@
   "event_name": "UFC Fight Night 261",
   "event_date": "2025-11-22",
   "venue": "Ali Bin Hamad al-Attiyah Arena",
-  "location": null,
+  "location": "Doha, Qatar",
+  "city": "Doha",
+  "state": null,
+  "country": "Qatar",
   "status": "scheduled",
   "attendance": null,
   "gate": null,
   "tv_broadcast": null,
   "start_time": null,
   "fights": [],
-  "scraped_at": "2025-07-12T22:38:12.516672",
+  "scraped_at": "2025-07-13T16:21:09.565724",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night_261"
   }
