@@ -44,6 +44,7 @@ class Fighter(BaseModel):
     stance: Optional[str] = Field(None, description="Fighting stance (Orthodox, Southpaw, etc.)")
     nickname: Optional[str] = Field(None, description="Fighter's nickname")
     bonus: Optional[str] = Field(None, description="Performance bonus (e.g., 'Fight of the Night')")
+    is_champion: bool = Field(False, description="Whether this fighter is defending a championship title")
     
     @validator('record')
     def validate_record(cls, v):

@@ -588,15 +588,24 @@ class WikipediaUFCScraper:
             # The winner is usually the first fighter listed in the row
             winner = fighter1
 
+            # --- Title Fight Detection ---
+            # Check for champion notation "(c)" before cleaning names
+            fighter1_is_champion = bool(re.search(r'\(c\)', fighter1, re.IGNORECASE))
+            fighter2_is_champion = bool(re.search(r'\(c\)', fighter2, re.IGNORECASE))
+            is_title_fight = fighter1_is_champion or fighter2_is_champion
+
             # Clean up fighter names (remove titles like "(c)")
-            fighter1 = re.sub(r'\s*\([^)]*\)', '', fighter1).strip()
-            fighter2 = re.sub(r'\s*\([^)]*\)', '', fighter2).strip()
-            winner = re.sub(r'\s*\([^)]*\)', '', winner).strip()
+            fighter1_clean = re.sub(r'\s*\([^)]*\)', '', fighter1).strip()
+            fighter2_clean = re.sub(r'\s*\([^)]*\)', '', fighter2).strip()
+            winner_clean = re.sub(r'\s*\([^)]*\)', '', winner).strip()
 
             return {
-                'fighter1': fighter1,
-                'fighter2': fighter2,
-                'winner': winner,
+                'fighter1': fighter1_clean,
+                'fighter2': fighter2_clean,
+                'fighter1_is_champion': fighter1_is_champion,
+                'fighter2_is_champion': fighter2_is_champion,
+                'is_title_fight': is_title_fight,
+                'winner': winner_clean,
                 'method': method,
                 'round': round_num,
                 'time': time,
@@ -614,10 +623,23 @@ class WikipediaUFCScraper:
             match = re.search(r'(.+?)\s+def\.\s+(.+?)\s+(?:via|by)\s+(.+)', text)
             if match:
                 winner, loser, method = match.groups()
+                
+                # Check for champion notation
+                winner_is_champion = bool(re.search(r'\(c\)', winner, re.IGNORECASE))
+                loser_is_champion = bool(re.search(r'\(c\)', loser, re.IGNORECASE))
+                is_title_fight = winner_is_champion or loser_is_champion
+                
+                # Clean names
+                winner_clean = re.sub(r'\s*\([^)]*\)', '', winner).strip()
+                loser_clean = re.sub(r'\s*\([^)]*\)', '', loser).strip()
+                
                 return {
-                    'fighter1': winner.strip(),
-                    'fighter2': loser.strip(),
-                    'winner': winner.strip(),
+                    'fighter1': winner_clean,
+                    'fighter2': loser_clean,
+                    'fighter1_is_champion': winner_is_champion,
+                    'fighter2_is_champion': loser_is_champion,
+                    'is_title_fight': is_title_fight,
+                    'winner': winner_clean,
                     'method': method.strip(),
                     'weight_class': weight_class
                 }
@@ -626,9 +648,22 @@ class WikipediaUFCScraper:
             vs_match = re.search(r'(.+?)\s+vs\.?\s+(.+)', text)
             if vs_match:
                 fighter1, fighter2 = vs_match.groups()
+                
+                # Check for champion notation
+                fighter1_is_champion = bool(re.search(r'\(c\)', fighter1, re.IGNORECASE))
+                fighter2_is_champion = bool(re.search(r'\(c\)', fighter2, re.IGNORECASE))
+                is_title_fight = fighter1_is_champion or fighter2_is_champion
+                
+                # Clean names
+                fighter1_clean = re.sub(r'\s*\([^)]*\)', '', fighter1).strip()
+                fighter2_clean = re.sub(r'\s*\([^)]*\)', '', fighter2).strip()
+                
                 return {
-                    'fighter1': fighter1.strip(),
-                    'fighter2': fighter2.strip(),
+                    'fighter1': fighter1_clean,
+                    'fighter2': fighter2_clean,
+                    'fighter1_is_champion': fighter1_is_champion,
+                    'fighter2_is_champion': fighter2_is_champion,
+                    'is_title_fight': is_title_fight,
                     'weight_class': weight_class
                 }
             
@@ -641,11 +676,25 @@ class WikipediaUFCScraper:
     def _create_fight_from_data(self, fight_data: Dict, bout_order: int, segment: str) -> Optional[Fight]:
         """Create a Fight object from parsed data"""
         try:
-            fighter1 = Fighter(name=fight_data.get('fighter1', 'Unknown'))
-            fighter2 = Fighter(name=fight_data.get('fighter2', 'Unknown'))
+            # Create fighters with champion status
+            fighter1 = Fighter(
+                name=fight_data.get('fighter1', 'Unknown'),
+                is_champion=fight_data.get('fighter1_is_champion', False)
+            )
+            fighter2 = Fighter(
+                name=fight_data.get('fighter2', 'Unknown'),
+                is_champion=fight_data.get('fighter2_is_champion', False)
+            )
             
             weight_class = fight_data.get('weight_class', 'Unknown')
-            title_fight = TitleFightType.UNDISPUTED if 'championship' in weight_class.lower() or 'title' in weight_class.lower() else TitleFightType.NONE
+            
+            # Determine title fight type - prioritize champion notation over weight class keywords
+            if fight_data.get('is_title_fight', False):
+                title_fight = TitleFightType.UNDISPUTED
+            elif 'championship' in weight_class.lower() or 'title' in weight_class.lower():
+                title_fight = TitleFightType.UNDISPUTED
+            else:
+                title_fight = TitleFightType.NONE
             
             # Clean fight data - convert empty strings to None for missing results
             method = fight_data.get('method')
