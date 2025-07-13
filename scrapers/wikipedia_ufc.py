@@ -11,7 +11,7 @@ import requests
 from bs4 import BeautifulSoup
 from tenacity import retry, stop_after_attempt, wait_exponential
 
-from models.ufc_models import UFCEvent, Fight, Fighter, EventStatus, TitleFightType
+from models.ufc_models import UFCEvent, Fight, Fighter, FighterRecord, EventStatus, TitleFightType
 from utils.rate_limiter import RateLimiter
 
 logger = logging.getLogger(__name__)
@@ -234,23 +234,26 @@ class WikipediaUFCScraper:
                 event_name = self._extract_event_name(soup)
                 event_date = self._extract_event_date(soup, event_id)
             
-            venue, location = self._extract_venue_location(soup)
+            location_data = self._extract_venue_location(soup)
             status = self._determine_event_status(event_date)
             
-            # Extract fight card
-            fights = await self._extract_fight_card(soup)
+            # Extract fight card with fighter records
+            fights = await self._extract_fight_card_with_records(soup)
 
             # If no fights found in structured section, try parsing from results text
             if not fights:
                 logger.info(f"No structured fight card found for {event_id}, attempting to parse from results text.")
-                fights = self._extract_fights_from_results_section(soup)
+                fights = await self._extract_fights_from_results_section_with_records(soup)
             
             event = UFCEvent(
                 event_id=event_id,
                 event_name=event_name,
                 event_date=event_date,
-                venue=venue,
-                location=location,
+                venue=location_data['venue'],
+                location=location_data['location'],
+                city=location_data['city'],
+                state=location_data['state'],
+                country=location_data['country'],
                 status=status,
                 fights=fights,
                 source_urls={'wikipedia': event_url}
@@ -351,10 +354,13 @@ class WikipediaUFCScraper:
         logger.warning("Could not extract event date, using placeholder")
         return "1900-01-01"  # Use obvious placeholder instead of today's date
     
-    def _extract_venue_location(self, soup: BeautifulSoup) -> tuple[Optional[str], Optional[str]]:
-        """Extract venue and location from infobox"""
+    def _extract_venue_location(self, soup: BeautifulSoup) -> Dict[str, Optional[str]]:
+        """Extract venue and location details from infobox"""
         venue = None
         location = None
+        city = None
+        state = None
+        country = None
         
         infobox = soup.find('table', class_='infobox')
         if infobox:
@@ -362,10 +368,23 @@ class WikipediaUFCScraper:
                 row_text = row.get_text().lower()
                 if 'venue' in row_text:
                     venue = row.find_all('td')[-1].get_text(strip=True) if row.find_all('td') else None
-                elif 'location' in row_text:
+                elif 'location' in row_text or 'city' in row_text:
                     location = row.find_all('td')[-1].get_text(strip=True) if row.find_all('td') else None
         
-        return venue, location
+        # Parse location into components
+        if location:
+            location_details = self._parse_location_details(location)
+            city = location_details['city']
+            state = location_details['state']
+            country = location_details['country']
+        
+        return {
+            'venue': venue,
+            'location': location,
+            'city': city,
+            'state': state,
+            'country': country
+        }
     
     def _determine_event_status(self, event_date: str) -> EventStatus:
         """Determine if event is completed or scheduled"""
@@ -722,4 +741,315 @@ class WikipediaUFCScraper:
             
         except Exception as e:
             logger.error(f"Error creating fight: {e}")
+            return None
+
+    async def _fetch_fighter_record(self, fighter_name: str) -> Optional[FighterRecord]:
+        """Fetch fighter's MMA record from their Wikipedia page"""
+        try:
+            # Generate potential Wikipedia URLs for the fighter
+            fighter_urls = self._generate_fighter_urls(fighter_name)
+            
+            for url in fighter_urls:
+                try:
+                    soup = await self._fetch_page(url)
+                    record = self._parse_fighter_record_from_page(soup)
+                    if record:
+                        logger.info(f"Found record for {fighter_name}: {record.to_record_string()}")
+                        return record
+                except Exception as e:
+                    logger.debug(f"Failed to fetch fighter page {url}: {e}")
+                    continue
+            
+            logger.warning(f"Could not find Wikipedia page or record for fighter: {fighter_name}")
+            return None
+            
+        except Exception as e:
+            logger.error(f"Error fetching record for {fighter_name}: {e}")
+            return None
+
+    def _generate_fighter_urls(self, fighter_name: str) -> List[str]:
+        """Generate potential Wikipedia URLs for a fighter"""
+        urls = []
+        
+        # Clean fighter name for URL generation
+        clean_name = fighter_name.strip()
+        
+        # Replace common name patterns
+        url_name = clean_name.replace(' ', '_')
+        url_name = re.sub(r'[^\w\s-]', '', url_name)  # Remove special characters except hyphens
+        
+        # Primary URL attempt
+        urls.append(f"{self.BASE_URL}/wiki/{url_name}")
+        
+        # Try with disambiguation pages
+        urls.append(f"{self.BASE_URL}/wiki/{url_name}_(fighter)")
+        urls.append(f"{self.BASE_URL}/wiki/{url_name}_(mixed_martial_artist)")
+        
+        # Try with different name formats
+        if ' ' in clean_name:
+            # Try Last_Name,_First_Name format
+            parts = clean_name.split(' ')
+            if len(parts) >= 2:
+                last_first = f"{parts[-1]},_{' '.join(parts[:-1])}"
+                urls.append(f"{self.BASE_URL}/wiki/{last_first}")
+        
+        return urls
+
+    def _parse_fighter_record_from_page(self, soup: BeautifulSoup) -> Optional[FighterRecord]:
+        """Parse MMA record from fighter's Wikipedia page"""
+        try:
+            # Look for MMA record in infobox
+            infobox = soup.find('table', class_='infobox')
+            if not infobox:
+                return None
+            
+            record_info = {}
+            
+            # Search for record-related rows in infobox
+            for row in infobox.find_all('tr'):
+                th = row.find('th')
+                td = row.find('td')
+                
+                if not th or not td:
+                    continue
+                    
+                header_text = th.get_text().lower().strip()
+                value_text = td.get_text().strip()
+                
+                # Look for different record formats
+                if 'mma record' in header_text or 'record' in header_text:
+                    # Parse traditional W-L-D format like "22-5-0"
+                    record_match = re.search(r'(\d+)[-–](\d+)[-–](\d+)', value_text)
+                    if record_match:
+                        record_info['wins'] = int(record_match.group(1))
+                        record_info['losses'] = int(record_match.group(2))
+                        record_info['draws'] = int(record_match.group(3))
+                        
+                        # Check for no contests
+                        nc_match = re.search(r'\((\d+)\s*NC\)', value_text, re.IGNORECASE)
+                        if nc_match:
+                            record_info['no_contests'] = int(nc_match.group(1))
+                
+                elif 'wins' in header_text:
+                    wins_match = re.search(r'(\d+)', value_text)
+                    if wins_match:
+                        record_info['wins'] = int(wins_match.group(1))
+                        
+                elif 'losses' in header_text:
+                    losses_match = re.search(r'(\d+)', value_text)
+                    if losses_match:
+                        record_info['losses'] = int(losses_match.group(1))
+                        
+                elif 'draws' in header_text:
+                    draws_match = re.search(r'(\d+)', value_text)
+                    if draws_match:
+                        record_info['draws'] = int(draws_match.group(1))
+            
+            # Create FighterRecord if we found any record data
+            if record_info:
+                return FighterRecord(**record_info)
+                
+            return None
+            
+        except Exception as e:
+            logger.error(f"Error parsing fighter record from page: {e}")
+            return None
+
+    def _parse_location_details(self, location_text: str) -> Dict[str, Optional[str]]:
+        """Parse location string into city, state, and country components"""
+        if not location_text:
+            return {'city': None, 'state': None, 'country': None}
+        
+        try:
+            # Clean up the location text
+            location = location_text.strip()
+            
+            # Common patterns for location parsing
+            # Format: "City, State, Country" or "City, Country"
+            parts = [part.strip() for part in location.split(',')]
+            
+            city = None
+            state = None
+            country = None
+            
+            if len(parts) >= 3:
+                # City, State, Country
+                city = parts[0]
+                state = parts[1]
+                country = parts[2]
+            elif len(parts) == 2:
+                # City, Country (or City, State)
+                city = parts[0]
+                # Try to determine if second part is a US state or country
+                second_part = parts[1].strip()
+                
+                # Common US states and territories
+                us_states = {
+                    'california', 'nevada', 'new york', 'florida', 'texas', 'illinois',
+                    'massachusetts', 'new jersey', 'pennsylvania', 'georgia', 'ohio',
+                    'michigan', 'north carolina', 'virginia', 'washington', 'arizona',
+                    'colorado', 'maryland', 'tennessee', 'indiana', 'missouri', 'wisconsin',
+                    'alabama', 'louisiana', 'kentucky', 'oregon', 'oklahoma', 'connecticut',
+                    'utah', 'iowa', 'arkansas', 'mississippi', 'kansas', 'new mexico',
+                    'nebraska', 'west virginia', 'idaho', 'hawaii', 'new hampshire',
+                    'maine', 'montana', 'rhode island', 'delaware', 'south dakota',
+                    'north dakota', 'alaska', 'vermont', 'wyoming'
+                }
+                
+                if second_part.lower() in us_states:
+                    state = second_part
+                    country = 'United States'
+                else:
+                    country = second_part
+            elif len(parts) == 1:
+                # Just city or country
+                city = parts[0]
+            
+            return {
+                'city': city,
+                'state': state, 
+                'country': country
+            }
+            
+        except Exception as e:
+            logger.error(f"Error parsing location '{location_text}': {e}")
+            return {'city': None, 'state': None, 'country': None}
+
+    async def _extract_fight_card_with_records(self, soup: BeautifulSoup) -> List[Fight]:
+        """Extract fight card with fighter records"""
+        raw_fights_data = []
+        
+        # Look for "Fight card" section
+        fight_card_section = self._find_fight_card_section(soup)
+        if not fight_card_section:
+            logger.warning("Could not find fight card section")
+            return []
+        
+        # Parse each segment
+        segments = self._parse_fight_segments(fight_card_section)
+        
+        for segment_name, segment_fights in segments.items():
+            for fight_data in segment_fights:
+                raw_fights_data.append((fight_data, segment_name))
+        
+        fights = []
+        total_fights = len(raw_fights_data)
+        
+        # Assign bout_order in descending order (main event gets highest bout_order)
+        for i, (fight_data, segment_name) in enumerate(raw_fights_data):
+            bout_order = total_fights - i
+            fight = await self._create_fight_with_records(fight_data, bout_order, segment_name)
+            if fight:
+                fights.append(fight)
+        
+        # Extract bonus awards
+        bonuses = self._extract_bonus_awards(soup)
+        self._assign_bonuses_to_fights(fights, bonuses)
+
+        return fights
+
+    async def _extract_fights_from_results_section_with_records(self, soup: BeautifulSoup) -> List[Fight]:
+        """Extract fights from results section with fighter records"""
+        fights = []
+        
+        # Look for the "Results" heading
+        results_heading = soup.find(["h2", "h3"], string=re.compile(r'Results', re.I))
+        if not results_heading:
+            return fights
+
+        # Find the next unordered list or ordered list
+        current_element = results_heading.find_next_sibling()
+        bout_order = 1
+        while current_element:
+            if current_element.name == 'ul' or current_element.name == 'ol':
+                for item in current_element.find_all('li'):
+                    fight_data = self._parse_fight_text(item.get_text())
+                    if fight_data:
+                        fight = await self._create_fight_with_records(fight_data, bout_order, "main-card")
+                        if fight:
+                            fights.append(fight)
+                            bout_order += 1
+                break # Stop after finding the first list
+            elif current_element.name == 'p': # Sometimes results are in paragraphs
+                fight_data = self._parse_fight_text(current_element.get_text())
+                if fight_data:
+                    fight = await self._create_fight_with_records(fight_data, bout_order, "main-card")
+                    if fight:
+                        fights.append(fight)
+                        bout_order += 1
+            
+            # Stop if we hit another major heading or a table
+            if current_element.name in ['h2', 'h3', 'table'] and current_element != results_heading:
+                break
+
+            current_element = current_element.find_next_sibling()
+
+        return fights
+
+    async def _create_fight_with_records(self, fight_data: Dict, bout_order: int, segment: str) -> Optional[Fight]:
+        """Create a Fight object with fighter records"""
+        try:
+            # Extract fighter names and champion status
+            fighter1_name = fight_data.get('fighter1', 'Unknown')
+            fighter2_name = fight_data.get('fighter2', 'Unknown')
+            fighter1_is_champion = fight_data.get('fighter1_is_champion', False)
+            fighter2_is_champion = fight_data.get('fighter2_is_champion', False)
+            
+            # Fetch fighter records (with rate limiting built in)
+            logger.info(f"Fetching records for {fighter1_name} vs {fighter2_name}")
+            
+            fighter1_record = await self._fetch_fighter_record(fighter1_name)
+            fighter2_record = await self._fetch_fighter_record(fighter2_name)
+            
+            # Create fighters with records
+            fighter1 = Fighter(
+                name=fighter1_name,
+                is_champion=fighter1_is_champion,
+                record_breakdown=fighter1_record,
+                record=fighter1_record.to_record_string() if fighter1_record else None,
+                wikipedia_url=self._generate_fighter_urls(fighter1_name)[0] if fighter1_record else None
+            )
+            fighter2 = Fighter(
+                name=fighter2_name,
+                is_champion=fighter2_is_champion,
+                record_breakdown=fighter2_record,
+                record=fighter2_record.to_record_string() if fighter2_record else None,
+                wikipedia_url=self._generate_fighter_urls(fighter2_name)[0] if fighter2_record else None
+            )
+            
+            weight_class = fight_data.get('weight_class', 'Unknown')
+            
+            # Determine title fight type
+            if fight_data.get('is_title_fight', False):
+                title_fight = TitleFightType.UNDISPUTED
+            elif 'championship' in weight_class.lower() or 'title' in weight_class.lower():
+                title_fight = TitleFightType.UNDISPUTED
+            else:
+                title_fight = TitleFightType.NONE
+            
+            # Clean fight data
+            method = fight_data.get('method')
+            winner = fight_data.get('winner')
+            
+            if method is not None and method.strip() == "":
+                method = None
+                winner = None
+            if winner is not None and winner.strip() == "":
+                winner = None
+                
+            fight = Fight(
+                bout_order=bout_order,
+                fighter1=fighter1,
+                fighter2=fighter2,
+                weight_class=weight_class,
+                title_fight=title_fight,
+                method=method,
+                winner=winner,
+                segment=segment
+            )
+            
+            return fight
+            
+        except Exception as e:
+            logger.error(f"Error creating fight with records: {e}")
             return None

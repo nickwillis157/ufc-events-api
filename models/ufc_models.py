@@ -31,10 +31,35 @@ class FightResult(str, Enum):
     NC = "no_contest"
 
 
+class FighterRecord(BaseModel):
+    """Fighter's MMA record breakdown"""
+    wins: Optional[int] = Field(None, ge=0, description="Total wins")
+    losses: Optional[int] = Field(None, ge=0, description="Total losses") 
+    draws: Optional[int] = Field(None, ge=0, description="Total draws")
+    no_contests: Optional[int] = Field(None, ge=0, description="No contests")
+    
+    def to_record_string(self) -> Optional[str]:
+        """Convert to traditional W-L-D format"""
+        if self.wins is None and self.losses is None and self.draws is None:
+            return None
+        
+        w = self.wins or 0
+        l = self.losses or 0 
+        d = self.draws or 0
+        
+        record = f"{w}-{l}-{d}"
+        
+        if self.no_contests and self.no_contests > 0:
+            record += f" ({self.no_contests} NC)"
+            
+        return record
+
+
 class Fighter(BaseModel):
     """Individual fighter model"""
     name: str = Field(..., min_length=1, description="Fighter's full name")
     record: Optional[str] = Field(None, description="Win-Loss-Draw record (e.g., '22-2-0')")
+    record_breakdown: Optional[FighterRecord] = Field(None, description="Detailed record breakdown")
     rank: Optional[int] = Field(None, ge=1, le=15, description="Current ranking in division")
     country: Optional[str] = Field(None, description="Fighter's country")
     age: Optional[int] = Field(None, ge=18, le=60, description="Fighter's age")
@@ -45,6 +70,7 @@ class Fighter(BaseModel):
     nickname: Optional[str] = Field(None, description="Fighter's nickname")
     bonus: Optional[str] = Field(None, description="Performance bonus (e.g., 'Fight of the Night')")
     is_champion: bool = Field(False, description="Whether this fighter is defending a championship title")
+    wikipedia_url: Optional[str] = Field(None, description="Fighter's Wikipedia page URL")
     
     @validator('record')
     def validate_record(cls, v):
@@ -107,8 +133,11 @@ class UFCEvent(BaseModel):
     event_id: str = Field(..., min_length=1, description="Unique event identifier")
     event_name: str = Field(..., min_length=1, description="Full event name")
     event_date: str = Field(..., description="Event date (YYYY-MM-DD)")
-    venue: Optional[str] = Field(None, description="Venue name and location")
-    location: Optional[str] = Field(None, description="City, State/Country")
+    venue: Optional[str] = Field(None, description="Venue name (e.g., 'T-Mobile Arena')")
+    location: Optional[str] = Field(None, description="Full location string from source")
+    city: Optional[str] = Field(None, description="City where event takes place")
+    state: Optional[str] = Field(None, description="State/Province where event takes place")
+    country: Optional[str] = Field(None, description="Country where event takes place")
     status: EventStatus = Field(EventStatus.SCHEDULED, description="Event status")
     
     # Event details
