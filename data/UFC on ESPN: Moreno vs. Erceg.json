@@ -1,12 +1,12 @@
 {
-  "event_id": "UFC_Fight_Night:_Moreno_vs._Albazi",
-  "event_name": "UFC Fight Night: Moreno vs. Albazi",
-  "event_date": "2024-11-02",
-  "venue": "Rogers Place",
-  "location": "Edmonton,Alberta, Canada",
-  "city": "Edmonton",
-  "state": "Alberta",
-  "country": "Canada",
+  "event_id": "UFC on ESPN: Moreno vs. Erceg",
+  "event_name": "UFC on ESPN: Moreno vs. Erceg",
+  "event_date": "2025-03-29",
+  "venue": "Arena CDMX",
+  "location": "Mexico City, Mexico",
+  "city": "Mexico City",
+  "state": null,
+  "country": "Mexico",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +14,7 @@
   "start_time": null,
   "fights": [
     {
-      "bout_order": 13,
+      "bout_order": 12,
       "fighter1": {
         "name": "Brandon Moreno",
         "record": "23-8-2",
@@ -37,11 +37,11 @@
         "wikipedia_url": "https://en.wikipedia.org/wiki/Brandon_Moreno"
       },
       "fighter2": {
-        "name": "Amir Albazi",
-        "record": "17-2-0",
+        "name": "Steve Erceg",
+        "record": "12-4-0",
         "record_breakdown": {
-          "wins": 17,
-          "losses": 2,
+          "wins": 12,
+          "losses": 4,
           "draws": null,
           "no_contests": null
         },
@@ -55,11 +55,11 @@
         "nickname": null,
         "bonus": null,
         "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Amir_Albazi"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_Erceg"
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (49–46, 50–45, 50–45)",
+      "method": "Decision (unanimous) (49–46, 49–46, 49–46)",
       "round": null,
       "time": null,
       "winner": "Brandon Moreno",
@@ -71,121 +71,12 @@
       "segment": "main-card"
     },
     {
-      "bout_order": 12,
-      "fighter1": {
-        "name": "Erin Blanchfield",
-        "record": "13-2-0",
-        "record_breakdown": {
-          "wins": 13,
-          "losses": 2,
-          "draws": null,
-          "no_contests": null
-        },
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null,
-        "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Erin_Blanchfield"
-      },
-      "fighter2": {
-        "name": "Rose Namajunas",
-        "record": "14-7-0",
-        "record_breakdown": {
-          "wins": 14,
-          "losses": 7,
-          "draws": null,
-          "no_contests": null
-        },
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null,
-        "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Rose_Namajunas"
-      },
-      "weight_class": "Women's Flyweight",
-      "title_fight": "none",
-      "method": "Decision (unanimous) (48–47, 48–47, 48–47)",
-      "round": null,
-      "time": null,
-      "winner": "Erin Blanchfield",
-      "result": null,
-      "stats": null,
-      "referee": null,
-      "bonuses": null,
-      "fight_url": null,
-      "segment": "main-card"
-    },
-    {
       "bout_order": 11,
       "fighter1": {
-        "name": "Brendson Ribeiro",
-        "record": "17-8-0",
+        "name": "Manuel Torres",
+        "record": "16-3-0",
         "record_breakdown": {
-          "wins": 17,
-          "losses": 8,
-          "draws": null,
-          "no_contests": null
-        },
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null,
-        "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Brendson_Ribeiro"
-      },
-      "fighter2": {
-        "name": "Caio Machado",
-        "record": null,
-        "record_breakdown": null,
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null,
-        "is_champion": false,
-        "wikipedia_url": null
-      },
-      "weight_class": "Light Heavyweight",
-      "title_fight": "none",
-      "method": "Decision (split) (29–28, 28–29, 29–28)",
-      "round": null,
-      "time": null,
-      "winner": "Brendson Ribeiro",
-      "result": null,
-      "stats": null,
-      "referee": null,
-      "bonuses": null,
-      "fight_url": null,
-      "segment": "main-card"
-    },
-    {
-      "bout_order": 10,
-      "fighter1": {
-        "name": "Jasmine Jasudavicius",
-        "record": "14-3-0",
-        "record_breakdown": {
-          "wins": 14,
+          "wins": 16,
           "losses": 3,
           "draws": null,
           "no_contests": null
@@ -200,10 +91,67 @@
         "nickname": null,
         "bonus": null,
         "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Jasmine_Jasudavicius"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Manuel_Torres"
       },
       "fighter2": {
-        "name": "Ariane da Silva",
+        "name": "Drew Dober",
+        "record": "27-15-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 27,
+          "losses": 15,
+          "draws": null,
+          "no_contests": 1
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Drew_Dober"
+      },
+      "weight_class": "Lightweight",
+      "title_fight": "none",
+      "method": "TKO (punches)",
+      "round": null,
+      "time": null,
+      "winner": "Manuel Torres",
+      "result": null,
+      "stats": null,
+      "referee": null,
+      "bonuses": null,
+      "fight_url": null,
+      "segment": "main-card"
+    },
+    {
+      "bout_order": 10,
+      "fighter1": {
+        "name": "Édgar Cháirez",
+        "record": "12-6-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Édgar_Cháirez"
+      },
+      "fighter2": {
+        "name": "C.J. Vergara",
         "record": null,
         "record_breakdown": null,
         "rank": null,
@@ -218,12 +166,12 @@
         "is_champion": false,
         "wikipedia_url": null
       },
-      "weight_class": "Women's Flyweight",
+      "weight_class": "Flyweight",
       "title_fight": "none",
-      "method": "Submission (brabo choke)",
+      "method": "Submission (face crank)",
       "round": null,
       "time": null,
-      "winner": "Jasmine Jasudavicius",
+      "winner": "Édgar Cháirez",
       "result": null,
       "stats": null,
       "referee": null,
@@ -234,11 +182,11 @@
     {
       "bout_order": 9,
       "fighter1": {
-        "name": "Dustin Stoltzfus",
-        "record": "16-7-0",
+        "name": "Raul Rosas Jr.",
+        "record": "11-1-0",
         "record_breakdown": {
-          "wins": 16,
-          "losses": 7,
+          "wins": 11,
+          "losses": 1,
           "draws": null,
           "no_contests": null
         },
@@ -252,16 +200,16 @@
         "nickname": null,
         "bonus": null,
         "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Dustin_Stoltzfus"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Raul_Rosas_Jr"
       },
       "fighter2": {
-        "name": "Marc-André Barriault",
-        "record": "17-8-0 (1 NC)",
+        "name": "Vince Morales",
+        "record": "16-10-0",
         "record_breakdown": {
-          "wins": 17,
-          "losses": 8,
+          "wins": 16,
+          "losses": 10,
           "draws": null,
-          "no_contests": 1
+          "no_contests": null
         },
         "rank": null,
         "country": null,
@@ -273,14 +221,14 @@
         "nickname": null,
         "bonus": null,
         "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Marc-André_Barriault"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vince_Morales"
       },
-      "weight_class": "Middleweight",
+      "weight_class": "Bantamweight",
       "title_fight": "none",
-      "method": "KO (punches)",
+      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
       "round": null,
       "time": null,
-      "winner": "Dustin Stoltzfus",
+      "winner": "Raul Rosas Jr.",
       "result": null,
       "stats": null,
       "referee": null,
@@ -291,28 +239,7 @@
     {
       "bout_order": 8,
       "fighter1": {
-        "name": "Mike Malott",
-        "record": "12-2-1",
-        "record_breakdown": {
-          "wins": 12,
-          "losses": 2,
-          "draws": 1,
-          "no_contests": null
-        },
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null,
-        "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Mike_Malott"
-      },
-      "fighter2": {
-        "name": "Trevin Giles",
+        "name": "David Martínez",
         "record": null,
         "record_breakdown": null,
         "rank": null,
@@ -327,12 +254,33 @@
         "is_champion": false,
         "wikipedia_url": null
       },
-      "weight_class": "Welterweight",
+      "fighter2": {
+        "name": "Saimon Oliveira",
+        "record": "18-6-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Saimon_Oliveira"
+      },
+      "weight_class": "Bantamweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 29–28, 29–28)",
+      "method": "TKO (knee and punches)",
       "round": null,
       "time": null,
-      "winner": "Mike Malott",
+      "winner": "David Martínez",
       "result": null,
       "stats": null,
       "referee": null,
@@ -343,11 +291,11 @@
     {
       "bout_order": 7,
       "fighter1": {
-        "name": "Aiemann Zahabi",
-        "record": "13-2-0",
+        "name": "Kevin Borjas",
+        "record": "10-3-0",
         "record_breakdown": {
-          "wins": 13,
-          "losses": 2,
+          "wins": 10,
+          "losses": 3,
           "draws": null,
           "no_contests": null
         },
@@ -361,16 +309,16 @@
         "nickname": null,
         "bonus": null,
         "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Aiemann_Zahabi"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kevin_Borjas"
       },
       "fighter2": {
-        "name": "Pedro Munhoz",
-        "record": "20-10-0 (2 NC)",
+        "name": "Ronaldo Rodríguez",
+        "record": "18-3-0",
         "record_breakdown": {
-          "wins": 20,
-          "losses": 10,
+          "wins": 18,
+          "losses": 3,
           "draws": null,
-          "no_contests": 2
+          "no_contests": null
         },
         "rank": null,
         "country": null,
@@ -382,30 +330,30 @@
         "nickname": null,
         "bonus": null,
         "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Pedro_Munhoz"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ronaldo_Rodríguez"
       },
-      "weight_class": "Bantamweight",
+      "weight_class": "Catchweight (127 lb)",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 29–28, 29–28)",
+      "method": "Decision (unanimous) (30–27, 30–27, 29–28)",
       "round": null,
       "time": null,
-      "winner": "Aiemann Zahabi",
+      "winner": "Kevin Borjas",
       "result": null,
       "stats": null,
       "referee": null,
       "bonuses": null,
       "fight_url": null,
-      "segment": "prelims"
+      "segment": "main-card"
     },
     {
       "bout_order": 6,
       "fighter1": {
-        "name": "Charles Jourdain",
-        "record": "16-8-1",
+        "name": "Ateba Gautier",
+        "record": "7-1-0",
         "record_breakdown": {
-          "wins": 16,
-          "losses": 8,
-          "draws": 1,
+          "wins": 7,
+          "losses": 1,
+          "draws": null,
           "no_contests": null
         },
         "rank": null,
@@ -418,16 +366,16 @@
         "nickname": null,
         "bonus": null,
         "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Jourdain"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ateba_Gautier"
       },
       "fighter2": {
-        "name": "Victor Henry",
-        "record": "25-7-0 (1 NC)",
+        "name": "José Daniel Medina",
+        "record": "11-5-0",
         "record_breakdown": {
-          "wins": 25,
-          "losses": 7,
+          "wins": 11,
+          "losses": 5,
           "draws": null,
-          "no_contests": 1
+          "no_contests": null
         },
         "rank": null,
         "country": null,
@@ -439,14 +387,14 @@
         "nickname": null,
         "bonus": null,
         "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Victor_Henry"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/José_Daniel_Medina"
       },
-      "weight_class": "Bantamweight",
+      "weight_class": "Middleweight",
       "title_fight": "none",
-      "method": "Submission (guillotine choke)",
+      "method": "KO (punches and knee)",
       "round": null,
       "time": null,
-      "winner": "Charles Jourdain",
+      "winner": "Ateba Gautier",
       "result": null,
       "stats": null,
       "referee": null,
@@ -457,12 +405,12 @@
     {
       "bout_order": 5,
       "fighter1": {
-        "name": "Youssef Zalal",
-        "record": "17-5-1",
+        "name": "Melquizael Costa",
+        "record": "24-7-0",
         "record_breakdown": {
-          "wins": 17,
-          "losses": 5,
-          "draws": 1,
+          "wins": 24,
+          "losses": 7,
+          "draws": null,
           "no_contests": null
         },
         "rank": null,
@@ -475,10 +423,176 @@
         "nickname": null,
         "bonus": null,
         "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Youssef_Zalal"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Melquizael_Costa"
       },
       "fighter2": {
-        "name": "Jack Shore",
+        "name": "Christian Rodriguez",
+        "record": "12-3-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Christian_Rodriguez"
+      },
+      "weight_class": "Featherweight",
+      "title_fight": "none",
+      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
+      "round": null,
+      "time": null,
+      "winner": "Melquizael Costa",
+      "result": null,
+      "stats": null,
+      "referee": null,
+      "bonuses": null,
+      "fight_url": null,
+      "segment": "prelims"
+    },
+    {
+      "bout_order": 4,
+      "fighter1": {
+        "name": "Loopy Godinez",
+        "record": "13-5-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Loopy_Godinez"
+      },
+      "fighter2": {
+        "name": "Julia Polastri",
+        "record": "13-4-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Julia_Polastri"
+      },
+      "weight_class": "Women's Strawweight",
+      "title_fight": "none",
+      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
+      "round": null,
+      "time": null,
+      "winner": "Loopy Godinez",
+      "result": null,
+      "stats": null,
+      "referee": null,
+      "bonuses": null,
+      "fight_url": null,
+      "segment": "prelims"
+    },
+    {
+      "bout_order": 3,
+      "fighter1": {
+        "name": "Rafa García",
+        "record": "16-4-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rafa_García"
+      },
+      "fighter2": {
+        "name": "Vinc Pichel",
+        "record": null,
+        "record_breakdown": null,
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": null
+      },
+      "weight_class": "Lightweight",
+      "title_fight": "none",
+      "method": "Decision (unanimous) (30–27, 30–27, 29–28)",
+      "round": null,
+      "time": null,
+      "winner": "Rafa García",
+      "result": null,
+      "stats": null,
+      "referee": null,
+      "bonuses": null,
+      "fight_url": null,
+      "segment": "prelims"
+    },
+    {
+      "bout_order": 2,
+      "fighter1": {
+        "name": "Jamall Emmers",
+        "record": "21-8-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 8,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jamall_Emmers"
+      },
+      "fighter2": {
+        "name": "Gabriel Miranda",
         "record": null,
         "record_breakdown": null,
         "rank": null,
@@ -495,171 +609,10 @@
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
-      "method": "Submission (arm-triangle choke)",
+      "method": "TKO (knee to the body and punches)",
       "round": null,
       "time": null,
-      "winner": "Youssef Zalal",
-      "result": null,
-      "stats": null,
-      "referee": null,
-      "bonuses": null,
-      "fight_url": null,
-      "segment": "prelims"
-    },
-    {
-      "bout_order": 4,
-      "fighter1": {
-        "name": "Alexander Romanov",
-        "record": null,
-        "record_breakdown": null,
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null,
-        "is_champion": false,
-        "wikipedia_url": null
-      },
-      "fighter2": {
-        "name": "Rodrigo Nascimento",
-        "record": null,
-        "record_breakdown": null,
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null,
-        "is_champion": false,
-        "wikipedia_url": null
-      },
-      "weight_class": "Heavyweight",
-      "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 30–27, 30–27)",
-      "round": null,
-      "time": null,
-      "winner": "Alexander Romanov",
-      "result": null,
-      "stats": null,
-      "referee": null,
-      "bonuses": null,
-      "fight_url": null,
-      "segment": "prelims"
-    },
-    {
-      "bout_order": 3,
-      "fighter1": {
-        "name": "Serhiy Sidey",
-        "record": "12-2-0",
-        "record_breakdown": {
-          "wins": 12,
-          "losses": 2,
-          "draws": null,
-          "no_contests": null
-        },
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null,
-        "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Serhiy_Sidey"
-      },
-      "fighter2": {
-        "name": "Garrett Armfield",
-        "record": "10-5-0",
-        "record_breakdown": {
-          "wins": 10,
-          "losses": 5,
-          "draws": null,
-          "no_contests": null
-        },
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null,
-        "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Garrett_Armfield"
-      },
-      "weight_class": "Bantamweight",
-      "title_fight": "none",
-      "method": "Decision (split) (28–29, 29–28, 29–28)",
-      "round": null,
-      "time": null,
-      "winner": "Serhiy Sidey",
-      "result": null,
-      "stats": null,
-      "referee": null,
-      "bonuses": null,
-      "fight_url": null,
-      "segment": "prelims"
-    },
-    {
-      "bout_order": 2,
-      "fighter1": {
-        "name": "Cody Gibson",
-        "record": "21-11-0",
-        "record_breakdown": {
-          "wins": 21,
-          "losses": 11,
-          "draws": null,
-          "no_contests": null
-        },
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null,
-        "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Cody_Gibson"
-      },
-      "fighter2": {
-        "name": "Chad Anheliger",
-        "record": "13-8-0",
-        "record_breakdown": {
-          "wins": 13,
-          "losses": 8,
-          "draws": null,
-          "no_contests": null
-        },
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null,
-        "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Chad_Anheliger"
-      },
-      "weight_class": "Bantamweight",
-      "title_fight": "none",
-      "method": "Decision (unanimous) (30–27, 30–27, 30–26)",
-      "round": null,
-      "time": null,
-      "winner": "Cody Gibson",
+      "winner": "Jamall Emmers",
       "result": null,
       "stats": null,
       "referee": null,
@@ -670,11 +623,11 @@
     {
       "bout_order": 1,
       "fighter1": {
-        "name": "Jamey-Lyn Horth",
-        "record": "9-2-0",
+        "name": "MarQuel Mederos",
+        "record": "11-1-0",
         "record_breakdown": {
-          "wins": 9,
-          "losses": 2,
+          "wins": 11,
+          "losses": 1,
           "draws": null,
           "no_contests": null
         },
@@ -688,12 +641,17 @@
         "nickname": null,
         "bonus": null,
         "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Jamey-Lyn_Horth"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/MarQuel_Mederos"
       },
       "fighter2": {
-        "name": "Ivana Petrović",
-        "record": null,
-        "record_breakdown": null,
+        "name": "Austin Hubbard",
+        "record": "16-9-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 9,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -704,14 +662,14 @@
         "nickname": null,
         "bonus": null,
         "is_champion": false,
-        "wikipedia_url": null
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Austin_Hubbard"
       },
-      "weight_class": "Women's Flyweight",
+      "weight_class": "Lightweight",
       "title_fight": "none",
-      "method": "Decision (split) (30–27, 28–29, 29–28)",
+      "method": "Decision (split) (28–29, 29–28, 29–28)",
       "round": null,
       "time": null,
-      "winner": "Jamey-Lyn Horth",
+      "winner": "MarQuel Mederos",
       "result": null,
       "stats": null,
       "referee": null,
@@ -720,4 +678,8 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": 
+  "scraped_at": "2025-07-13T16:18:57.432062",
+  "source_urls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/UFC on ESPN: Moreno vs. Erceg"
+  }
+}

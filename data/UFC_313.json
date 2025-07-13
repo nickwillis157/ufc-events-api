@@ -3,7 +3,10 @@
   "event_name": "UFC 313",
   "event_date": "2025-03-08",
   "venue": "T-Mobile Arena",
-  "location": null,
+  "location": "Paradise, Nevada, United States",
+  "city": "Paradise",
+  "state": "Nevada",
+  "country": "United States",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Magomed Ankalaev",
-        "record": null,
+        "record": "21-1-1 (1 NC)",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 1,
+          "draws": 1,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Magomed_Ankalaev"
       },
       "fighter2": {
         "name": "Alex Pereira",
-        "record": null,
+        "record": "12-3-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,7 +54,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": true
+        "is_champion": true,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Alex_Pereira"
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "undisputed",
@@ -57,7 +74,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Justin Gaethje",
-        "record": null,
+        "record": "26-5-0",
+        "record_breakdown": {
+          "wins": 26,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Justin_Gaethje"
       },
       "fighter2": {
         "name": "Rafael Fiziev",
-        "record": null,
+        "record": "13-4-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,7 +111,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rafael_Fiziev"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -100,7 +131,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Ignacio Bahamondes",
-        "record": null,
+        "record": "17-6-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +147,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ignacio_Bahamondes"
       },
       "fighter2": {
         "name": "Jalin Turner",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +163,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -143,7 +183,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Amanda Lemos",
-        "record": null,
+        "record": "15-4-1",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 4,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +199,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Amanda_Lemos"
       },
       "fighter2": {
         "name": "Iasmin Lucindo",
-        "record": null,
+        "record": "17-6-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -167,7 +220,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Iasmin_Lucindo"
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
@@ -186,7 +240,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Maurício Ruffy",
-        "record": null,
+        "record": "12-1-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +256,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Maurício_Ruffy"
       },
       "fighter2": {
         "name": "King Green",
-        "record": null,
+        "record": "32-17-1 (1 NC)",
+        "record_breakdown": {
+          "wins": 32,
+          "losses": 17,
+          "draws": 1,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,7 +277,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/King_Green"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -229,7 +297,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Joshua Van",
-        "record": null,
+        "record": "15-2-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +313,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Joshua_Van"
       },
       "fighter2": {
         "name": "Rei Tsuruya",
-        "record": null,
+        "record": "10-1-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +334,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rei_Tsuruya"
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
@@ -272,7 +354,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Brunno Ferreira",
-        "record": null,
+        "record": "13-2-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +370,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brunno_Ferreira"
       },
       "fighter2": {
         "name": "Armen Petrosyan",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -296,7 +386,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -316,6 +407,7 @@
       "fighter1": {
         "name": "Carlos Leal",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +417,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Alex Morono",
-        "record": null,
+        "record": "24-12-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 24,
+          "losses": 12,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -339,7 +438,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Alex_Morono"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -358,7 +458,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Mairon Santos",
-        "record": null,
+        "record": "16-1-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +474,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mairon_Santos"
       },
       "fighter2": {
         "name": "Francis Marshall",
-        "record": null,
+        "record": "8-3-0",
+        "record_breakdown": {
+          "wins": 8,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -382,7 +495,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Francis_Marshall"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -402,6 +516,7 @@
       "fighter1": {
         "name": "Ozzy Diaz",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +526,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Djorden Ribeiro dos Santos",
-        "record": null,
+        "record": "10-2-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -425,7 +547,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Djorden_Ribeiro_dos_Santos"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -441,8 +564,4 @@
       "segment": "early-prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:53:44.235826",
-  "source_urls": {
-    "wikipedia": "https://en.wikipedia.org/wiki/UFC_313"
-  }
-}
+  "scraped_at": 

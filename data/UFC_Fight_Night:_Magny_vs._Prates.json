@@ -3,7 +3,10 @@
   "event_name": "UFC Fight Night: Magny vs. Prates",
   "event_date": "2024-11-09",
   "venue": "UFC Apex",
-  "location": null,
+  "location": "Enterprise, Nevada, United States",
+  "city": "Enterprise",
+  "state": "Nevada",
+  "country": "United States",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 11,
       "fighter1": {
         "name": "Carlos Prates",
-        "record": null,
+        "record": "21-7-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Carlos_Prates"
       },
       "fighter2": {
         "name": "Neil Magny",
-        "record": null,
+        "record": "29-13-0",
+        "record_breakdown": {
+          "wins": 29,
+          "losses": 13,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,7 +54,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Neil_Magny"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -57,7 +74,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Reinier de Ridder",
-        "record": null,
+        "record": "20-2-0",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Reinier_de_Ridder"
       },
       "fighter2": {
         "name": "Gerald Meerschaert",
-        "record": null,
+        "record": "37-19-0",
+        "record_breakdown": {
+          "wins": 37,
+          "losses": 19,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,7 +111,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gerald_Meerschaert"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -101,6 +132,7 @@
       "fighter1": {
         "name": "Gastón Bolaños",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +142,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Cortavious Romious",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +158,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -143,7 +178,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Gillian Robertson",
-        "record": null,
+        "record": "16-8-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 8,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +194,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gillian_Robertson"
       },
       "fighter2": {
         "name": "Luana Pinheiro",
-        "record": null,
+        "record": "11-5-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -167,7 +215,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Luana_Pinheiro"
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
@@ -186,7 +235,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Mansur Abdul-Malik",
-        "record": null,
+        "record": "9-0-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 0,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +251,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mansur_Abdul-Malik"
       },
       "fighter2": {
         "name": "Duško Todorović",
-        "record": null,
+        "record": "12-6-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,7 +272,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Duško_Todorović"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -229,7 +292,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Denise Gomes",
-        "record": null,
+        "record": "11-3-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +308,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Denise_Gomes"
       },
       "fighter2": {
         "name": "Karolina Kowalkiewicz",
-        "record": null,
+        "record": "17-8-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 8,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +329,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Karolina_Kowalkiewicz"
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
@@ -272,7 +349,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Elizeu Zaleski dos Santos",
-        "record": null,
+        "record": "25-9-1",
+        "record_breakdown": {
+          "wins": 25,
+          "losses": 9,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +365,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Elizeu_Zaleski_dos_Santos"
       },
       "fighter2": {
         "name": "Zach Scroggin",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -296,7 +381,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Catchweight (174 lb)",
       "title_fight": "none",
@@ -316,6 +402,7 @@
       "fighter1": {
         "name": "Charles Radtke",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +412,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Matthew Semelsberger",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -339,7 +428,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -358,7 +448,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Da'Mon Blackshear",
-        "record": null,
+        "record": "17-7-1",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 7,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +464,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/DaMon_Blackshear"
       },
       "fighter2": {
         "name": "Cody Stamann",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -382,7 +480,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -401,7 +500,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Tresean Gore",
-        "record": null,
+        "record": "5-3-0",
+        "record_breakdown": {
+          "wins": 5,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +516,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tresean_Gore"
       },
       "fighter2": {
         "name": "Antonio Trócoli",
-        "record": null,
+        "record": "12-5-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -425,7 +537,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Antonio_Trócoli"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -444,7 +557,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Melissa Mullins",
-        "record": null,
+        "record": "7-2-0",
+        "record_breakdown": {
+          "wins": 7,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +573,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Melissa_Mullins"
       },
       "fighter2": {
         "name": "Klaudia Syguła",
-        "record": null,
+        "record": "7-2-0",
+        "record_breakdown": {
+          "wins": 7,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -468,7 +594,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Klaudia_Syguła"
       },
       "weight_class": "Catchweight (137 lb)",
       "title_fight": "none",
@@ -484,8 +611,4 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:54:08.235072",
-  "source_urls": {
-    "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Magny_vs._Prates"
-  }
-}
+  "scraped_at": 

@@ -3,7 +3,10 @@
   "event_name": "UFC Fight Night: Kape vs. Almabayev",
   "event_date": "2025-03-01",
   "venue": "UFC Apex",
-  "location": null,
+  "location": "Enterprise, Nevada, United States",
+  "city": "Enterprise",
+  "state": "Nevada",
+  "country": "United States",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Manel Kape",
-        "record": null,
+        "record": "21-7-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Manel_Kape"
       },
       "fighter2": {
         "name": "Asu Almabayev",
-        "record": null,
+        "record": "21-3-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,7 +54,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Asu_Almabayev"
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
@@ -57,7 +74,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Cody Brundage",
-        "record": null,
+        "record": "11-7-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 7,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cody_Brundage"
       },
       "fighter2": {
         "name": "Julian Marquez",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -81,7 +106,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -100,7 +126,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Nasrat Haqparast",
-        "record": null,
+        "record": "18-5-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +142,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nasrat_Haqparast"
       },
       "fighter2": {
         "name": "Esteban Ribovics",
-        "record": null,
+        "record": "14-2-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +163,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Esteban_Ribovics"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -143,7 +183,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Hyder Amil",
-        "record": null,
+        "record": "11-1-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +199,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hyder_Amil"
       },
       "fighter2": {
         "name": "William Gomis",
-        "record": null,
+        "record": "14-3-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -167,7 +220,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/William_Gomis"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -186,7 +240,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Sam Patterson",
-        "record": null,
+        "record": "13-2-1",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 2,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +256,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sam_Patterson"
       },
       "fighter2": {
         "name": "Danny Barlow",
-        "record": null,
+        "record": "9-1-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,7 +277,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Danny_Barlow"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -229,7 +297,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Mário Pinto",
-        "record": null,
+        "record": "10-0-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 0,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +313,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mário_Pinto"
       },
       "fighter2": {
         "name": "Austen Lane",
-        "record": null,
+        "record": "13-7-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 7,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +334,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Austen_Lane"
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -272,7 +354,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Chepe Mariscal",
-        "record": null,
+        "record": "18-6-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +370,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chepe_Mariscal"
       },
       "fighter2": {
         "name": "Ricardo Ramos",
-        "record": null,
+        "record": "17-7-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -296,7 +391,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ricardo_Ramos"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -315,7 +411,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Danny Silva",
-        "record": null,
+        "record": "10-1-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +427,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Danny_Silva"
       },
       "fighter2": {
         "name": "Lucas Almeida",
-        "record": null,
+        "record": "15-4-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -339,7 +448,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lucas_Almeida"
       },
       "weight_class": "Catchweight (148 lb)",
       "title_fight": "none",
@@ -358,7 +468,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "JJ Aldrich",
-        "record": null,
+        "record": "14-7-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +484,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/JJ_Aldrich"
       },
       "fighter2": {
         "name": "Andrea Lee",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -382,7 +500,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
@@ -401,7 +520,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Ramazan Temirov",
-        "record": null,
+        "record": "17-2-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +536,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ramazan_Temirov"
       },
       "fighter2": {
         "name": "Charles Johnson",
-        "record": null,
+        "record": "17-7-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -425,7 +557,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Johnson"
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
@@ -441,8 +574,4 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:53:46.224351",
-  "source_urls": {
-    "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Kape_vs._Almabayev"
-  }
-}
+  "scraped_at": 

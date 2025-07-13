@@ -3,7 +3,10 @@
   "event_name": "UFC on ESPN: Emmett vs. Murphy",
   "event_date": "2025-04-05",
   "venue": "UFC Apex",
-  "location": null,
+  "location": "Enterprise, Nevada, United States",
+  "city": "Enterprise",
+  "state": "Nevada",
+  "country": "United States",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 12,
       "fighter1": {
         "name": "Lerone Murphy",
-        "record": null,
+        "record": "16-0-1",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 0,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lerone_Murphy"
       },
       "fighter2": {
         "name": "Josh Emmett",
-        "record": null,
+        "record": "19-5-0",
+        "record_breakdown": {
+          "wins": 19,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,7 +54,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Josh_Emmett"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -57,7 +74,13 @@
       "bout_order": 11,
       "fighter1": {
         "name": "Pat Sabatini",
-        "record": null,
+        "record": "20-5-0",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pat_Sabatini"
       },
       "fighter2": {
         "name": "Joanderson Brito",
-        "record": null,
+        "record": "17-5-1",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 5,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,7 +111,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Joanderson_Brito"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -100,7 +131,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Lee Chang-ho",
-        "record": null,
+        "record": "11-1-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +147,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lee_Chang-ho"
       },
       "fighter2": {
         "name": "Cortavious Romious",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +163,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Catchweight (139.5 lb)",
       "title_fight": "none",
@@ -143,7 +183,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Brad Tavares",
-        "record": null,
+        "record": "21-10-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 10,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +199,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brad_Tavares"
       },
       "fighter2": {
         "name": "Gerald Meerschaert",
-        "record": null,
+        "record": "37-19-0",
+        "record_breakdown": {
+          "wins": 37,
+          "losses": 19,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -167,7 +220,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gerald_Meerschaert"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -186,7 +240,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Ode' Osbourne",
-        "record": null,
+        "record": "13-8-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 8,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +256,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ode_Osbourne"
       },
       "fighter2": {
         "name": "Luis Gurule",
-        "record": null,
+        "record": "10-1-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,7 +277,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Luis_Gurule"
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
@@ -229,7 +297,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Torrez Finney",
-        "record": null,
+        "record": "11-0-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 0,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +313,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Torrez_Finney"
       },
       "fighter2": {
         "name": "Robert Valentin",
-        "record": null,
+        "record": "10-5-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +334,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Valentin"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -272,7 +354,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Dione Barbosa",
-        "record": null,
+        "record": "8-3-0",
+        "record_breakdown": {
+          "wins": 8,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +370,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dione_Barbosa"
       },
       "fighter2": {
         "name": "Diana Belbiţă",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -296,7 +386,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
@@ -315,7 +406,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Rhys McKee",
-        "record": null,
+        "record": "14-6-1",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 6,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +422,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rhys_McKee"
       },
       "fighter2": {
         "name": "Daniel Frunza",
-        "record": null,
+        "record": "9-3-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -339,7 +443,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Daniel_Frunza"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -358,7 +463,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Loma Lookboonmee",
-        "record": null,
+        "record": "10-3-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +479,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Loma_Lookboonmee"
       },
       "fighter2": {
         "name": "Istela Nunes",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -382,7 +495,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
@@ -401,7 +515,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Victor Henry",
-        "record": null,
+        "record": "25-7-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 25,
+          "losses": 7,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +531,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Victor_Henry"
       },
       "fighter2": {
         "name": "Pedro Falcão",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -425,7 +547,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -444,7 +567,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Martin Buday",
-        "record": null,
+        "record": "15-2-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +583,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Martin_Buday"
       },
       "fighter2": {
         "name": "Uran Satybaldiev",
-        "record": null,
+        "record": "9-1-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -468,7 +604,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Uran_Satybaldiev"
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -487,7 +624,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Talita Alencar",
-        "record": null,
+        "record": "6-1-1",
+        "record_breakdown": {
+          "wins": 6,
+          "losses": 1,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -497,11 +640,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Talita_Alencar"
       },
       "fighter2": {
         "name": "Vanessa Demopoulos",
-        "record": null,
+        "record": "11-8-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 8,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -511,7 +661,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vanessa_Demopoulos"
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
@@ -527,8 +678,4 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:53:36.217121",
-  "source_urls": {
-    "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_ESPN:_Emmett_vs._Murphy"
-  }
-}
+  "scraped_at": 

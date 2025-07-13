@@ -3,7 +3,10 @@
   "event_name": "UFC on ESPN: Usman vs. Buckley",
   "event_date": "2025-06-14",
   "venue": "State Farm Arena",
-  "location": null,
+  "location": "Atlanta, Georgia, United States",
+  "city": "Atlanta",
+  "state": "Georgia",
+  "country": "United States",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 13,
       "fighter1": {
         "name": "Kamaru Usman",
-        "record": null,
+        "record": "21-4-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kamaru_Usman"
       },
       "fighter2": {
         "name": "Joaquin Buckley",
-        "record": null,
+        "record": "21-7-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,7 +54,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Joaquin_Buckley"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -57,7 +74,13 @@
       "bout_order": 12,
       "fighter1": {
         "name": "Rose Namajunas",
-        "record": null,
+        "record": "14-7-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rose_Namajunas"
       },
       "fighter2": {
         "name": "Miranda Maverick",
-        "record": null,
+        "record": "15-6-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,7 +111,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Miranda_Maverick"
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
@@ -100,7 +131,13 @@
       "bout_order": 11,
       "fighter1": {
         "name": "Edmen Shahbazyan",
-        "record": null,
+        "record": "15-5-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +147,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Edmen_Shahbazyan"
       },
       "fighter2": {
         "name": "Andre Petroski",
-        "record": null,
+        "record": "13-4-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +168,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Andre_Petroski"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -143,7 +188,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Raoni Barcelos",
-        "record": null,
+        "record": "20-5-0",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +204,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Raoni_Barcelos"
       },
       "fighter2": {
         "name": "Cody Garbrandt",
-        "record": null,
+        "record": "14-7-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -167,7 +225,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cody_Garbrandt"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -186,7 +245,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Mansur Abdul-Malik",
-        "record": null,
+        "record": "9-0-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 0,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +261,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mansur_Abdul-Malik"
       },
       "fighter2": {
         "name": "Cody Brundage",
-        "record": null,
+        "record": "11-7-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 7,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,7 +282,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cody_Brundage"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -229,7 +302,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Alonzo Menifield",
-        "record": null,
+        "record": "17-5-1",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 5,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +318,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Alonzo_Menifield"
       },
       "fighter2": {
         "name": "Oumar Sy",
-        "record": null,
+        "record": "11-1-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +339,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Oumar_Sy"
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -272,7 +359,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Paul Craig",
-        "record": null,
+        "record": "17-9-1 (1 NC)",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 9,
+          "draws": 1,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +375,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Craig"
       },
       "fighter2": {
         "name": "Rodolfo Bellato",
-        "record": null,
+        "record": "12-2-1 (1 NC)",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 2,
+          "draws": 1,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -296,7 +396,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rodolfo_Bellato"
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -315,7 +416,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Michael Chiesa",
-        "record": null,
+        "record": "21-7-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +432,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Chiesa"
       },
       "fighter2": {
         "name": "Court McGee",
-        "record": null,
+        "record": "22-14-0",
+        "record_breakdown": {
+          "wins": 22,
+          "losses": 14,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -339,7 +453,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Court_McGee"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -358,7 +473,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Malcolm Wellmaker",
-        "record": null,
+        "record": "10-0-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 0,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +489,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Malcolm_Wellmaker"
       },
       "fighter2": {
         "name": "Kris Moutinho",
-        "record": null,
+        "record": "14-7-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -382,7 +510,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kris_Moutinho"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -401,7 +530,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Jose Ochoa",
-        "record": null,
+        "record": "8-1-0",
+        "record_breakdown": {
+          "wins": 8,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +546,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jose_Ochoa"
       },
       "fighter2": {
         "name": "Cody Durden",
-        "record": null,
+        "record": "17-8-1",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 8,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -425,7 +567,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cody_Durden"
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
@@ -444,7 +587,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Ricky Simón",
-        "record": null,
+        "record": "22-6-0",
+        "record_breakdown": {
+          "wins": 22,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +603,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ricky_Simón"
       },
       "fighter2": {
         "name": "Cameron Smotherman",
-        "record": null,
+        "record": "12-6-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -468,7 +624,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cameron_Smotherman"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -487,7 +644,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Philip Rowe",
-        "record": null,
+        "record": "11-5-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -497,11 +660,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Philip_Rowe"
       },
       "fighter2": {
         "name": "Ange Loosa",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -511,7 +676,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -530,7 +696,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Jamey-Lyn Horth",
-        "record": null,
+        "record": "9-2-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -540,11 +712,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jamey-Lyn_Horth"
       },
       "fighter2": {
         "name": "Vanessa Demopoulos",
-        "record": null,
+        "record": "11-8-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 8,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -554,7 +733,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vanessa_Demopoulos"
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
@@ -570,8 +750,4 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:53:22.207739",
-  "source_urls": {
-    "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_ESPN:_Usman_vs._Buckley"
-  }
-}
+  "scraped_at": 

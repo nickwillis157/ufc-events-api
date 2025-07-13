@@ -3,7 +3,10 @@
   "event_name": "UFC on ESPN: Covington vs. Buckley",
   "event_date": "2024-12-14",
   "venue": "Amalie Arena",
-  "location": null,
+  "location": "Tampa, Florida, United States",
+  "city": "Tampa",
+  "state": "Florida",
+  "country": "United States",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 13,
       "fighter1": {
         "name": "Joaquin Buckley",
-        "record": null,
+        "record": "21-7-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Joaquin_Buckley"
       },
       "fighter2": {
         "name": "Colby Covington",
-        "record": null,
+        "record": "17-5-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,7 +54,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Colby_Covington"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -57,7 +74,13 @@
       "bout_order": 12,
       "fighter1": {
         "name": "Cub Swanson",
-        "record": null,
+        "record": "30-14-0",
+        "record_breakdown": {
+          "wins": 30,
+          "losses": 14,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cub_Swanson"
       },
       "fighter2": {
         "name": "Billy Quarantillo",
-        "record": null,
+        "record": "18-7-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,7 +111,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Billy_Quarantillo"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -100,7 +131,13 @@
       "bout_order": 11,
       "fighter1": {
         "name": "Manel Kape",
-        "record": null,
+        "record": "21-7-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +147,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Manel_Kape"
       },
       "fighter2": {
         "name": "Bruno Gustavo da Silva",
-        "record": null,
+        "record": "14-7-2 (1 NC)",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 7,
+          "draws": 2,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +168,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bruno_Gustavo_da_Silva"
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
@@ -143,7 +188,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Dustin Jacoby",
-        "record": null,
+        "record": "21-8-1",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 8,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +204,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dustin_Jacoby"
       },
       "fighter2": {
         "name": "Vitor Petrino",
-        "record": null,
+        "record": "12-2-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -167,7 +225,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vitor_Petrino"
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -186,7 +245,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Daniel Marcos",
-        "record": null,
+        "record": "17-1-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 1,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +261,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Daniel_Marcos"
       },
       "fighter2": {
         "name": "Adrian Yañez",
-        "record": null,
+        "record": "17-6-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,7 +282,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Adrian_Yañez"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -229,7 +302,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Navajo Stirling",
-        "record": null,
+        "record": "7-0-0",
+        "record_breakdown": {
+          "wins": 7,
+          "losses": 0,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +318,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Navajo_Stirling"
       },
       "fighter2": {
         "name": "Tuco Tokkos",
-        "record": null,
+        "record": "11-5-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +339,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tuco_Tokkos"
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -272,7 +359,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Michael Johnson",
-        "record": null,
+        "record": "23-19-0",
+        "record_breakdown": {
+          "wins": 23,
+          "losses": 19,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +375,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Johnson"
       },
       "fighter2": {
         "name": "Ottman Azaitar",
-        "record": null,
+        "record": "13-3-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -296,7 +396,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ottman_Azaitar"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -315,7 +416,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Joel Álvarez",
-        "record": null,
+        "record": "22-3-0",
+        "record_breakdown": {
+          "wins": 22,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +432,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Joel_Álvarez"
       },
       "fighter2": {
         "name": "Drakkar Klose",
-        "record": null,
+        "record": "15-3-1",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 3,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -339,7 +453,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Drakkar_Klose"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -358,7 +473,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Sean Woodson",
-        "record": null,
+        "record": "13-2-1",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 2,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +489,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sean_Woodson"
       },
       "fighter2": {
         "name": "Fernando Padilla",
-        "record": null,
+        "record": "16-6-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -382,7 +510,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fernando_Padilla"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -401,7 +530,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Felipe Lima",
-        "record": null,
+        "record": "14-2-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +546,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Felipe_Lima"
       },
       "fighter2": {
         "name": "Miles Johns",
-        "record": null,
+        "record": "15-3-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 3,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -425,7 +567,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Miles_Johns"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -444,7 +587,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Miranda Maverick",
-        "record": null,
+        "record": "15-6-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +603,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Miranda_Maverick"
       },
       "fighter2": {
         "name": "Jamey-Lyn Horth",
-        "record": null,
+        "record": "9-2-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -468,7 +624,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jamey-Lyn_Horth"
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
@@ -487,7 +644,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Davey Grant",
-        "record": null,
+        "record": "16-7-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -497,11 +660,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Davey_Grant"
       },
       "fighter2": {
         "name": "Ramon Taveras",
-        "record": null,
+        "record": "10-3-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -511,7 +681,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ramon_Taveras"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -531,6 +702,7 @@
       "fighter1": {
         "name": "Piera Rodríguez",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -540,11 +712,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Josefine Lindgren Knutsson",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -554,7 +728,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
@@ -570,8 +745,4 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:54:00.219387",
-  "source_urls": {
-    "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_ESPN:_Covington_vs._Buckley"
-  }
-}
+  "scraped_at": 

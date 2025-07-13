@@ -3,7 +3,10 @@
   "event_name": "UFC Fight Night: Yan vs. Figueiredo",
   "event_date": "2024-11-23",
   "venue": "Galaxy Arena",
-  "location": null,
+  "location": "MacauSAR, China",
+  "city": "MacauSAR",
+  "state": null,
+  "country": "China",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 13,
       "fighter1": {
         "name": "Petr Yan",
-        "record": null,
+        "record": "18-5-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Petr_Yan"
       },
       "fighter2": {
         "name": "Deiveson Figueiredo",
-        "record": null,
+        "record": "24-5-1",
+        "record_breakdown": {
+          "wins": 24,
+          "losses": 5,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,7 +54,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Deiveson_Figueiredo"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -57,7 +74,13 @@
       "bout_order": 12,
       "fighter1": {
         "name": "Yan Xiaonan",
-        "record": null,
+        "record": "18-5-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 5,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Yan_Xiaonan"
       },
       "fighter2": {
         "name": "Tabatha Ricci",
-        "record": null,
+        "record": "11-3-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,7 +111,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tabatha_Ricci"
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
@@ -100,7 +131,13 @@
       "bout_order": 11,
       "fighter1": {
         "name": "Muslim Salikhov",
-        "record": null,
+        "record": "21-5-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +147,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Muslim_Salikhov"
       },
       "fighter2": {
         "name": "Song Kenan",
-        "record": null,
+        "record": "22-9-0",
+        "record_breakdown": {
+          "wins": 22,
+          "losses": 9,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +168,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Song_Kenan"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -143,7 +188,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Gabriella Fernandes",
-        "record": null,
+        "record": "10-3-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +204,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gabriella_Fernandes"
       },
       "fighter2": {
         "name": "Wang Cong",
-        "record": null,
+        "record": "8-1-0",
+        "record_breakdown": {
+          "wins": 8,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -167,7 +225,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Wang_Cong"
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
@@ -186,7 +245,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Carlos Ulberg",
-        "record": null,
+        "record": "12-1-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +261,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Carlos_Ulberg"
       },
       "fighter2": {
         "name": "Volkan Oezdemir",
-        "record": null,
+        "record": "20-8-0",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 8,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,7 +282,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Volkan_Oezdemir"
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -229,7 +302,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Zhang Mingyang",
-        "record": null,
+        "record": "19-6-0",
+        "record_breakdown": {
+          "wins": 19,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +318,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Zhang_Mingyang"
       },
       "fighter2": {
         "name": "Ozzy Diaz",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +334,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -272,7 +354,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "You Su-young",
-        "record": null,
+        "record": "15-3-0 (2 NC)",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 3,
+          "draws": null,
+          "no_contests": 2
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +370,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/You_Su-young"
       },
       "fighter2": {
         "name": "Baergeng Jieleyisi",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -296,7 +386,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -315,7 +406,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Choi Dong-hun",
-        "record": null,
+        "record": "9-0-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 0,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +422,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Choi_Dong-hun"
       },
       "fighter2": {
         "name": "Kiru Singh Sahota",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -339,7 +438,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
@@ -358,7 +458,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Shi Ming",
-        "record": null,
+        "record": "17-5-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +474,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shi_Ming"
       },
       "fighter2": {
         "name": "Feng Xiaocan",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -382,7 +490,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
@@ -402,6 +511,7 @@
       "fighter1": {
         "name": "Carlos Hernandez",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +521,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Nyamjargal Tumendemberel",
-        "record": null,
+        "record": "8-1-0",
+        "record_breakdown": {
+          "wins": 8,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -425,7 +542,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nyamjargal_Tumendemberel"
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
@@ -444,7 +562,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Lone'er Kavanagh",
-        "record": null,
+        "record": "9-0-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 0,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +578,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Loneer_Kavanagh"
       },
       "fighter2": {
         "name": "Jose Ochoa",
-        "record": null,
+        "record": "8-1-0",
+        "record_breakdown": {
+          "wins": 8,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -468,7 +599,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jose_Ochoa"
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
@@ -487,7 +619,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Xiao Long",
-        "record": null,
+        "record": "27-9-0",
+        "record_breakdown": {
+          "wins": 27,
+          "losses": 9,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -497,11 +635,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Xiao_Long"
       },
       "fighter2": {
         "name": "Quang Le",
-        "record": null,
+        "record": "9-2-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -511,7 +656,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Quang_Le"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -530,7 +676,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Nikolas Motta",
-        "record": null,
+        "record": "15-6-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 6,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -540,11 +692,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nikolas_Motta"
       },
       "fighter2": {
         "name": "Maheshate Hayisaer",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -554,7 +708,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -570,8 +725,4 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:54:04.234309",
-  "source_urls": {
-    "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Yan_vs._Figueiredo"
-  }
-}
+  "scraped_at": 

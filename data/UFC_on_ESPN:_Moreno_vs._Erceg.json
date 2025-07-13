@@ -3,7 +3,10 @@
   "event_name": "UFC on ESPN: Moreno vs. Erceg",
   "event_date": "2025-03-29",
   "venue": "Arena CDMX",
-  "location": null,
+  "location": "Mexico City, Mexico",
+  "city": "Mexico City",
+  "state": null,
+  "country": "Mexico",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 12,
       "fighter1": {
         "name": "Brandon Moreno",
-        "record": null,
+        "record": "23-8-2",
+        "record_breakdown": {
+          "wins": 23,
+          "losses": 8,
+          "draws": 2,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brandon_Moreno"
       },
       "fighter2": {
         "name": "Steve Erceg",
-        "record": null,
+        "record": "12-4-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,7 +54,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_Erceg"
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
@@ -57,7 +74,13 @@
       "bout_order": 11,
       "fighter1": {
         "name": "Manuel Torres",
-        "record": null,
+        "record": "16-3-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Manuel_Torres"
       },
       "fighter2": {
         "name": "Drew Dober",
-        "record": null,
+        "record": "27-15-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 27,
+          "losses": 15,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,7 +111,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Drew_Dober"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -100,7 +131,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Édgar Cháirez",
-        "record": null,
+        "record": "12-6-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +147,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Édgar_Cháirez"
       },
       "fighter2": {
         "name": "C.J. Vergara",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +163,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
@@ -143,7 +183,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Raul Rosas Jr.",
-        "record": null,
+        "record": "11-1-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +199,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Raul_Rosas_Jr"
       },
       "fighter2": {
         "name": "Vince Morales",
-        "record": null,
+        "record": "16-10-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 10,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -167,7 +220,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vince_Morales"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -187,6 +241,7 @@
       "fighter1": {
         "name": "David Martínez",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +251,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "fighter2": {
         "name": "Saimon Oliveira",
-        "record": null,
+        "record": "18-6-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,7 +272,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Saimon_Oliveira"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -229,7 +292,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Kevin Borjas",
-        "record": null,
+        "record": "10-3-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +308,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kevin_Borjas"
       },
       "fighter2": {
         "name": "Ronaldo Rodríguez",
-        "record": null,
+        "record": "18-3-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +329,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ronaldo_Rodríguez"
       },
       "weight_class": "Catchweight (127 lb)",
       "title_fight": "none",
@@ -272,7 +349,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Ateba Gautier",
-        "record": null,
+        "record": "7-1-0",
+        "record_breakdown": {
+          "wins": 7,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +365,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ateba_Gautier"
       },
       "fighter2": {
         "name": "José Daniel Medina",
-        "record": null,
+        "record": "11-5-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -296,7 +386,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/José_Daniel_Medina"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -315,7 +406,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Melquizael Costa",
-        "record": null,
+        "record": "24-7-0",
+        "record_breakdown": {
+          "wins": 24,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +422,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Melquizael_Costa"
       },
       "fighter2": {
         "name": "Christian Rodriguez",
-        "record": null,
+        "record": "12-3-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -339,7 +443,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Christian_Rodriguez"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -358,7 +463,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Loopy Godinez",
-        "record": null,
+        "record": "13-5-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +479,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Loopy_Godinez"
       },
       "fighter2": {
         "name": "Julia Polastri",
-        "record": null,
+        "record": "13-4-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -382,7 +500,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Julia_Polastri"
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
@@ -401,7 +520,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Rafa García",
-        "record": null,
+        "record": "16-4-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +536,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rafa_García"
       },
       "fighter2": {
         "name": "Vinc Pichel",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -425,7 +552,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -444,7 +572,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Jamall Emmers",
-        "record": null,
+        "record": "21-8-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 8,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +588,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jamall_Emmers"
       },
       "fighter2": {
         "name": "Gabriel Miranda",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -468,7 +604,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -487,7 +624,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "MarQuel Mederos",
-        "record": null,
+        "record": "11-1-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -497,11 +640,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/MarQuel_Mederos"
       },
       "fighter2": {
         "name": "Austin Hubbard",
-        "record": null,
+        "record": "16-9-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 9,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -511,7 +661,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Austin_Hubbard"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -527,8 +678,4 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:53:38.222749",
-  "source_urls": {
-    "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_ESPN:_Moreno_vs._Erceg"
-  }
-}
+  "scraped_at": 

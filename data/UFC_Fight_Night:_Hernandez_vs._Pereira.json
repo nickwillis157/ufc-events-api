@@ -3,7 +3,10 @@
   "event_name": "UFC Fight Night: Hernandez vs. Pereira",
   "event_date": "2024-10-19",
   "venue": "UFC Apex",
-  "location": null,
+  "location": "Enterprise, Nevada, United States",
+  "city": "Enterprise",
+  "state": "Nevada",
+  "country": "United States",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 11,
       "fighter1": {
         "name": "Anthony Hernandez",
-        "record": null,
+        "record": "14-2-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 2,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Anthony_Hernandez"
       },
       "fighter2": {
         "name": "Michel Pereira",
-        "record": null,
+        "record": "31-13-0 (2 NC)",
+        "record_breakdown": {
+          "wins": 31,
+          "losses": 13,
+          "draws": null,
+          "no_contests": 2
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,7 +54,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Michel_Pereira"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -57,7 +74,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Rob Font",
-        "record": null,
+        "record": "22-8-0",
+        "record_breakdown": {
+          "wins": 22,
+          "losses": 8,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rob_Font"
       },
       "fighter2": {
         "name": "Kyler Phillips",
-        "record": null,
+        "record": "12-3-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,7 +111,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kyler_Phillips"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -100,7 +131,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Charles Johnson",
-        "record": null,
+        "record": "17-7-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +147,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Johnson"
       },
       "fighter2": {
         "name": "Su Mudaerji",
-        "record": null,
+        "record": "17-7-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +168,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Su_Mudaerji"
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
@@ -143,7 +188,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Cameron Smotherman",
-        "record": null,
+        "record": "12-6-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +204,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cameron_Smotherman"
       },
       "fighter2": {
         "name": "Jake Hadley",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -167,7 +220,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -186,7 +240,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Darren Elkins",
-        "record": null,
+        "record": "29-12-0",
+        "record_breakdown": {
+          "wins": 29,
+          "losses": 12,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +256,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Darren_Elkins"
       },
       "fighter2": {
         "name": "Daniel Pineda",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -210,7 +272,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -229,7 +292,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Asu Almabayev",
-        "record": null,
+        "record": "21-3-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +308,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Asu_Almabayev"
       },
       "fighter2": {
         "name": "Matheus Nicolau",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +324,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
@@ -272,7 +344,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Jean Matsumoto",
-        "record": null,
+        "record": "16-1-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +360,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jean_Matsumoto"
       },
       "fighter2": {
         "name": "Brad Katona",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -296,7 +376,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -315,7 +396,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Joselyne Edwards",
-        "record": null,
+        "record": "15-6-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +412,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Joselyne_Edwards"
       },
       "fighter2": {
         "name": "Tamires Vidal",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -339,7 +428,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Catchweight (139 lbs)",
       "title_fight": "none",
@@ -358,7 +448,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Elise Reed",
-        "record": null,
+        "record": "8-5-0",
+        "record_breakdown": {
+          "wins": 8,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +464,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Elise_Reed"
       },
       "fighter2": {
         "name": "Jessica Penne",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -382,7 +480,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
@@ -401,7 +500,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Melissa Martinez",
-        "record": null,
+        "record": "8-2-0",
+        "record_breakdown": {
+          "wins": 8,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +516,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Melissa_Martinez"
       },
       "fighter2": {
         "name": "Alice Ardelean",
-        "record": null,
+        "record": "10-7-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -425,7 +537,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Alice_Ardelean"
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
@@ -444,7 +557,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Austen Lane",
-        "record": null,
+        "record": "13-7-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 7,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +573,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Austen_Lane"
       },
       "fighter2": {
         "name": "Robelis Despaigne",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -468,7 +589,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -484,8 +606,4 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:54:14.248988",
-  "source_urls": {
-    "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Hernandez_vs._Pereira"
-  }
-}
+  "scraped_at": 

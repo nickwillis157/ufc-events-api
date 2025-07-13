@@ -106,7 +106,7 @@
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (49\u201346, 49\u201346, 49\u201345)",
+      "method": "Decision (unanimous) (49–46, 49–46, 49–45)",
       "round": null,
       "time": null,
       "winner": "Charles Oliveira",
@@ -163,7 +163,7 @@
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30\u201327, 30\u201327, 30\u201327)",
+      "method": "Decision (unanimous) (30–27, 30–27, 30–27)",
       "round": null,
       "time": null,
       "winner": "Bo Nickal",
@@ -177,7 +177,7 @@
     {
       "bout_order": 9,
       "fighter1": {
-        "name": "Viviane Ara\u00fajo",
+        "name": "Viviane Araújo",
         "record": null,
         "record_breakdown": null,
         "rank": null,
@@ -213,12 +213,12 @@
         "is_champion": false,
         "wikipedia_url": "https://en.wikipedia.org/wiki/Karine_Silva"
       },
-      "weight_class": "Women\u2019s Flyweight",
+      "weight_class": "Women’s Flyweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29\u201328, 29\u201328, 29\u201328)",
+      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
       "round": null,
       "time": null,
-      "winner": "Viviane Ara\u00fajo",
+      "winner": "Viviane Araújo",
       "result": null,
       "stats": null,
       "referee": null,
@@ -229,7 +229,7 @@
     {
       "bout_order": 8,
       "fighter1": {
-        "name": "Maur\u00edcio Ruffy",
+        "name": "Maurício Ruffy",
         "record": "12-1-0",
         "record_breakdown": {
           "wins": 12,
@@ -247,7 +247,7 @@
         "nickname": null,
         "bonus": null,
         "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Maur\u00edcio_Ruffy"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Maurício_Ruffy"
       },
       "fighter2": {
         "name": "James Llontop",
@@ -267,10 +267,10 @@
       },
       "weight_class": "Catchweight (166.2 lb)",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29\u201328, 29\u201328, 29\u201328)",
+      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
       "round": null,
       "time": null,
-      "winner": "Maur\u00edcio Ruffy",
+      "winner": "Maurício Ruffy",
       "result": null,
       "stats": null,
       "referee": null,
@@ -324,7 +324,7 @@
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (29\u201328, 29\u201328, 29\u201328)",
+      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
       "round": null,
       "time": null,
       "winner": "Marcus McGhee",
@@ -433,7 +433,7 @@
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30\u201327, 30\u201327, 30\u201327)",
+      "method": "Decision (unanimous) (30–27, 30–27, 30–27)",
       "round": null,
       "time": null,
       "winner": "David Onama",
@@ -661,7 +661,7 @@
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (30\u201327, 29\u201328, 29\u201328)",
+      "method": "Decision (unanimous) (30–27, 29–28, 29–28)",
       "round": null,
       "time": null,
       "winner": "Eduarda Moura",
@@ -673,8 +673,4 @@
       "segment": "early-prelims"
     }
   ],
-  "scraped_at": "2025-07-13 15:39:52.844847",
-  "source_urls": {
-    "wikipedia": "https://en.wikipedia.org/wiki/UFC_309"
-  }
-}
+  "scraped_at": 

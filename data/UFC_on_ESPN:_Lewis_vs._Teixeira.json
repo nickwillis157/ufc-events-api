@@ -3,7 +3,10 @@
   "event_name": "UFC on ESPN: Lewis vs. Teixeira",
   "event_date": "2025-07-12",
   "venue": "Bridgestone Arena",
-  "location": null,
+  "location": "Nashville, Tennessee, United States",
+  "city": "Nashville",
+  "state": "Tennessee",
+  "country": "United States",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 12,
       "fighter1": {
         "name": "Derrick Lewis",
-        "record": null,
+        "record": "28-12-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 28,
+          "losses": 12,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Derrick_Lewis"
       },
       "fighter2": {
         "name": "Tallison Teixeira",
-        "record": null,
+        "record": "8-1-0",
+        "record_breakdown": {
+          "wins": 8,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,7 +54,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tallison_Teixeira"
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -57,7 +74,13 @@
       "bout_order": 11,
       "fighter1": {
         "name": "Gabriel Bonfim",
-        "record": null,
+        "record": "18-1-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gabriel_Bonfim"
       },
       "fighter2": {
         "name": "Stephen Thompson",
-        "record": null,
+        "record": "17-9-1",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 9,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,7 +111,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Stephen_Thompson"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -100,7 +131,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Steve Garcia",
-        "record": null,
+        "record": "18-5-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +147,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_Garcia"
       },
       "fighter2": {
         "name": "Calvin Kattar",
-        "record": null,
+        "record": "23-9-0",
+        "record_breakdown": {
+          "wins": 23,
+          "losses": 9,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +168,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Calvin_Kattar"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -143,7 +188,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Morgan Charrière",
-        "record": null,
+        "record": "21-11-1",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 11,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +204,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Morgan_Charrière"
       },
       "fighter2": {
         "name": "Nate Landwehr",
-        "record": null,
+        "record": "18-7-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -167,7 +225,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nate_Landwehr"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -186,7 +245,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Vitor Petrino",
-        "record": null,
+        "record": "12-2-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +261,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vitor_Petrino"
       },
       "fighter2": {
         "name": "Austen Lane",
-        "record": null,
+        "record": "13-7-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 7,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,7 +282,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Austen_Lane"
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -229,7 +302,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Tuco Tokkos",
-        "record": null,
+        "record": "11-5-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +318,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tuco_Tokkos"
       },
       "fighter2": {
         "name": "Junior Tafa",
-        "record": null,
+        "record": "6-4-0",
+        "record_breakdown": {
+          "wins": 6,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +339,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Junior_Tafa"
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -272,7 +359,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Chris Curtis",
-        "record": null,
+        "record": "32-12-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 32,
+          "losses": 12,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +375,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Curtis"
       },
       "fighter2": {
         "name": "Max Griffin",
-        "record": null,
+        "record": "20-12-0",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 12,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -296,7 +396,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Max_Griffin"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -315,7 +416,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Jake Matthews",
-        "record": null,
+        "record": "22-7-0",
+        "record_breakdown": {
+          "wins": 22,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +432,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jake_Matthews"
       },
       "fighter2": {
         "name": "Chidi Njokuani",
-        "record": null,
+        "record": "25-11-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 25,
+          "losses": 11,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -339,7 +453,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chidi_Njokuani"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -358,7 +473,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Eduarda Moura",
-        "record": null,
+        "record": "12-1-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +489,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Eduarda_Moura"
       },
       "fighter2": {
         "name": "Lauren Murphy",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -382,7 +505,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
@@ -401,7 +525,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Valter Walker",
-        "record": null,
+        "record": "14-1-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +541,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Valter_Walker"
       },
       "fighter2": {
         "name": "Kennedy Nzechukwu",
-        "record": null,
+        "record": "14-6-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -425,7 +562,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kennedy_Nzechukwu"
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -444,7 +582,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Mike Davis",
-        "record": null,
+        "record": "12-3-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +598,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mike_Davis"
       },
       "fighter2": {
         "name": "Mitch Ramirez",
-        "record": null,
+        "record": "8-3-0",
+        "record_breakdown": {
+          "wins": 8,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -468,7 +619,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mitch_Ramirez"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -487,7 +639,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Fatima Kline",
-        "record": null,
+        "record": "8-1-0",
+        "record_breakdown": {
+          "wins": 8,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -497,11 +655,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fatima_Kline"
       },
       "fighter2": {
         "name": "Melissa Martinez",
-        "record": null,
+        "record": "8-2-0",
+        "record_breakdown": {
+          "wins": 8,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -511,7 +676,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Melissa_Martinez"
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
@@ -527,8 +693,4 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:53:16.221686",
-  "source_urls": {
-    "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_ESPN:_Lewis_vs._Teixeira"
-  }
-}
+  "scraped_at": 

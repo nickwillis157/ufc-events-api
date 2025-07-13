@@ -3,7 +3,10 @@
   "event_name": "UFC on ESPN: Machado Garry vs. Prates",
   "event_date": "2025-04-26",
   "venue": "T-Mobile Center",
-  "location": null,
+  "location": "Kansas City,Missouri, United States",
+  "city": "Kansas City",
+  "state": "Missouri",
+  "country": "United States",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 14,
       "fighter1": {
         "name": "Ian Machado Garry",
-        "record": null,
+        "record": "16-1-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ian_Machado_Garry"
       },
       "fighter2": {
         "name": "Carlos Prates",
-        "record": null,
+        "record": "21-7-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,7 +54,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Carlos_Prates"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -57,7 +74,13 @@
       "bout_order": 13,
       "fighter1": {
         "name": "Zhang Mingyang",
-        "record": null,
+        "record": "19-6-0",
+        "record_breakdown": {
+          "wins": 19,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Zhang_Mingyang"
       },
       "fighter2": {
         "name": "Anthony Smith",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -81,7 +106,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -100,7 +126,13 @@
       "bout_order": 12,
       "fighter1": {
         "name": "David Onama",
-        "record": null,
+        "record": "14-2-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +142,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/David_Onama"
       },
       "fighter2": {
         "name": "Giga Chikadze",
-        "record": null,
+        "record": "15-5-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +163,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Giga_Chikadze"
       },
       "weight_class": "Catchweight (147 lb)",
       "title_fight": "none",
@@ -143,7 +183,13 @@
       "bout_order": 11,
       "fighter1": {
         "name": "Abusupiyan Magomedov",
-        "record": null,
+        "record": "28-6-1",
+        "record_breakdown": {
+          "wins": 28,
+          "losses": 6,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +199,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Abusupiyan_Magomedov"
       },
       "fighter2": {
         "name": "Michel Pereira",
-        "record": null,
+        "record": "31-13-0 (2 NC)",
+        "record_breakdown": {
+          "wins": 31,
+          "losses": 13,
+          "draws": null,
+          "no_contests": 2
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -167,7 +220,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Michel_Pereira"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -186,7 +240,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Randy Brown",
-        "record": null,
+        "record": "20-6-0",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +256,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Randy_Brown"
       },
       "fighter2": {
         "name": "Nicolas Dalby",
-        "record": null,
+        "record": "23-6-1 (2 NC)",
+        "record_breakdown": {
+          "wins": 23,
+          "losses": 6,
+          "draws": 1,
+          "no_contests": 2
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,7 +277,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nicolas_Dalby"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -229,7 +297,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Ikram Aliskerov",
-        "record": null,
+        "record": "16-2-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +313,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ikram_Aliskerov"
       },
       "fighter2": {
         "name": "André Muniz",
-        "record": null,
+        "record": "24-7-0",
+        "record_breakdown": {
+          "wins": 24,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +334,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/André_Muniz"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -272,7 +354,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Matt Schnell",
-        "record": null,
+        "record": "17-9-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 9,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +370,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Matt_Schnell"
       },
       "fighter2": {
         "name": "Jimmy Flick",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -296,7 +386,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
@@ -315,7 +406,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Evan Elder",
-        "record": null,
+        "record": "10-2-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +422,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Evan_Elder"
       },
       "fighter2": {
         "name": "Gauge Young",
-        "record": null,
+        "record": "9-3-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -339,7 +443,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gauge_Young"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -358,7 +463,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Chris Gutiérrez",
-        "record": null,
+        "record": "22-6-2",
+        "record_breakdown": {
+          "wins": 22,
+          "losses": 6,
+          "draws": 2,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +479,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Gutiérrez"
       },
       "fighter2": {
         "name": "John Castañeda",
-        "record": null,
+        "record": "21-8-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 8,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -382,7 +500,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/John_Castañeda"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -401,7 +520,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Da'Mon Blackshear",
-        "record": null,
+        "record": "17-7-1",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 7,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +536,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/DaMon_Blackshear"
       },
       "fighter2": {
         "name": "Alateng Heili",
-        "record": null,
+        "record": "17-10-2",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 10,
+          "draws": 2,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -425,7 +557,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Alateng_Heili"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -444,7 +577,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Malcolm Wellmaker",
-        "record": null,
+        "record": "10-0-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 0,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +593,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Malcolm_Wellmaker"
       },
       "fighter2": {
         "name": "Cameron Saaiman",
-        "record": null,
+        "record": "9-3-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -468,7 +614,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cameron_Saaiman"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -487,7 +634,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Jaqueline Amorim",
-        "record": null,
+        "record": "10-1-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -497,11 +650,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jaqueline_Amorim"
       },
       "fighter2": {
         "name": "Polyana Viana",
-        "record": null,
+        "record": "13-8-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 8,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -511,7 +671,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Polyana_Viana"
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
@@ -530,7 +691,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Timothy Cuamba",
-        "record": null,
+        "record": "9-3-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -540,11 +707,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Timothy_Cuamba"
       },
       "fighter2": {
         "name": "Roberto Romero",
-        "record": null,
+        "record": "8-5-1",
+        "record_breakdown": {
+          "wins": 8,
+          "losses": 5,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -554,7 +728,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Roberto_Romero"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -573,7 +748,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Joselyne Edwards",
-        "record": null,
+        "record": "15-6-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -583,11 +764,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Joselyne_Edwards"
       },
       "fighter2": {
         "name": "Chelsea Chandler",
-        "record": null,
+        "record": "6-4-0",
+        "record_breakdown": {
+          "wins": 6,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -597,7 +785,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chelsea_Chandler"
       },
       "weight_class": "Women's Bantamweight",
       "title_fight": "none",
@@ -613,8 +802,4 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:53:32.240742",
-  "source_urls": {
-    "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_ESPN:_Machado_Garry_vs._Prates"
-  }
-}
+  "scraped_at": 

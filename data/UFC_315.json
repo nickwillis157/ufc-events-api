@@ -3,7 +3,10 @@
   "event_name": "UFC 315",
   "event_date": "2025-05-10",
   "venue": "Bell Centre",
-  "location": null,
+  "location": "Montreal,Quebec, Canada",
+  "city": "Montreal",
+  "state": "Quebec",
+  "country": "Canada",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 12,
       "fighter1": {
         "name": "Jack Della Maddalena",
-        "record": null,
+        "record": "18-2-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jack_Della_Maddalena"
       },
       "fighter2": {
         "name": "Belal Muhammad",
-        "record": null,
+        "record": "24-4-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 24,
+          "losses": 4,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,7 +54,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": true
+        "is_champion": true,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Belal_Muhammad"
       },
       "weight_class": "Welterweight",
       "title_fight": "undisputed",
@@ -57,7 +74,13 @@
       "bout_order": 11,
       "fighter1": {
         "name": "Valentina Shevchenko",
-        "record": null,
+        "record": "25-5-1",
+        "record_breakdown": {
+          "wins": 25,
+          "losses": 5,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": true
+        "is_champion": true,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Valentina_Shevchenko"
       },
       "fighter2": {
         "name": "Manon Fiorot",
-        "record": null,
+        "record": "12-2-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,7 +111,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Manon_Fiorot"
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "undisputed",
@@ -100,7 +131,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Aiemann Zahabi",
-        "record": null,
+        "record": "13-2-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +147,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Aiemann_Zahabi"
       },
       "fighter2": {
         "name": "José Aldo",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +163,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -143,7 +183,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Natália Silva",
-        "record": null,
+        "record": "19-5-1",
+        "record_breakdown": {
+          "wins": 19,
+          "losses": 5,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +199,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Natália_Silva"
       },
       "fighter2": {
         "name": "Alexa Grasso",
-        "record": null,
+        "record": "16-5-1",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 5,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -167,7 +220,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Alexa_Grasso"
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
@@ -186,7 +240,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Benoît Saint Denis",
-        "record": null,
+        "record": "14-3-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 3,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +256,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Benoît_Saint_Denis"
       },
       "fighter2": {
         "name": "Kyle Prepolec",
-        "record": null,
+        "record": "18-9-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 9,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,7 +277,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kyle_Prepolec"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -229,7 +297,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Mike Malott",
-        "record": null,
+        "record": "12-2-1",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 2,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +313,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mike_Malott"
       },
       "fighter2": {
         "name": "Charles Radtke",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +329,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -272,7 +349,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Jasmine Jasudavicius",
-        "record": null,
+        "record": "14-3-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +365,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jasmine_Jasudavicius"
       },
       "fighter2": {
         "name": "Jéssica Andrade",
-        "record": null,
+        "record": "26-14-0",
+        "record_breakdown": {
+          "wins": 26,
+          "losses": 14,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -296,7 +386,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jéssica_Andrade"
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
@@ -315,7 +406,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Modestas Bukauskas",
-        "record": null,
+        "record": "18-6-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +422,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Modestas_Bukauskas"
       },
       "fighter2": {
         "name": "Ion Cuțelaba",
-        "record": null,
+        "record": "19-11-1 (1 NC)",
+        "record_breakdown": {
+          "wins": 19,
+          "losses": 11,
+          "draws": 1,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -339,7 +443,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ion_Cuțelaba"
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -358,7 +463,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Navajo Stirling",
-        "record": null,
+        "record": "7-0-0",
+        "record_breakdown": {
+          "wins": 7,
+          "losses": 0,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +479,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Navajo_Stirling"
       },
       "fighter2": {
         "name": "Ivan Erslan",
-        "record": null,
+        "record": "14-5-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -382,7 +500,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ivan_Erslan"
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -401,7 +520,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Marc-André Barriault",
-        "record": null,
+        "record": "17-8-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 8,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +536,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Marc-André_Barriault"
       },
       "fighter2": {
         "name": "Bruno Silva",
-        "record": null,
+        "record": "14-7-2 (1 NC)",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 7,
+          "draws": 2,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -425,7 +557,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bruno_Silva"
       },
       "weight_class": "Catchweight (187 lb)",
       "title_fight": "none",
@@ -444,7 +577,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Daniel Santos",
-        "record": null,
+        "record": "12-2-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +593,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Daniel_Santos"
       },
       "fighter2": {
         "name": "Lee Jeong-yeong",
-        "record": null,
+        "record": "11-2-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -468,7 +614,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lee_Jeong-yeong"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -487,7 +634,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Bekzat Almakhan",
-        "record": null,
+        "record": "12-2-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -497,11 +650,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bekzat_Almakhan"
       },
       "fighter2": {
         "name": "Brad Katona",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -511,7 +666,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -527,8 +683,4 @@
       "segment": "early-prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:53:28.209939",
-  "source_urls": {
-    "wikipedia": "https://en.wikipedia.org/wiki/UFC_315"
-  }
-}
+  "scraped_at": 

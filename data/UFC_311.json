@@ -3,7 +3,10 @@
   "event_name": "UFC 311",
   "event_date": "2025-01-18",
   "venue": "Intuit Dome",
-  "location": null,
+  "location": "Inglewood, California, United States",
+  "city": "Inglewood",
+  "state": "California",
+  "country": "United States",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 13,
       "fighter1": {
         "name": "Islam Makhachev",
-        "record": null,
+        "record": "27-1-0",
+        "record_breakdown": {
+          "wins": 27,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": true
+        "is_champion": true,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Islam_Makhachev"
       },
       "fighter2": {
         "name": "Renato Moicano",
-        "record": null,
+        "record": "20-7-1",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 7,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,7 +54,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Renato_Moicano"
       },
       "weight_class": "Lightweight",
       "title_fight": "undisputed",
@@ -57,7 +74,13 @@
       "bout_order": 12,
       "fighter1": {
         "name": "Merab Dvalishvili",
-        "record": null,
+        "record": "20-4-0",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": true
+        "is_champion": true,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Merab_Dvalishvili"
       },
       "fighter2": {
         "name": "Umar Nurmagomedov",
-        "record": null,
+        "record": "18-1-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,7 +111,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Umar_Nurmagomedov"
       },
       "weight_class": "Bantamweight",
       "title_fight": "undisputed",
@@ -100,7 +131,13 @@
       "bout_order": 11,
       "fighter1": {
         "name": "Jiří Procházka",
-        "record": null,
+        "record": "31-5-1",
+        "record_breakdown": {
+          "wins": 31,
+          "losses": 5,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +147,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jiří_Procházka"
       },
       "fighter2": {
         "name": "Jamahal Hill",
-        "record": null,
+        "record": "13-3-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 3,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +168,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jamahal_Hill"
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -143,7 +188,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Jailton Almeida",
-        "record": null,
+        "record": "22-3-0",
+        "record_breakdown": {
+          "wins": 22,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +204,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jailton_Almeida"
       },
       "fighter2": {
         "name": "Serghei Spivac",
-        "record": null,
+        "record": "17-6-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -167,7 +225,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Serghei_Spivac"
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -186,7 +245,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Reinier de Ridder",
-        "record": null,
+        "record": "20-2-0",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +261,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Reinier_de_Ridder"
       },
       "fighter2": {
         "name": "Kevin Holland",
-        "record": null,
+        "record": "28-13-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 28,
+          "losses": 13,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,7 +282,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kevin_Holland"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -229,7 +302,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Raoni Barcelos",
-        "record": null,
+        "record": "20-5-0",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +318,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Raoni_Barcelos"
       },
       "fighter2": {
         "name": "Payton Talbott",
-        "record": null,
+        "record": "10-1-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +339,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Payton_Talbott"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -272,7 +359,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Azamat Bekoev",
-        "record": null,
+        "record": "20-3-0",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +375,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Azamat_Bekoev"
       },
       "fighter2": {
         "name": "Zachary Reese",
-        "record": null,
+        "record": "9-2-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -296,7 +396,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Zachary_Reese"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -315,7 +416,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Bogdan Guskov",
-        "record": null,
+        "record": "17-3-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +432,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bogdan_Guskov"
       },
       "fighter2": {
         "name": "Billy Elekana",
-        "record": null,
+        "record": "7-2-0",
+        "record_breakdown": {
+          "wins": 7,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -339,7 +453,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Billy_Elekana"
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -358,7 +473,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Grant Dawson",
-        "record": null,
+        "record": "23-2-1",
+        "record_breakdown": {
+          "wins": 23,
+          "losses": 2,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +489,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Grant_Dawson"
       },
       "fighter2": {
         "name": "Carlos Diego Ferreira",
-        "record": null,
+        "record": "19-6-0",
+        "record_breakdown": {
+          "wins": 19,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -382,7 +510,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Carlos_Diego_Ferreira"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -401,7 +530,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Ailín Pérez",
-        "record": null,
+        "record": "12-2-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +546,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ailín_Pérez"
       },
       "fighter2": {
         "name": "Karol Rosa",
-        "record": null,
+        "record": "18-7-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -425,7 +567,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Karol_Rosa"
       },
       "weight_class": "Women's Bantamweight",
       "title_fight": "none",
@@ -444,7 +587,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Muin Gafurov",
-        "record": null,
+        "record": "20-6-0",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +603,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Muin_Gafurov"
       },
       "fighter2": {
         "name": "Rinya Nakamura",
-        "record": null,
+        "record": "9-1-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -468,7 +624,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rinya_Nakamura"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -487,7 +644,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Bernardo Sopaj",
-        "record": null,
+        "record": "12-3-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -497,11 +660,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bernardo_Sopaj"
       },
       "fighter2": {
         "name": "Ricky Turcios",
-        "record": null,
+        "record": "12-5-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -511,7 +681,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ricky_Turcios"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -530,7 +701,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Tagir Ulanbekov",
-        "record": null,
+        "record": "17-2-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -540,11 +717,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tagir_Ulanbekov"
       },
       "fighter2": {
         "name": "Clayton Carpenter",
-        "record": null,
+        "record": "8-1-0",
+        "record_breakdown": {
+          "wins": 8,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -554,7 +738,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Clayton_Carpenter"
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
@@ -570,8 +755,4 @@
       "segment": "early-prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:53:56.229206",
-  "source_urls": {
-    "wikipedia": "https://en.wikipedia.org/wiki/UFC_311"
-  }
-}
+  "scraped_at": 

@@ -3,7 +3,10 @@
   "event_name": "UFC Fight Night: Cannonier vs. Rodrigues",
   "event_date": "2025-02-15",
   "venue": "UFC Apex",
-  "location": null,
+  "location": "Enterprise, Nevada, United States",
+  "city": "Enterprise",
+  "state": "Nevada",
+  "country": "United States",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 12,
       "fighter1": {
         "name": "Jared Cannonier",
-        "record": null,
+        "record": "18-8-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 8,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jared_Cannonier"
       },
       "fighter2": {
         "name": "Gregory Rodrigues",
-        "record": null,
+        "record": "17-6-0",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,7 +54,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gregory_Rodrigues"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -57,7 +74,13 @@
       "bout_order": 11,
       "fighter1": {
         "name": "Youssef Zalal",
-        "record": null,
+        "record": "17-5-1",
+        "record_breakdown": {
+          "wins": 17,
+          "losses": 5,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Youssef_Zalal"
       },
       "fighter2": {
         "name": "Calvin Kattar",
-        "record": null,
+        "record": "23-9-0",
+        "record_breakdown": {
+          "wins": 23,
+          "losses": 9,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,7 +111,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Calvin_Kattar"
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -100,7 +131,13 @@
       "bout_order": 10,
       "fighter1": {
         "name": "Edmen Shahbazyan",
-        "record": null,
+        "record": "15-5-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +147,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Edmen_Shahbazyan"
       },
       "fighter2": {
         "name": "Dylan Budka",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +163,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -143,7 +183,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Nazim Sadykhov",
-        "record": null,
+        "record": "11-1-1",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 1,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +199,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nazim_Sadykhov"
       },
       "fighter2": {
         "name": "Ismael Bonfim",
-        "record": null,
+        "record": "20-5-0",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -167,7 +220,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ismael_Bonfim"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -186,7 +240,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Andre Petroski",
-        "record": null,
+        "record": "13-4-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +256,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Andre_Petroski"
       },
       "fighter2": {
         "name": "Rodolfo Vieira",
-        "record": null,
+        "record": "10-3-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,7 +277,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rodolfo_Vieira"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -229,7 +297,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Jose Delgado",
-        "record": null,
+        "record": "10-1-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +313,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jose_Delgado"
       },
       "fighter2": {
         "name": "Connor Matthews",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +329,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -272,7 +349,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Angela Hill",
-        "record": null,
+        "record": "18-14-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 14,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +365,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Angela_Hill"
       },
       "fighter2": {
         "name": "Ketlen Souza",
-        "record": null,
+        "record": "15-5-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -296,7 +386,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ketlen_Souza"
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
@@ -315,7 +406,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Rafael Estevam",
-        "record": null,
+        "record": "13-0-0",
+        "record_breakdown": {
+          "wins": 13,
+          "losses": 0,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +422,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rafael_Estevam"
       },
       "fighter2": {
         "name": "Jesús Santos Aguilar",
-        "record": null,
+        "record": "11-3-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -339,7 +443,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jesús_Santos_Aguilar"
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
@@ -358,7 +463,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Gabriel Bonfim",
-        "record": null,
+        "record": "18-1-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +479,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gabriel_Bonfim"
       },
       "fighter2": {
         "name": "Khaos Williams",
-        "record": null,
+        "record": "15-5-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -382,7 +500,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Khaos_Williams"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -401,7 +520,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Elijah Smith",
-        "record": null,
+        "record": "8-1-0",
+        "record_breakdown": {
+          "wins": 8,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -411,11 +536,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Elijah_Smith"
       },
       "fighter2": {
         "name": "Vince Morales",
-        "record": null,
+        "record": "16-10-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 10,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -425,7 +557,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vince_Morales"
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -444,7 +577,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Valter Walker",
-        "record": null,
+        "record": "14-1-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -454,11 +593,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Valter_Walker"
       },
       "fighter2": {
         "name": "Don'Tale Mayes",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -468,7 +609,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -487,7 +629,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Jacqueline Cavalcanti",
-        "record": null,
+        "record": "9-1-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -497,11 +645,13 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jacqueline_Cavalcanti"
       },
       "fighter2": {
         "name": "Julia Avila",
         "record": null,
+        "record_breakdown": null,
         "rank": null,
         "country": null,
         "age": null,
@@ -511,7 +661,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": null
       },
       "weight_class": "Women's Bantamweight",
       "title_fight": "none",
@@ -527,8 +678,4 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:53:50.223542",
-  "source_urls": {
-    "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Cannonier_vs._Rodrigues"
-  }
-}
+  "scraped_at": 

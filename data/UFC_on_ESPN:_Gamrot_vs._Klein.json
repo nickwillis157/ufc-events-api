@@ -3,7 +3,10 @@
   "event_name": "UFC on ESPN: Gamrot vs. Klein",
   "event_date": "2025-05-31",
   "venue": "UFC Apex",
-  "location": null,
+  "location": "Enterprise, Nevada, United States",
+  "city": "Enterprise",
+  "state": "Nevada",
+  "country": "United States",
   "status": "completed",
   "attendance": null,
   "gate": null,
@@ -14,7 +17,13 @@
       "bout_order": 9,
       "fighter1": {
         "name": "Mateusz Gamrot",
-        "record": null,
+        "record": "25-3-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 25,
+          "losses": 3,
+          "draws": null,
+          "no_contests": 1
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -24,11 +33,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mateusz_Gamrot"
       },
       "fighter2": {
         "name": "Ľudovít Klein",
-        "record": null,
+        "record": "23-5-1",
+        "record_breakdown": {
+          "wins": 23,
+          "losses": 5,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -38,7 +54,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ľudovít_Klein"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -57,7 +74,13 @@
       "bout_order": 8,
       "fighter1": {
         "name": "Ramiz Brahimaj",
-        "record": null,
+        "record": "12-5-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -67,11 +90,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ramiz_Brahimaj"
       },
       "fighter2": {
         "name": "Billy Ray Goff",
-        "record": null,
+        "record": "9-4-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -81,7 +111,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Billy_Ray_Goff"
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -100,7 +131,13 @@
       "bout_order": 7,
       "fighter1": {
         "name": "Dustin Jacoby",
-        "record": null,
+        "record": "21-8-1",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 8,
+          "draws": 1,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -110,11 +147,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dustin_Jacoby"
       },
       "fighter2": {
         "name": "Bruno Lopes",
-        "record": null,
+        "record": "14-2-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -124,7 +168,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bruno_Lopes"
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -143,7 +188,13 @@
       "bout_order": 6,
       "fighter1": {
         "name": "Ketlen Vieira",
-        "record": null,
+        "record": "15-4-0",
+        "record_breakdown": {
+          "wins": 15,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -153,11 +204,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ketlen_Vieira"
       },
       "fighter2": {
         "name": "Macy Chiasson",
-        "record": null,
+        "record": "10-4-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -167,7 +225,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Macy_Chiasson"
       },
       "weight_class": "Women's Featherweight",
       "title_fight": "none",
@@ -186,7 +245,13 @@
       "bout_order": 5,
       "fighter1": {
         "name": "Zachary Reese",
-        "record": null,
+        "record": "9-2-0",
+        "record_breakdown": {
+          "wins": 9,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -196,11 +261,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Zachary_Reese"
       },
       "fighter2": {
         "name": "Duško Todorović",
-        "record": null,
+        "record": "12-6-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -210,7 +282,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Duško_Todorović"
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -229,7 +302,13 @@
       "bout_order": 4,
       "fighter1": {
         "name": "Allan Nascimento",
-        "record": null,
+        "record": "21-6-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 6,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -239,11 +318,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Allan_Nascimento"
       },
       "fighter2": {
         "name": "Jafel Filho",
-        "record": null,
+        "record": "16-4-0",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -253,7 +339,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jafel_Filho"
       },
       "weight_class": "Catchweight (127.5 lb)",
       "title_fight": "none",
@@ -272,7 +359,13 @@
       "bout_order": 3,
       "fighter1": {
         "name": "Jordan Leavitt",
-        "record": null,
+        "record": "12-3-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -282,11 +375,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jordan_Leavitt"
       },
       "fighter2": {
         "name": "Kurt Holobaugh",
-        "record": null,
+        "record": "21-10-0",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 10,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -296,7 +396,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kurt_Holobaugh"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -315,7 +416,13 @@
       "bout_order": 2,
       "fighter1": {
         "name": "Bolaji Oki",
-        "record": null,
+        "record": "10-2-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -325,11 +432,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bolaji_Oki"
       },
       "fighter2": {
         "name": "Michael Aswell",
-        "record": null,
+        "record": "10-3-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -339,7 +453,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Aswell"
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -358,7 +473,13 @@
       "bout_order": 1,
       "fighter1": {
         "name": "Alice Ardelean",
-        "record": null,
+        "record": "10-7-0",
+        "record_breakdown": {
+          "wins": 10,
+          "losses": 7,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -368,11 +489,18 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Alice_Ardelean"
       },
       "fighter2": {
         "name": "Rayanne dos Santos",
-        "record": null,
+        "record": "14-8-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 8,
+          "draws": null,
+          "no_contests": null
+        },
         "rank": null,
         "country": null,
         "age": null,
@@ -382,7 +510,8 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": false
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rayanne_dos_Santos"
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
@@ -398,8 +527,4 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-13T11:53:26.204061",
-  "source_urls": {
-    "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_ESPN:_Gamrot_vs._Klein"
-  }
-}
+  "scraped_at": 
