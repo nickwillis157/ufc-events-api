@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_50",
   "event_name": "UFC 50",
-  "event_date": "2025-07-12",
+  "event_date": "2004-10-22",
   "venue": "Trump Plaza",
   "location": null,
   "status": "completed",
@@ -298,7 +298,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:30.607962",
+  "scraped_at": "2025-07-12T22:43:06.758413",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_50"
   }

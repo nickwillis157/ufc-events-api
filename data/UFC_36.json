@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_36",
   "event_name": "UFC 36",
-  "event_date": "2025-07-12",
+  "event_date": "2002-03-22",
   "venue": "MGM Grand Arena",
   "location": null,
   "status": "completed",
@@ -339,7 +339,7 @@
       "segment": "main-card"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:38.129158",
+  "scraped_at": "2025-07-12T22:43:14.280098",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_36"
   }

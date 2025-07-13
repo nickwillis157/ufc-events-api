@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_108",
   "event_name": "UFC 108",
-  "event_date": "2025-07-12",
+  "event_date": "2010-01-02",
   "venue": "MGM Grand Garden Arena",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:49.345944",
+  "scraped_at": "2025-07-12T22:42:28.663930",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_108"
   }

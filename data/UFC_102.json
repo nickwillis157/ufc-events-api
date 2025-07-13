@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_102",
   "event_name": "UFC 102",
-  "event_date": "2025-07-12",
+  "event_date": "2009-08-29",
   "venue": "Rose Garden",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:52.765229",
+  "scraped_at": "2025-07-12T22:42:32.198441",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_102"
   }

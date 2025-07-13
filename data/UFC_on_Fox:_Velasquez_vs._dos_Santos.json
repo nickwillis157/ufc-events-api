@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_on_Fox:_Velasquez_vs._dos_Santos",
   "event_name": "UFC on Fox: Velasquez vs. dos Santos",
-  "event_date": "2025-07-12",
+  "event_date": "2011-11-12",
   "venue": "Honda Center",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:27.006280",
+  "scraped_at": "2025-07-12T22:42:07.143581",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_Fox:_Velasquez_vs._dos_Santos"
   }

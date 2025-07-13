@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_35",
   "event_name": "UFC 35",
-  "event_date": "2025-07-12",
+  "event_date": "2002-01-11",
   "venue": "Mohegan Sun Arena",
   "location": null,
   "status": "completed",
@@ -339,7 +339,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:38.664856",
+  "scraped_at": "2025-07-12T22:43:14.779314",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_35"
   }

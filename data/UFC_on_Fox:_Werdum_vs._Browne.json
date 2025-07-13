@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_on_Fox:_Werdum_vs._Browne",
   "event_name": "UFC on Fox: Werdum vs. Browne",
-  "event_date": "2025-07-12",
+  "event_date": "2014-04-19",
   "venue": "Amway Center",
   "location": null,
   "status": "completed",
@@ -544,7 +544,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:44:51.252094",
+  "scraped_at": "2025-07-12T22:41:32.525497",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_Fox:_Werdum_vs._Browne"
   }

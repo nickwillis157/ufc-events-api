@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Lauzon_vs._Stephens",
   "event_name": "UFC Fight Night: Lauzon vs. Stephens",
-  "event_date": "2025-07-12",
+  "event_date": "2009-02-07",
   "venue": "USF Sun Dome[1]",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:59.303872",
+  "scraped_at": "2025-07-12T22:42:36.672832",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Lauzon_vs._Stephens"
   }

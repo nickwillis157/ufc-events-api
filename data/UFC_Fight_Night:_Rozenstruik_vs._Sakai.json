@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Rozenstruik_vs._Sakai",
   "event_name": "UFC Fight Night: Rozenstruik vs. Sakai",
-  "event_date": "2025-07-12",
+  "event_date": "2021-06-05",
   "venue": "UFC Apex",
   "location": null,
   "status": "completed",
@@ -544,7 +544,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:42:44.457607",
+  "scraped_at": "2025-07-12T22:39:30.738835",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Rozenstruik_vs._Sakai"
   }

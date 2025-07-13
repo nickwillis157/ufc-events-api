@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Stevenson_vs._Guillard#UFC_Fight_Night:_Stevenson_vs._Guillard",
   "event_name": "2007 in UFC",
-  "event_date": "2025-07-12",
+  "event_date": "2007-01-25",
   "venue": null,
   "location": null,
   "status": "completed",
@@ -380,7 +380,7 @@
       "segment": "main-card"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:17.500292",
+  "scraped_at": "2025-07-12T22:42:53.763890",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Stevenson_vs._Guillard#UFC_Fight_Night:_Stevenson_vs._Guillard"
   }

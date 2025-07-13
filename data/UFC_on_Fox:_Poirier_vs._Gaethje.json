@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_on_Fox:_Poirier_vs._Gaethje",
   "event_name": "UFC on Fox: Poirier vs. Gaethje",
-  "event_date": "2025-07-12",
+  "event_date": "2018-04-14",
   "venue": "Gila River Arena",
   "location": null,
   "status": "completed",
@@ -585,7 +585,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:43:29.589995",
+  "scraped_at": "2025-07-12T22:40:15.385078",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_Fox:_Poirier_vs._Gaethje"
   }

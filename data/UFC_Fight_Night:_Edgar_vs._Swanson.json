@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Edgar_vs._Swanson",
   "event_name": "UFC Fight Night: Edgar vs. Swanson",
-  "event_date": "2025-07-12",
+  "event_date": "2014-11-22",
   "venue": "Frank Erwin Center",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:44:37.664184",
+  "scraped_at": "2025-07-12T22:41:18.995411",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Edgar_vs._Swanson"
   }

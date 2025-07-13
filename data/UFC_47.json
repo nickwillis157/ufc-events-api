@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_47",
   "event_name": "UFC 47",
-  "event_date": "2025-07-12",
+  "event_date": "2004-04-02",
   "venue": "Mandalay Bay Events Center",
   "location": null,
   "status": "completed",
@@ -339,7 +339,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:32.107531",
+  "scraped_at": "2025-07-12T22:43:08.285172",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_47"
   }

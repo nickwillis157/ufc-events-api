@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_5",
   "event_name": "UFC 5",
-  "event_date": "2025-07-12",
+  "event_date": "1995-04-07",
   "venue": "Independence Arena",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "main-card"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:54.864273",
+  "scraped_at": "2025-07-12T22:43:30.855141",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_5"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_24",
   "event_name": "UFC 24",
-  "event_date": "2025-07-12",
+  "event_date": "2000-03-10",
   "venue": "Lake Charles Civic Center",
   "location": null,
   "status": "completed",
@@ -298,7 +298,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:44.153557",
+  "scraped_at": "2025-07-12T22:43:20.294206",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_24"
   }

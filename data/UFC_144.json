@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_144",
   "event_name": "UFC 144",
-  "event_date": "2025-07-12",
+  "event_date": "2012-02-26",
   "venue": "Saitama Super Arena",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:21.916403",
+  "scraped_at": "2025-07-12T22:42:02.600100",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_144"
   }

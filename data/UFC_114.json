@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_114",
   "event_name": "UFC 114",
-  "event_date": "2025-07-12",
+  "event_date": "2010-05-29",
   "venue": "MGM Grand Garden Arena",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:44.209612",
+  "scraped_at": "2025-07-12T22:42:24.160262",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_114"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_165",
   "event_name": "UFC 165",
-  "event_date": "2025-07-12",
+  "event_date": "2013-09-21",
   "venue": "Air Canada Centre",
   "location": null,
   "status": "completed",
@@ -544,7 +544,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:01.348932",
+  "scraped_at": "2025-07-12T22:41:42.567048",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_165"
   }

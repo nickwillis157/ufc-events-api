@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_126",
   "event_name": "UFC 126",
-  "event_date": "2025-07-12",
+  "event_date": "2011-02-05",
   "venue": "Mandalay Bay Events Center",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:36.553846",
+  "scraped_at": "2025-07-12T22:42:16.632726",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_126"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_120",
   "event_name": "UFC 120",
-  "event_date": "2025-07-12",
+  "event_date": "2010-10-16",
   "venue": "O2Arena",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:40.170739",
+  "scraped_at": "2025-07-12T22:42:20.168470",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_120"
   }

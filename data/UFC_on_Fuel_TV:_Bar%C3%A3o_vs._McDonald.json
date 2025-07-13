@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_on_Fuel_TV:_Bar%C3%A3o_vs._McDonald",
   "event_name": "UFC on Fuel TV: Barão vs. McDonald",
-  "event_date": "2025-07-12",
+  "event_date": "2013-02-16",
   "venue": "Wembley Arena",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:09.998302",
+  "scraped_at": "2025-07-12T22:41:51.075516",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_Fuel_TV:_Bar%C3%A3o_vs._McDonald"
   }

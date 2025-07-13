@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_141",
   "event_name": "UFC 141",
-  "event_date": "2025-07-12",
+  "event_date": "2011-12-30",
   "venue": "MGM Grand Garden Arena",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:25.368021",
+  "scraped_at": "2025-07-12T22:42:05.606744",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_141"
   }

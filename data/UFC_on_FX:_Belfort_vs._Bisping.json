@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_on_FX:_Belfort_vs._Bisping",
   "event_name": "2013 in UFC",
-  "event_date": "2025-07-12",
+  "event_date": "2013-01-19",
   "venue": null,
   "location": null,
   "status": "completed",
@@ -40,7 +40,7 @@
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (49–46, 48–47, 48–47)",
+      "method": "Decision (unanimous) (49\u201346, 48\u201347, 48\u201347)",
       "round": null,
       "time": null,
       "winner": "Demetrious Johnson",
@@ -54,7 +54,7 @@
     {
       "bout_order": 18,
       "fighter1": {
-        "name": "José Aldo",
+        "name": "Jos\u00e9 Aldo",
         "record": null,
         "rank": null,
         "country": null,
@@ -81,10 +81,10 @@
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (49–46, 49–46, 48–47)",
+      "method": "Decision (unanimous) (49\u201346, 49\u201346, 48\u201347)",
       "round": null,
       "time": null,
-      "winner": "José Aldo",
+      "winner": "Jos\u00e9 Aldo",
       "result": null,
       "stats": null,
       "referee": null,
@@ -95,7 +95,7 @@
     {
       "bout_order": 17,
       "fighter1": {
-        "name": "Renan Barão",
+        "name": "Renan Bar\u00e3o",
         "record": null,
         "rank": null,
         "country": null,
@@ -125,7 +125,7 @@
       "method": "Submission (arm-triangle choke)",
       "round": null,
       "time": null,
-      "winner": "Renan Barão",
+      "winner": "Renan Bar\u00e3o",
       "result": null,
       "stats": null,
       "referee": null,
@@ -204,7 +204,7 @@
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (50–45, 50–45, 50–45)",
+      "method": "Decision (unanimous) (50\u201345, 50\u201345, 50\u201345)",
       "round": null,
       "time": null,
       "winner": "Georges St-Pierre",
@@ -245,7 +245,7 @@
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
-      "method": "Decision (split) (47–48, 48–47, 48–47)",
+      "method": "Decision (split) (47\u201348, 48\u201347, 48\u201347)",
       "round": null,
       "time": null,
       "winner": "Benson Henderson",
@@ -313,7 +313,7 @@
         "bonus": null
       },
       "fighter2": {
-        "name": "Antônio Silva",
+        "name": "Ant\u00f4nio Silva",
         "record": null,
         "rank": null,
         "country": null,
@@ -423,7 +423,7 @@
     {
       "bout_order": 9,
       "fighter1": {
-        "name": "José Aldo",
+        "name": "Jos\u00e9 Aldo",
         "record": null,
         "rank": null,
         "country": null,
@@ -453,7 +453,7 @@
       "method": "TKO (punches)",
       "round": null,
       "time": null,
-      "winner": "José Aldo",
+      "winner": "Jos\u00e9 Aldo",
       "result": null,
       "stats": null,
       "referee": null,
@@ -505,7 +505,7 @@
     {
       "bout_order": 7,
       "fighter1": {
-        "name": "Renan Barão",
+        "name": "Renan Bar\u00e3o",
         "record": null,
         "rank": null,
         "country": null,
@@ -535,7 +535,7 @@
       "method": "TKO (spinning back kick and punches)",
       "round": null,
       "time": null,
-      "winner": "Renan Barão",
+      "winner": "Renan Bar\u00e3o",
       "result": null,
       "stats": null,
       "referee": null,
@@ -573,7 +573,7 @@
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
-      "method": "Decision (unanimous) (48–47, 48–47, 49–46)",
+      "method": "Decision (unanimous) (48\u201347, 48\u201347, 49\u201346)",
       "round": null,
       "time": null,
       "winner": "Jon Jones",
@@ -655,7 +655,7 @@
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
-      "method": "Decision (split) (48–47, 47–48, 48–47)",
+      "method": "Decision (split) (48\u201347, 47\u201348, 48\u201347)",
       "round": null,
       "time": null,
       "winner": "Georges St-Pierre",
@@ -790,7 +790,7 @@
       "segment": "main-card"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:11.830310",
+  "scraped_at": "2025-07-12T22:41:52.640786",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_FX:_Belfort_vs._Bisping"
   }

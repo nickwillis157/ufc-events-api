@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_161",
   "event_name": "UFC 161",
-  "event_date": "2025-07-12",
+  "event_date": "2013-06-15",
   "venue": "MTS Centre",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:05.370975",
+  "scraped_at": "2025-07-12T22:41:46.572497",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_161"
   }

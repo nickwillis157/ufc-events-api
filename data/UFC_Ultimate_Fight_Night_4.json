@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Ultimate_Fight_Night_4",
   "event_name": "UFC Ultimate Fight Night 4",
-  "event_date": "2025-07-12",
+  "event_date": "2006-04-06",
   "venue": "Hard Rock Hotel and Casino",
   "location": null,
   "status": "completed",
@@ -380,7 +380,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:25.068662",
+  "scraped_at": "2025-07-12T22:43:01.270494",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Ultimate_Fight_Night_4"
   }

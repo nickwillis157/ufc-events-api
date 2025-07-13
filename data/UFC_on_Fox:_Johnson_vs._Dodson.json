@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_on_Fox:_Johnson_vs._Dodson",
   "event_name": "UFC on Fox: Johnson vs. Dodson",
-  "event_date": "2025-07-12",
+  "event_date": "2013-01-26",
   "venue": "United Center",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:11.016536",
+  "scraped_at": "2025-07-12T22:41:52.094588",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_Fox:_Johnson_vs._Dodson"
   }

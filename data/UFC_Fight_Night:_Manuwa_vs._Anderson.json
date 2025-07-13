@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Manuwa_vs._Anderson",
   "event_name": "UFC Fight Night: Manuwa vs. Anderson",
-  "event_date": "2025-07-12",
+  "event_date": "2017-03-18",
   "venue": "The O2Arena",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:43:52.413579",
+  "scraped_at": "2025-07-12T22:40:35.414195",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Manuwa_vs._Anderson"
   }

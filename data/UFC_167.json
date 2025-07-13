@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_167",
   "event_name": "UFC 167",
-  "event_date": "2025-07-12",
+  "event_date": "2013-11-16",
   "venue": "MGM Grand Garden Arena",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:44:58.323032",
+  "scraped_at": "2025-07-12T22:41:39.536907",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_167"
   }

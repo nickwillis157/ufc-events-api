@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_10",
   "event_name": "UFC 10",
-  "event_date": "2025-07-12",
+  "event_date": "1996-07-12",
   "venue": "Fair Park Arena",
   "location": null,
   "status": "completed",
@@ -380,7 +380,7 @@
       "segment": "main-card"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:52.059987",
+  "scraped_at": "2025-07-12T22:43:28.337214",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_10"
   }

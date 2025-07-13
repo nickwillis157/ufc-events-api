@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_210",
   "event_name": "UFC 210",
-  "event_date": "2025-07-12",
+  "event_date": "2017-04-08",
   "venue": "KeyBank Center",
   "location": null,
   "status": "completed",
@@ -544,7 +544,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:43:51.314639",
+  "scraped_at": "2025-07-12T22:40:34.923575",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_210"
   }

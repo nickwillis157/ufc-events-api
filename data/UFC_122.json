@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_122",
   "event_name": "UFC 122",
-  "event_date": "2025-07-12",
+  "event_date": "2010-11-13",
   "venue": "König Pilsener Arena",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:39.088466",
+  "scraped_at": "2025-07-12T22:42:19.146597",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_122"
   }

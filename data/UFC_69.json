@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_69",
   "event_name": "UFC 69",
-  "event_date": "2025-07-12",
+  "event_date": "2007-04-07",
   "venue": "Toyota Center",
   "location": null,
   "status": "completed",
@@ -380,7 +380,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:17.005259",
+  "scraped_at": "2025-07-12T22:42:53.233012",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_69"
   }

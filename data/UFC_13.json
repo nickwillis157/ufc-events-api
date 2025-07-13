@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_13",
   "event_name": "UFC 13",
-  "event_date": "2025-07-12",
+  "event_date": "1997-05-30",
   "venue": "Augusta Civic Center",
   "location": null,
   "status": "completed",
@@ -380,7 +380,7 @@
       "segment": "main-card"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:50.790536",
+  "scraped_at": "2025-07-12T22:43:26.808377",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_13"
   }

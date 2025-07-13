@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Diaz_vs._Neer",
   "event_name": "UFC Fight Night: Diaz vs. Neer",
-  "event_date": "2025-07-12",
+  "event_date": "2008-09-17",
   "venue": "Omaha Civic Auditorium",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:03.376621",
+  "scraped_at": "2025-07-12T22:42:40.688746",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Diaz_vs._Neer"
   }

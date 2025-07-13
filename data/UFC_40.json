@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_40",
   "event_name": "UFC 40",
-  "event_date": "2025-07-12",
+  "event_date": "2002-11-22",
   "venue": "MGM Grand Garden Arena",
   "location": null,
   "status": "completed",
@@ -339,7 +339,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:35.606403",
+  "scraped_at": "2025-07-12T22:43:11.771337",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_40"
   }

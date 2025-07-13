@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Stout_vs._Fisher",
   "event_name": "UFC Fight Night: Stout vs. Fisher",
-  "event_date": "2025-07-12",
+  "event_date": "2007-06-12",
   "venue": "Seminole Hard Rock Hotel and Casino",
   "location": null,
   "status": "completed",
@@ -380,7 +380,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:15.436437",
+  "scraped_at": "2025-07-12T22:42:51.750868",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Stout_vs._Fisher"
   }

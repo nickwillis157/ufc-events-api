@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Machida_vs._Mousasi",
   "event_name": "UFC Fight Night: Machida vs. Mousasi",
-  "event_date": "2025-07-12",
+  "event_date": "2014-02-15",
   "venue": "Arena Jaraguá",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:44:54.379086",
+  "scraped_at": "2025-07-12T22:41:35.541667",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Machida_vs._Mousasi"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_59",
   "event_name": "UFC 59",
-  "event_date": "2025-07-12",
+  "event_date": "2006-04-15",
   "venue": "Arrowhead Pond",
   "location": null,
   "status": "completed",
@@ -380,7 +380,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:24.477312",
+  "scraped_at": "2025-07-12T22:43:00.743679",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_59"
   }

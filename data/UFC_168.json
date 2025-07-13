@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_168",
   "event_name": "UFC 168",
-  "event_date": "2025-07-12",
+  "event_date": "2013-12-28",
   "venue": "MGM Grand Garden Arena",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:44:56.879561",
+  "scraped_at": "2025-07-12T22:41:38.060648",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_168"
   }

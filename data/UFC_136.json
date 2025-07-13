@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_136",
   "event_name": "UFC 136",
-  "event_date": "2025-07-12",
+  "event_date": "2011-10-08",
   "venue": "Toyota Center",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:28.494400",
+  "scraped_at": "2025-07-12T22:42:08.611662",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_136"
   }

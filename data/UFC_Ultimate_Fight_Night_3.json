@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Ultimate_Fight_Night_3",
   "event_name": "UFC Ultimate Fight Night 3",
-  "event_date": "2025-07-12",
+  "event_date": "2006-01-16",
   "venue": "Hard Rock Hotel and Casino",
   "location": null,
   "status": "completed",
@@ -339,7 +339,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:26.601500",
+  "scraped_at": "2025-07-12T22:43:02.738448",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Ultimate_Fight_Night_3"
   }

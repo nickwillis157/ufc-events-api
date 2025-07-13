@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_109",
   "event_name": "UFC 109",
-  "event_date": "2025-07-12",
+  "event_date": "2010-02-06",
   "venue": "Mandalay Bay Events Center",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:47.718756",
+  "scraped_at": "2025-07-12T22:42:27.696776",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_109"
   }

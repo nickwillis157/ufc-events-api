@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Shields_vs._Ellenberger",
   "event_name": "UFC Fight Night: Shields vs. Ellenberger",
-  "event_date": "2025-07-12",
+  "event_date": "2011-09-17",
   "venue": "Morial Convention Center",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:29.964604",
+  "scraped_at": "2025-07-12T22:42:10.128498",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Shields_vs._Ellenberger"
   }

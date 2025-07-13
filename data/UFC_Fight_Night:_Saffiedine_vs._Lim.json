@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Saffiedine_vs._Lim",
   "event_name": "UFC Fight Night: Saffiedine vs. Lim",
-  "event_date": "2025-07-12",
+  "event_date": "2014-01-04",
   "venue": "Marina Bay Sands",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:44:56.285552",
+  "scraped_at": "2025-07-12T22:41:37.544038",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Saffiedine_vs._Lim"
   }

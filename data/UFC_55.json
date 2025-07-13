@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_55",
   "event_name": "UFC 55",
-  "event_date": "2025-07-12",
+  "event_date": "2005-10-07",
   "venue": "Mohegan Sun Arena",
   "location": null,
   "status": "completed",
@@ -339,7 +339,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:27.548548",
+  "scraped_at": "2025-07-12T22:43:03.774664",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_55"
   }

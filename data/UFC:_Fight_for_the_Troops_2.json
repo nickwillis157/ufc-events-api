@@ -1,7 +1,7 @@
 {
   "event_id": "UFC:_Fight_for_the_Troops_2",
   "event_name": "UFC: Fight for the Troops 2",
-  "event_date": "2025-07-12",
+  "event_date": "2011-01-22",
   "venue": "Fort Hood",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:36.977652",
+  "scraped_at": "2025-07-12T22:42:17.131862",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC:_Fight_for_the_Troops_2"
   }

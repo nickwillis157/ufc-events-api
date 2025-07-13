@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Condit_vs._Kampmann",
   "event_name": "UFC Fight Night: Condit vs. Kampmann",
-  "event_date": "2025-07-12",
+  "event_date": "2009-04-01",
   "venue": "Sommet Center",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:56.378600",
+  "scraped_at": "2025-07-12T22:42:35.170161",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Condit_vs._Kampmann"
   }

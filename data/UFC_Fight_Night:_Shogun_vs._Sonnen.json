@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Shogun_vs._Sonnen",
   "event_name": "UFC Fight Night: Shogun vs. Sonnen",
-  "event_date": "2025-07-12",
+  "event_date": "2013-08-17",
   "venue": "TD Garden",
   "location": null,
   "status": "completed",
@@ -544,7 +544,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:03.457500",
+  "scraped_at": "2025-07-12T22:41:44.562672",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Shogun_vs._Sonnen"
   }

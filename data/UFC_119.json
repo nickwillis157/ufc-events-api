@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_119",
   "event_name": "UFC 119",
-  "event_date": "2025-07-12",
+  "event_date": "2010-09-25",
   "venue": "Conseco Fieldhouse",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:40.728527",
+  "scraped_at": "2025-07-12T22:42:20.662438",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_119"
   }

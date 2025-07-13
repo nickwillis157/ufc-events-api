@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Ultimate_Fight_Night_5",
   "event_name": "UFC Ultimate Fight Night 5",
-  "event_date": "2025-07-12",
+  "event_date": "2006-06-28",
   "venue": "Hard Rock Hotel and Casino",
   "location": null,
   "status": "completed",
@@ -380,7 +380,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:23.498364",
+  "scraped_at": "2025-07-12T22:42:59.731300",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Ultimate_Fight_Night_5"
   }

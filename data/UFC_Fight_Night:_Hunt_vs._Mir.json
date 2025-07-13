@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Hunt_vs._Mir",
   "event_name": "UFC Fight Night: Hunt vs. Mir",
-  "event_date": "2025-07-12",
+  "event_date": "2016-03-20",
   "venue": "Brisbane Entertainment Centre",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:44:12.718527",
+  "scraped_at": "2025-07-12T22:40:54.465136",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Hunt_vs._Mir"
   }

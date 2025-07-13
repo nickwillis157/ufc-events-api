@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_on_Fuel_TV:_Gustafsson_vs._Silva",
   "event_name": "UFC on Fuel TV: Gustafsson vs. Silva",
-  "event_date": "2025-07-12",
+  "event_date": "2012-04-14",
   "venue": "Ericsson Globe Arena",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:20.869138",
+  "scraped_at": "2025-07-12T22:42:01.606164",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_Fuel_TV:_Gustafsson_vs._Silva"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_60",
   "event_name": "UFC 60",
-  "event_date": "2025-07-12",
+  "event_date": "2006-05-27",
   "venue": "Staples Center",
   "location": null,
   "status": "completed",
@@ -380,7 +380,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:23.693572",
+  "scraped_at": "2025-07-12T22:43:00.248708",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_60"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_on_FX:_Guillard_vs._Miller",
   "event_name": "UFC on FX: Guillard vs. Miller",
-  "event_date": "2025-07-12",
+  "event_date": "2012-01-20",
   "venue": "Bridgestone Arena",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:24.441167",
+  "scraped_at": "2025-07-12T22:42:04.612300",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_FX:_Guillard_vs._Miller"
   }

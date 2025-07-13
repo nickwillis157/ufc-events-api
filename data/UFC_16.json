@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_16",
   "event_name": "UFC 16",
-  "event_date": "2025-07-12",
+  "event_date": "1998-03-13",
   "venue": "Pontchartrain Center",
   "location": null,
   "status": "completed",
@@ -339,7 +339,7 @@
       "segment": "main-card"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:48.972683",
+  "scraped_at": "2025-07-12T22:43:24.796255",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_16"
   }

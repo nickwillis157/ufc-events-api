@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_58",
   "event_name": "UFC 58",
-  "event_date": "2025-07-12",
+  "event_date": "2006-03-04",
   "venue": "Mandalay Bay Events Center",
   "location": null,
   "status": "completed",
@@ -339,7 +339,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:25.656609",
+  "scraped_at": "2025-07-12T22:43:01.735036",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_58"
   }

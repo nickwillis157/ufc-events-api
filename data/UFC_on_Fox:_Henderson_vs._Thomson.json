@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_on_Fox:_Henderson_vs._Thomson",
   "event_name": "UFC on Fox: Henderson vs. Thomson",
-  "event_date": "2025-07-12",
+  "event_date": "2014-01-25",
   "venue": "United Center",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:44:55.338680",
+  "scraped_at": "2025-07-12T22:41:36.544525",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_Fox:_Henderson_vs._Thomson"
   }

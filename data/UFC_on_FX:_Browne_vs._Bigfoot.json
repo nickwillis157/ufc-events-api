@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_on_FX:_Browne_vs._Bigfoot",
   "event_name": "UFC on FX: Browne vs. Bigfoot",
-  "event_date": "2025-07-12",
+  "event_date": "2012-10-05",
   "venue": "Target Center",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:14.840687",
+  "scraped_at": "2025-07-12T22:41:55.621686",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_FX:_Browne_vs._Bigfoot"
   }

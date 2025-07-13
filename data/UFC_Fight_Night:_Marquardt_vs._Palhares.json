@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Marquardt_vs._Palhares",
   "event_name": "UFC Fight Night: Marquardt vs. Palhares",
-  "event_date": "2025-07-12",
+  "event_date": "2010-09-15",
   "venue": "Frank Erwin Center",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:41.170317",
+  "scraped_at": "2025-07-12T22:42:21.145860",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Marquardt_vs._Palhares"
   }

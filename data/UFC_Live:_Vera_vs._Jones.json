@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Live:_Vera_vs._Jones",
   "event_name": "UFC Live: Vera vs. Jones",
-  "event_date": "2025-07-12",
+  "event_date": "2010-03-21",
   "venue": "1stBank Center",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:46.757422",
+  "scraped_at": "2025-07-12T22:42:26.652141",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Live:_Vera_vs._Jones"
   }

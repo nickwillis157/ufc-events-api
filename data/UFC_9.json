@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_9",
   "event_name": "UFC 9",
-  "event_date": "2025-07-12",
+  "event_date": "1996-05-17",
   "venue": "Cobo Arena",
   "location": null,
   "status": "completed",
@@ -298,7 +298,7 @@
       "segment": "main-card"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:52.593121",
+  "scraped_at": "2025-07-12T22:43:28.815456",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_9"
   }

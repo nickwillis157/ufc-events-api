@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_on_Fox:_Teixeira_vs._Evans",
   "event_name": "UFC on Fox: Teixeira vs. Evans",
-  "event_date": "2025-07-12",
+  "event_date": "2016-04-16",
   "venue": "Amalie Arena",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:44:11.651056",
+  "scraped_at": "2025-07-12T22:40:53.439940",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_Fox:_Teixeira_vs._Evans"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Swick_vs._Burkman",
   "event_name": "UFC Fight Night: Swick vs. Burkman",
-  "event_date": "2025-07-12",
+  "event_date": "2008-01-23",
   "venue": "Palms Casino Resort",
   "location": null,
   "status": "completed",
@@ -380,7 +380,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:09.438618",
+  "scraped_at": "2025-07-12T22:42:46.209663",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Swick_vs._Burkman"
   }

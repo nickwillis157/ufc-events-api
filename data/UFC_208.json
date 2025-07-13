@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_208",
   "event_name": "UFC 208",
-  "event_date": "2025-07-12",
+  "event_date": "2017-02-11",
   "venue": "Barclays Center",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:43:54.462530",
+  "scraped_at": "2025-07-12T22:40:37.434823",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_208"
   }

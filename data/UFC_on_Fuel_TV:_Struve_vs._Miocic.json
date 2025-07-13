@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_on_Fuel_TV:_Struve_vs._Miocic",
   "event_name": "UFC on Fuel TV: Struve vs. Miocic",
-  "event_date": "2025-07-12",
+  "event_date": "2012-09-29",
   "venue": "Capital FM Arena",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:15.195816",
+  "scraped_at": "2025-07-12T22:41:56.079374",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_Fuel_TV:_Struve_vs._Miocic"
   }

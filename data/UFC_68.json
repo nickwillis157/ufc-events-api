@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_68",
   "event_name": "UFC 68",
-  "event_date": "2025-07-12",
+  "event_date": "2007-03-03",
   "venue": "Nationwide Arena",
   "location": null,
   "status": "completed",
@@ -380,7 +380,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:17.865567",
+  "scraped_at": "2025-07-12T22:42:54.224416",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_68"
   }

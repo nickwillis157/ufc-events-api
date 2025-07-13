@@ -1,7 +1,7 @@
 {
   "event_id": "UFC:_Fight_for_the_Troops",
   "event_name": "UFC: Fight for the Troops",
-  "event_date": "2025-07-12",
+  "event_date": "2008-12-10",
   "venue": "Cumberland County Crown Coliseum",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:01.296858",
+  "scraped_at": "2025-07-12T22:42:38.694765",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC:_Fight_for_the_Troops"
   }

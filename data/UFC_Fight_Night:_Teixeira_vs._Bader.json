@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Teixeira_vs._Bader",
   "event_name": "UFC Fight Night: Teixeira vs. Bader",
-  "event_date": "2025-07-12",
+  "event_date": "2013-09-04",
   "venue": "Mineirinho Arena",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:01.901956",
+  "scraped_at": "2025-07-12T22:41:43.085442",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Teixeira_vs._Bader"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_4",
   "event_name": "UFC 4",
-  "event_date": "2025-07-12",
+  "event_date": "1994-12-16",
   "venue": "Expo Square Pavilion",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "main-card"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:55.358644",
+  "scraped_at": "2025-07-12T22:43:31.321478",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_4"
   }

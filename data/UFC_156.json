@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_156",
   "event_name": "UFC 156",
-  "event_date": "2025-07-12",
+  "event_date": "2013-02-02",
   "venue": "Mandalay Bay Events Center",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:10.525456",
+  "scraped_at": "2025-07-12T22:41:51.598547",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_156"
   }

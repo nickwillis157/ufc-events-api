@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_3",
   "event_name": "UFC 3",
-  "event_date": "2025-07-12",
+  "event_date": "1994-09-09",
   "venue": "Grady Cole Center",
   "location": null,
   "status": "completed",
@@ -257,7 +257,7 @@
       "segment": "main-card"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:55.920471",
+  "scraped_at": "2025-07-12T22:43:31.816448",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_3"
   }

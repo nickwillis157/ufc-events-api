@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_81",
   "event_name": "UFC 81",
-  "event_date": "2025-07-12",
+  "event_date": "2008-02-02",
   "venue": "Mandalay Bay Events Center",
   "location": null,
   "status": "completed",
@@ -380,7 +380,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:08.365160",
+  "scraped_at": "2025-07-12T22:42:45.703996",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_81"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_148",
   "event_name": "UFC 148",
-  "event_date": "2025-07-12",
+  "event_date": "2012-07-07",
   "venue": "MGM Grand Garden Arena",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:17.932231",
+  "scraped_at": "2025-07-12T22:41:58.612142",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_148"
   }

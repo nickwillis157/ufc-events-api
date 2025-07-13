@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_on_Fuel_TV:_Mousasi_vs._Latifi",
   "event_name": "UFC on Fuel TV: Mousasi vs. Latifi",
-  "event_date": "2025-07-12",
+  "event_date": "2013-04-06",
   "venue": "Ericsson Globe Arena",
   "location": null,
   "status": "completed",
@@ -544,7 +544,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:08.089325",
+  "scraped_at": "2025-07-12T22:41:49.101357",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_Fuel_TV:_Mousasi_vs._Latifi"
   }

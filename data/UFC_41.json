@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_41",
   "event_name": "UFC 41",
-  "event_date": "2025-07-12",
+  "event_date": "2003-02-28",
   "venue": "Boardwalk Hall",
   "location": null,
   "status": "completed",
@@ -339,7 +339,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:35.152679",
+  "scraped_at": "2025-07-12T22:43:11.301397",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_41"
   }

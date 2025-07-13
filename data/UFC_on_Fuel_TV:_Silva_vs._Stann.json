@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_on_Fuel_TV:_Silva_vs._Stann",
   "event_name": "UFC on Fuel TV: Silva vs. Stann",
-  "event_date": "2025-07-12",
+  "event_date": "2013-03-03",
   "venue": "Saitama Super Arena",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:09.046424",
+  "scraped_at": "2025-07-12T22:41:50.063952",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_Fuel_TV:_Silva_vs._Stann"
   }

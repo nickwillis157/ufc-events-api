@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_88",
   "event_name": "UFC 88",
-  "event_date": "2025-07-12",
+  "event_date": "2008-09-06",
   "venue": "Philips Arena",
   "location": null,
   "status": "completed",
@@ -380,7 +380,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:03.766876",
+  "scraped_at": "2025-07-12T22:42:41.181451",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_88"
   }

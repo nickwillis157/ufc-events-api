@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Belfort_vs._Gastelum",
   "event_name": "UFC Fight Night: Belfort vs. Gastelum",
-  "event_date": "2025-07-12",
+  "event_date": "2017-03-11",
   "venue": "Centro de Formação Olímpica do Nordeste",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:43:52.884418",
+  "scraped_at": "2025-07-12T22:40:35.924257",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Belfort_vs._Gastelum"
   }

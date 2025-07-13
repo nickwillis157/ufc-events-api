@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_27",
   "event_name": "UFC 27",
-  "event_date": "2025-07-12",
+  "event_date": "2000-09-22",
   "venue": "Lakefront Arena",
   "location": null,
   "status": "completed",
@@ -339,7 +339,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:42.684073",
+  "scraped_at": "2025-07-12T22:43:18.784045",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_27"
   }

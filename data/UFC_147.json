@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_147",
   "event_name": "UFC 147",
-  "event_date": "2025-07-12",
+  "event_date": "2012-06-23",
   "venue": "Mineirinho Arena",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:18.422478",
+  "scraped_at": "2025-07-12T22:41:59.082677",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_147"
   }

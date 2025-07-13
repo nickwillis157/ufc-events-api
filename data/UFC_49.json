@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_49",
   "event_name": "UFC 49",
-  "event_date": "2025-07-12",
+  "event_date": "2004-08-21",
   "venue": "MGM Grand Arena",
   "location": null,
   "status": "completed",
@@ -339,7 +339,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:31.236974",
+  "scraped_at": "2025-07-12T22:43:07.258742",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_49"
   }

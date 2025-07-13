@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_on_Fox:_Shogun_vs._Vera",
   "event_name": "UFC on Fox: Shogun vs. Vera",
-  "event_date": "2025-07-12",
+  "event_date": "2012-08-04",
   "venue": "Staples Center",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:16.771092",
+  "scraped_at": "2025-07-12T22:41:57.615398",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_Fox:_Shogun_vs._Vera"
   }

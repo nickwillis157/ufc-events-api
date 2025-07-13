@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_43",
   "event_name": "UFC 43",
-  "event_date": "2025-07-12",
+  "event_date": "2003-06-06",
   "venue": "Thomas and Mack Center",
   "location": null,
   "status": "completed",
@@ -339,7 +339,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:34.064827",
+  "scraped_at": "2025-07-12T22:43:10.263105",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_43"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_56",
   "event_name": "UFC 56",
-  "event_date": "2025-07-12",
+  "event_date": "2005-11-19",
   "venue": "MGM Grand Arena",
   "location": null,
   "status": "completed",
@@ -339,7 +339,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:27.071228",
+  "scraped_at": "2025-07-12T22:43:03.264795",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_56"
   }

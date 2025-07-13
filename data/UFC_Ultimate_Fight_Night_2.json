@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Ultimate_Fight_Night_2",
   "event_name": "UFC Ultimate Fight Night 2",
-  "event_date": "2025-07-12",
+  "event_date": "2005-10-03",
   "venue": "Hard Rock Hotel and Casino",
   "location": null,
   "status": "completed",
@@ -298,7 +298,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:28.139340",
+  "scraped_at": "2025-07-12T22:43:04.259494",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Ultimate_Fight_Night_2"
   }

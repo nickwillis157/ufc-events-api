@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_66",
   "event_name": "UFC 66",
-  "event_date": "2025-07-12",
+  "event_date": "2006-12-30",
   "venue": "MGM Grand Garden Arena",
   "location": null,
   "status": "completed",
@@ -380,7 +380,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:19.372817",
+  "scraped_at": "2025-07-12T22:42:55.734105",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_66"
   }

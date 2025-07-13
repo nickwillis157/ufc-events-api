@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_85",
   "event_name": "UFC 85",
-  "event_date": "2025-07-12",
+  "event_date": "2008-06-07",
   "venue": "The O2Arena",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:05.946116",
+  "scraped_at": "2025-07-12T22:42:43.198163",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_85"
   }

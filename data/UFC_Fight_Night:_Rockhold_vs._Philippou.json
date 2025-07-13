@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Rockhold_vs._Philippou",
   "event_name": "UFC Fight Night: Rockhold vs. Philippou",
-  "event_date": "2025-07-12",
+  "event_date": "2014-01-15",
   "venue": "The Arena at Gwinnett Center",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:44:55.897789",
+  "scraped_at": "2025-07-12T22:41:37.051221",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Rockhold_vs._Philippou"
   }

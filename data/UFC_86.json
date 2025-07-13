@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_86",
   "event_name": "UFC 86",
-  "event_date": "2025-07-12",
+  "event_date": "2008-07-05",
   "venue": "Mandalay Bay Events Center",
   "location": null,
   "status": "completed",
@@ -380,7 +380,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:05.290163",
+  "scraped_at": "2025-07-12T22:42:42.694916",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_86"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_on_Fox:_Johnson_vs._Reis",
   "event_name": "UFC on Fox: Johnson vs. Reis",
-  "event_date": "2025-07-12",
+  "event_date": "2017-04-15",
   "venue": "Sprint Center",
   "location": null,
   "status": "completed",
@@ -544,7 +544,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:43:50.805176",
+  "scraped_at": "2025-07-12T22:40:34.428550",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_Fox:_Johnson_vs._Reis"
   }

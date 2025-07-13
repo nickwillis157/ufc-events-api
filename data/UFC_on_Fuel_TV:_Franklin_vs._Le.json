@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_on_Fuel_TV:_Franklin_vs._Le",
   "event_name": "UFC on Fuel TV: Franklin vs. Le",
-  "event_date": "2025-07-12",
+  "event_date": "2012-11-10",
   "venue": "CotaiArena",
   "location": null,
   "status": "completed",
@@ -380,7 +380,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:13.772699",
+  "scraped_at": "2025-07-12T22:41:54.583441",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_Fuel_TV:_Franklin_vs._Le"
   }

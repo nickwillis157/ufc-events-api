@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_164",
   "event_name": "UFC 164",
-  "event_date": "2025-07-12",
+  "event_date": "2013-08-31",
   "venue": "BMO Harris Bradley Center",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:02.419289",
+  "scraped_at": "2025-07-12T22:41:43.557909",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_164"
   }

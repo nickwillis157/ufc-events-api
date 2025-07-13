@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_76",
   "event_name": "UFC 76",
-  "event_date": "2025-07-12",
+  "event_date": "2007-09-22",
   "venue": "Honda Center",
   "location": null,
   "status": "completed",
@@ -380,7 +380,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:12.369101",
+  "scraped_at": "2025-07-12T22:42:48.709665",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_76"
   }

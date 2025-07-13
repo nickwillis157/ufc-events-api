@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Florian_vs._Gomi",
   "event_name": "UFC Fight Night: Florian vs. Gomi",
-  "event_date": "2025-07-12",
+  "event_date": "2010-03-31",
   "venue": "Bojangles' Coliseum",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:45.794646",
+  "scraped_at": "2025-07-12T22:42:25.681758",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Florian_vs._Gomi"
   }

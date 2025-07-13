@@ -40,10 +40,10 @@
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
-      "method": "",
+      "method": null,
       "round": null,
       "time": null,
-      "winner": "Diego Lopes",
+      "winner": null,
       "result": null,
       "stats": null,
       "referee": null,
@@ -52,7 +52,7 @@
       "segment": "main-card"
     }
   ],
-  "scraped_at": "2025-07-12T19:00:10.191368",
+  "scraped_at": "2025-07-12T22:38:14.537373",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Lopes_vs._Silva"
   }

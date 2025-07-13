@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_211",
   "event_name": "UFC 211",
-  "event_date": "2025-07-12",
+  "event_date": "2017-05-13",
   "venue": "American Airlines Center",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:43:49.856160",
+  "scraped_at": "2025-07-12T22:40:33.387155",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_211"
   }

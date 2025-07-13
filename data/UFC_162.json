@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_162",
   "event_name": "UFC 162",
-  "event_date": "2025-07-12",
+  "event_date": "2013-07-06",
   "venue": "MGM Grand Garden Arena",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:04.831783",
+  "scraped_at": "2025-07-12T22:41:46.070418",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_162"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Florian_vs._Lauzon",
   "event_name": "UFC Fight Night: Florian vs. Lauzon",
-  "event_date": "2025-07-12",
+  "event_date": "2008-04-02",
   "venue": "Broomfield Event Center",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:07.315727",
+  "scraped_at": "2025-07-12T22:42:44.700219",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Florian_vs._Lauzon"
   }

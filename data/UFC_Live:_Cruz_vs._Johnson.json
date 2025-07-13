@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Live:_Cruz_vs._Johnson",
   "event_name": "UFC Live: Cruz vs. Johnson",
-  "event_date": "2025-07-12",
+  "event_date": "2011-10-01",
   "venue": "Verizon Center",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:28.946956",
+  "scraped_at": "2025-07-12T22:42:09.106910",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Live:_Cruz_vs._Johnson"
   }

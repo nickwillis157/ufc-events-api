@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_209",
   "event_name": "UFC 209",
-  "event_date": "2025-07-12",
+  "event_date": "2017-03-04",
   "venue": "T-Mobile Arena",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:43:53.388794",
+  "scraped_at": "2025-07-12T22:40:36.458878",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_209"
   }

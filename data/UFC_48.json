@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_48",
   "event_name": "UFC 48",
-  "event_date": "2025-07-12",
+  "event_date": "2004-06-19",
   "venue": "Mandalay Bay Events Center",
   "location": null,
   "status": "completed",
@@ -339,7 +339,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:31.617916",
+  "scraped_at": "2025-07-12T22:43:07.759952",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_48"
   }

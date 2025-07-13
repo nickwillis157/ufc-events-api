@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_62",
   "event_name": "UFC 62",
-  "event_date": "2025-07-12",
+  "event_date": "2006-08-26",
   "venue": "Mandalay Bay Events Center",
   "location": null,
   "status": "completed",
@@ -380,7 +380,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:22.003926",
+  "scraped_at": "2025-07-12T22:42:58.240173",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_62"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_212",
   "event_name": "UFC 212",
-  "event_date": "2025-07-12",
+  "event_date": "2017-06-03",
   "venue": "Jeunesse Arena",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:43:48.733018",
+  "scraped_at": "2025-07-12T22:40:32.426097",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_212"
   }

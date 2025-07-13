@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_142",
   "event_name": "UFC 142",
-  "event_date": "2025-07-12",
+  "event_date": "2012-01-14",
   "venue": "HSBC Arena",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:24.906650",
+  "scraped_at": "2025-07-12T22:42:05.141478",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_142"
   }

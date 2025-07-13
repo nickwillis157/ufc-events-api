@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Nogueira_vs._Davis",
   "event_name": "UFC Fight Night: Nogueira vs. Davis",
-  "event_date": "2025-07-12",
+  "event_date": "2011-03-26",
   "venue": "KeyArena",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:34.585270",
+  "scraped_at": "2025-07-12T22:42:14.619952",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Nogueira_vs._Davis"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_14",
   "event_name": "UFC 14",
-  "event_date": "2025-07-12",
+  "event_date": "1997-07-27",
   "venue": "Boutwell Auditorium",
   "location": null,
   "status": "completed",
@@ -380,7 +380,7 @@
       "segment": "main-card"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:50.068627",
+  "scraped_at": "2025-07-12T22:43:26.312168",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_14"
   }

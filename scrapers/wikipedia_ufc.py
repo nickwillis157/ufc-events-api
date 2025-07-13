@@ -23,6 +23,14 @@ class WikipediaUFCScraper:
     BASE_URL = "https://en.wikipedia.org"
     EVENTS_LIST_URL = f"{BASE_URL}/wiki/List_of_UFC_events"
     
+    # Hardcoded dates for events with problematic Wikipedia pages
+    HARDCODED_DATES = {
+        'UFC_on_FX:_Belfort_vs._Bisping': '2013-01-19',
+        'UFC_on_Fox:_Evans_vs._Davis': '2012-01-28',
+        'UFC_on_Fox:_Henderson_vs._Melendez': '2013-04-20',
+        'UFC_on_Fuel_TV:_Sanchez_vs._Ellenberger': '2012-02-15'
+    }
+    
     def __init__(self, rate_limiter: RateLimiter):
         self.rate_limiter = rate_limiter
         self.session = requests.Session()
@@ -151,6 +159,9 @@ class WikipediaUFCScraper:
             event_name = event_link.get_text(strip=True)
             event_url = urljoin(self.BASE_URL, event_link.get('href'))
             event_id = event_link.get('href').split('/')[-1]
+            
+            # Note: Some events redirect to annual summary pages (handled by HARDCODED_DATES)
+            # These events will get their correct dates when individually scraped
 
             # --- Extract Date ---
             date_cell = cells[date_col]
@@ -212,9 +223,17 @@ class WikipediaUFCScraper:
     async def _parse_event_details(self, soup: BeautifulSoup, event_id: str, event_url: str) -> Optional[UFCEvent]:
         """Parse event details from Wikipedia event page"""
         try:
-            # Extract basic event information
-            event_name = self._extract_event_name(soup)
-            event_date = self._extract_event_date(soup)
+            # Check if this is a hardcoded event first (before any other extraction)
+            if event_id in self.HARDCODED_DATES:
+                logger.info(f"Using hardcoded date {self.HARDCODED_DATES[event_id]} for event {event_id}")
+                event_date = self.HARDCODED_DATES[event_id]
+                # For hardcoded events, use simplified event name from event_id
+                event_name = event_id.replace('_', ' ').replace(':', ':')
+            else:
+                # Extract basic event information normally
+                event_name = self._extract_event_name(soup)
+                event_date = self._extract_event_date(soup, event_id)
+            
             venue, location = self._extract_venue_location(soup)
             status = self._determine_event_status(event_date)
             
@@ -288,19 +307,49 @@ class WikipediaUFCScraper:
             return title.get_text(strip=True)
         return "Unknown Event"
     
-    def _extract_event_date(self, soup: BeautifulSoup) -> str:
+    def _extract_event_date(self, soup: BeautifulSoup, event_id: str = None) -> str:
         """Extract event date from infobox"""
+        # First check if this is one of our hardcoded events
+        if event_id and event_id in self.HARDCODED_DATES:
+            logger.info(f"Using hardcoded date {self.HARDCODED_DATES[event_id]} for event {event_id}")
+            return self.HARDCODED_DATES[event_id]
+        
         infobox = soup.find('table', class_='infobox')
         if infobox:
+            # Look for the Date row in infobox
             for row in infobox.find_all('tr'):
-                if 'date' in row.get_text().lower():
-                    date_text = row.get_text()
+                th = row.find('th')
+                td = row.find('td')
+                
+                if th and td and 'date' in th.get_text().lower():
+                    # Found the date row, extract from td
+                    date_text = td.get_text(strip=True)
                     parsed_date = self._parse_date_from_text(date_text)
                     if parsed_date:
                         return parsed_date
+                    
+                    # If first parsing failed, try cleaning the text more
+                    # Remove references like [1], [2] etc.
+                    cleaned_date = re.sub(r'\[\d+\]', '', date_text).strip()
+                    parsed_date = self._parse_date_from_text(cleaned_date)
+                    if parsed_date:
+                        return parsed_date
         
-        logger.warning("Could not extract event date, using today's date as fallback")
-        return datetime.now().strftime('%Y-%m-%d')
+        # Try to find date in page title (sometimes events have dates in titles)
+        if title:
+            title_text = title.get_text()
+            parsed_date = self._parse_date_from_text(title_text)
+            if parsed_date:
+                return parsed_date
+        
+        # Try searching for common date patterns anywhere on the page
+        page_text = soup.get_text()
+        parsed_date = self._parse_date_from_text(page_text[:2000])  # First 2000 chars
+        if parsed_date:
+            return parsed_date
+        
+        logger.warning("Could not extract event date, using placeholder")
+        return "1900-01-01"  # Use obvious placeholder instead of today's date
     
     def _extract_venue_location(self, soup: BeautifulSoup) -> tuple[Optional[str], Optional[str]]:
         """Extract venue and location from infobox"""

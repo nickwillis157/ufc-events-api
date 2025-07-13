@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Live:_Kongo_vs._Barry",
   "event_name": "UFC Live: Kongo vs. Barry",
-  "event_date": "2025-07-12",
+  "event_date": "2011-06-26",
   "venue": "Consol Energy Center",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:32.471289",
+  "scraped_at": "2025-07-12T22:42:12.635713",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Live:_Kongo_vs._Barry"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_140",
   "event_name": "UFC 140",
-  "event_date": "2025-07-12",
+  "event_date": "2011-12-10",
   "venue": "Air Canada Centre",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:25.905336",
+  "scraped_at": "2025-07-12T22:42:06.125789",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_140"
   }

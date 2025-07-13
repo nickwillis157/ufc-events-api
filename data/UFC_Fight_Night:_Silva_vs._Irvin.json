@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Silva_vs._Irvin",
   "event_name": "UFC Fight Night: Silva vs. Irvin",
-  "event_date": "2025-07-12",
+  "event_date": "2008-07-19",
   "venue": "Palms Casino Resort",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:04.891271",
+  "scraped_at": "2025-07-12T22:42:42.194142",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Silva_vs._Irvin"
   }

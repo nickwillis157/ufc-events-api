@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_on_Fox:_Diaz_vs._Miller",
   "event_name": "UFC on Fox: Diaz vs. Miller",
-  "event_date": "2025-07-12",
+  "event_date": "2012-05-05",
   "venue": "IZOD Center",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:19.937735",
+  "scraped_at": "2025-07-12T22:42:00.595849",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_Fox:_Diaz_vs._Miller"
   }

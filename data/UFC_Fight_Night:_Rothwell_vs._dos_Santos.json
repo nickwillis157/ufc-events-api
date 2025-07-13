@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Rothwell_vs._dos_Santos",
   "event_name": "UFC Fight Night: Rothwell vs. dos Santos",
-  "event_date": "2025-07-12",
+  "event_date": "2016-04-10",
   "venue": "Arena Zagreb",
   "location": null,
   "status": "completed",
@@ -544,7 +544,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:44:12.245399",
+  "scraped_at": "2025-07-12T22:40:53.938603",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Rothwell_vs._dos_Santos"
   }

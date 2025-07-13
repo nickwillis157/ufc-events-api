@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_19",
   "event_name": "UFC 19",
-  "event_date": "2025-07-12",
+  "event_date": "1999-03-05",
   "venue": "Casino Magic Bay St. Louis",
   "location": null,
   "status": "completed",
@@ -298,7 +298,7 @@
       "segment": "main-card"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:46.736602",
+  "scraped_at": "2025-07-12T22:43:22.788145",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_19"
   }

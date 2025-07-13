@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_138",
   "event_name": "UFC 138",
-  "event_date": "2025-07-12",
+  "event_date": "2011-11-05",
   "venue": "LG Arena",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:27.363055",
+  "scraped_at": "2025-07-12T22:42:07.613056",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_138"
   }

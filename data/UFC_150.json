@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_150",
   "event_name": "UFC 150",
-  "event_date": "2025-07-12",
+  "event_date": "2012-08-11",
   "venue": "Pepsi Center",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:16.293560",
+  "scraped_at": "2025-07-12T22:41:57.099590",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_150"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_on_Fox:_Shevchenko_vs._Pe%C3%B1a",
   "event_name": "UFC on Fox: Shevchenko vs. Peña",
-  "event_date": "2025-07-12",
+  "event_date": "2017-01-28",
   "venue": "Pepsi Center",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:43:55.358081",
+  "scraped_at": "2025-07-12T22:40:38.422157",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_Fox:_Shevchenko_vs._Pe%C3%B1a"
   }

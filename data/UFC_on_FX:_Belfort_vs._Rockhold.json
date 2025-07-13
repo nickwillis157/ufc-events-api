@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_on_FX:_Belfort_vs._Rockhold",
   "event_name": "UFC on FX: Belfort vs. Rockhold",
-  "event_date": "2025-07-12",
+  "event_date": "2013-05-18",
   "venue": "Arena Jaraguá",
   "location": null,
   "status": "completed",
@@ -544,7 +544,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:06.335011",
+  "scraped_at": "2025-07-12T22:41:47.592762",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_FX:_Belfort_vs._Rockhold"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_73",
   "event_name": "UFC 73",
-  "event_date": "2025-07-12",
+  "event_date": "2007-07-07",
   "venue": "ARCO Arena",
   "location": null,
   "status": "completed",
@@ -380,7 +380,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:14.404999",
+  "scraped_at": "2025-07-12T22:42:50.714967",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_73"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Live:_Jones_vs._Matyushenko",
   "event_name": "UFC Live: Jones vs. Matyushenko",
-  "event_date": "2025-07-12",
+  "event_date": "2010-08-01",
   "venue": "San Diego Sports Arena",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:42.619014",
+  "scraped_at": "2025-07-12T22:42:22.670655",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Live:_Jones_vs._Matyushenko"
   }

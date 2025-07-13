@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_106",
   "event_name": "UFC 106",
-  "event_date": "2025-07-12",
+  "event_date": "2009-11-21",
   "venue": "Mandalay Bay Events Center",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:50.247116",
+  "scraped_at": "2025-07-12T22:42:29.658016",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_106"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_34",
   "event_name": "UFC 34",
-  "event_date": "2025-07-12",
+  "event_date": "2001-11-02",
   "venue": "MGM Grand Garden Arena",
   "location": null,
   "status": "completed",
@@ -339,7 +339,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:39.096277",
+  "scraped_at": "2025-07-12T22:43:15.277658",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_34"
   }

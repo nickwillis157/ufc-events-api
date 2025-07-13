@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_96",
   "event_name": "UFC 96",
-  "event_date": "2025-07-12",
+  "event_date": "2009-03-07",
   "venue": "Nationwide Arena",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:57.471420",
+  "scraped_at": "2025-07-12T22:42:35.671615",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_96"
   }

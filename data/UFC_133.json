@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_133",
   "event_name": "UFC 133",
-  "event_date": "2025-07-12",
+  "event_date": "2011-08-06",
   "venue": "Wells Fargo Center",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:31.518404",
+  "scraped_at": "2025-07-12T22:42:11.650049",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_133"
   }

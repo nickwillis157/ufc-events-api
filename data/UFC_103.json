@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_103",
   "event_name": "UFC 103",
-  "event_date": "2025-07-12",
+  "event_date": "2009-09-19",
   "venue": "American Airlines Center",
   "location": null,
   "status": "completed",
@@ -544,7 +544,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:51.780912",
+  "scraped_at": "2025-07-12T22:42:31.159873",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_103"
   }

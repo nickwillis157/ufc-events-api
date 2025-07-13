@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Live:_Sanchez_vs._Kampmann",
   "event_name": "UFC Live: Sanchez vs. Kampmann",
-  "event_date": "2025-07-12",
+  "event_date": "2011-03-03",
   "venue": "KFC Yum! Center",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:35.475034",
+  "scraped_at": "2025-07-12T22:42:15.634739",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Live:_Sanchez_vs._Kampmann"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC:_Fight_for_the_Troops_3",
   "event_name": "UFC: Fight for the Troops 3",
-  "event_date": "2025-07-12",
+  "event_date": "2013-11-06",
   "venue": "Fort Campbell",
   "location": null,
   "status": "completed",
@@ -544,7 +544,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:44:59.337054",
+  "scraped_at": "2025-07-12T22:41:40.581248",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC:_Fight_for_the_Troops_3"
   }

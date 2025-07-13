@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Condit_vs._Kampmann_2",
   "event_name": "UFC Fight Night: Condit vs. Kampmann 2",
-  "event_date": "2025-07-12",
+  "event_date": "2013-08-28",
   "venue": "Bankers Life Fieldhouse",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:02.872227",
+  "scraped_at": "2025-07-12T22:41:44.060111",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Condit_vs._Kampmann_2"
   }

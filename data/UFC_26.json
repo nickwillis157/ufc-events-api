@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_26",
   "event_name": "UFC 26",
-  "event_date": "2025-07-12",
+  "event_date": "2000-06-09",
   "venue": "Five Seasons Events Center",
   "location": null,
   "status": "completed",
@@ -339,7 +339,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:43.161749",
+  "scraped_at": "2025-07-12T22:43:19.277735",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_26"
   }

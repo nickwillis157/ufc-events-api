@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_93",
   "event_name": "UFC 93",
-  "event_date": "2025-07-12",
+  "event_date": "2009-01-17",
   "venue": "The O2",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:00.352059",
+  "scraped_at": "2025-07-12T22:42:37.670154",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_93"
   }

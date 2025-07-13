@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_130",
   "event_name": "UFC 130",
-  "event_date": "2025-07-12",
+  "event_date": "2011-05-28",
   "venue": "MGM Grand Garden Arena",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:33.433276",
+  "scraped_at": "2025-07-12T22:42:13.615768",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_130"
   }

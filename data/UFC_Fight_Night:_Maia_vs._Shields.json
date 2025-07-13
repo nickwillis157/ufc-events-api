@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Maia_vs._Shields",
   "event_name": "UFC Fight Night: Maia vs. Shields",
-  "event_date": "2025-07-12",
+  "event_date": "2013-10-09",
   "venue": "Ginásio José Corrêa",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:00.871093",
+  "scraped_at": "2025-07-12T22:41:42.067818",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Maia_vs._Shields"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_99",
   "event_name": "UFC 99",
-  "event_date": "2025-07-12",
+  "event_date": "2009-06-13",
   "venue": "Lanxess Arena",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:54.979776",
+  "scraped_at": "2025-07-12T22:42:33.683942",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_99"
   }

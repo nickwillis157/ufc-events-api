@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Live:_Hardy_vs._Lytle",
   "event_name": "UFC Live: Hardy vs. Lytle",
-  "event_date": "2025-07-12",
+  "event_date": "2011-08-14",
   "venue": "Bradley Center",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:31.100435",
+  "scraped_at": "2025-07-12T22:42:11.126063",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Live:_Hardy_vs._Lytle"
   }

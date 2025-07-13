@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_157",
   "event_name": "UFC 157",
-  "event_date": "2025-07-12",
+  "event_date": "2013-02-23",
   "venue": "Honda Center",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:09.587313",
+  "scraped_at": "2025-07-12T22:41:50.562972",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_157"
   }

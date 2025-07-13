@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_163",
   "event_name": "UFC 163",
-  "event_date": "2025-07-12",
+  "event_date": "2013-08-03",
   "venue": "HSBC Arena",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:03.833067",
+  "scraped_at": "2025-07-12T22:41:45.085541",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_163"
   }

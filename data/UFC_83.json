@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_83",
   "event_name": "UFC 83",
-  "event_date": "2025-07-12",
+  "event_date": "2008-04-19",
   "venue": "Bell Centre",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:06.918190",
+  "scraped_at": "2025-07-12T22:42:44.220914",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_83"
   }

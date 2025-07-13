@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Brazil",
   "event_name": "UFC Brazil",
-  "event_date": "2025-07-12",
+  "event_date": "1998-10-16",
   "venue": "Ginásio da Portuguesa",
   "location": null,
   "status": "completed",
@@ -339,7 +339,7 @@
       "segment": "main-card"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:47.731785",
+  "scraped_at": "2025-07-12T22:43:23.825176",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Brazil"
   }

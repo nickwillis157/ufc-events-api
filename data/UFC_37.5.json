@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_37.5",
   "event_name": "UFC 37.5",
-  "event_date": "2025-07-12",
+  "event_date": "2002-06-22",
   "venue": "Bellagio Hotel and Casino",
   "location": null,
   "status": "completed",
@@ -257,7 +257,7 @@
       "segment": "main-card"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:37.097234",
+  "scraped_at": "2025-07-12T22:43:13.327402",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_37.5"
   }

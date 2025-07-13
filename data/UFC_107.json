@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_107",
   "event_name": "UFC 107",
-  "event_date": "2025-07-12",
+  "event_date": "2009-12-12",
   "venue": "FedExForum",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:49.744133",
+  "scraped_at": "2025-07-12T22:42:29.154188",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_107"
   }

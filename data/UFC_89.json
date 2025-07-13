@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_89",
   "event_name": "UFC 89",
-  "event_date": "2025-07-12",
+  "event_date": "2008-10-18",
   "venue": "National Indoor Arena",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:02.836096",
+  "scraped_at": "2025-07-12T22:42:40.188567",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_89"
   }

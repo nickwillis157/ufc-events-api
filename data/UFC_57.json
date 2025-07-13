@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_57",
   "event_name": "UFC 57",
-  "event_date": "2025-07-12",
+  "event_date": "2006-02-04",
   "venue": "Mandalay Bay Events Center",
   "location": null,
   "status": "completed",
@@ -380,7 +380,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:26.001706",
+  "scraped_at": "2025-07-12T22:43:02.251686",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_57"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_on_Fox:_Weidman_vs._Gastelum",
   "event_name": "UFC on Fox: Weidman vs. Gastelum",
-  "event_date": "2025-07-12",
+  "event_date": "2017-07-22",
   "venue": "Nassau Veterans Memorial Coliseum",
   "location": null,
   "status": "completed",
@@ -544,7 +544,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:43:45.316625",
+  "scraped_at": "2025-07-12T22:40:29.414715",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_Fox:_Weidman_vs._Gastelum"
   }

@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_139",
   "event_name": "UFC 139",
-  "event_date": "2025-07-12",
+  "event_date": "2011-11-19",
   "venue": "HP Pavilion",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:26.404220",
+  "scraped_at": "2025-07-12T22:42:06.623692",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_139"
   }

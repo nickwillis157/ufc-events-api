@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_166",
   "event_name": "UFC 166",
-  "event_date": "2025-07-12",
+  "event_date": "2013-10-19",
   "venue": "Toyota Center",
   "location": null,
   "status": "completed",
@@ -544,7 +544,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:00.316908",
+  "scraped_at": "2025-07-12T22:41:41.556300",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_166"
   }

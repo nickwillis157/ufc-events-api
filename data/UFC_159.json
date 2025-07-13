@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_159",
   "event_name": "UFC 159",
-  "event_date": "2025-07-12",
+  "event_date": "2013-04-27",
   "venue": "Prudential Center",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:06.931652",
+  "scraped_at": "2025-07-12T22:41:48.068817",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_159"
   }

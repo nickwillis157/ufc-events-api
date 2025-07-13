@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_101",
   "event_name": "UFC 101",
-  "event_date": "2025-07-12",
+  "event_date": "2009-08-08",
   "venue": "Wachovia Center",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:53.304704",
+  "scraped_at": "2025-07-12T22:42:32.693074",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_101"
   }

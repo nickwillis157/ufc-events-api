@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_111",
   "event_name": "UFC 111",
-  "event_date": "2025-07-12",
+  "event_date": "2010-03-27",
   "venue": "Prudential Center",
   "location": null,
   "status": "completed",
@@ -421,7 +421,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:46.092525",
+  "scraped_at": "2025-07-12T22:42:26.163352",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_111"
   }

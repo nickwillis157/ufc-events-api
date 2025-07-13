@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_Fight_Night:_Sanchez_vs._Riggs",
   "event_name": "UFC Fight Night: Sanchez vs. Riggs",
-  "event_date": "2025-07-12",
+  "event_date": "2006-12-13",
   "venue": "MCAS Miramar",
   "location": null,
   "status": "completed",
@@ -380,7 +380,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:46:19.944379",
+  "scraped_at": "2025-07-12T22:42:56.269486",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Sanchez_vs._Riggs"
   }

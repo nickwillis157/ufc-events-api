@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_on_Fuel_TV:_Mu%C3%B1oz_vs._Weidman",
   "event_name": "UFC on Fuel TV: Muñoz vs. Weidman",
-  "event_date": "2025-07-12",
+  "event_date": "2012-07-11",
   "venue": "HP Pavilion",
   "location": null,
   "status": "completed",
@@ -462,7 +462,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:17.187342",
+  "scraped_at": "2025-07-12T22:41:58.088799",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_Fuel_TV:_Mu%C3%B1oz_vs._Weidman"
   }

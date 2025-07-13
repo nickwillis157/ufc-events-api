@@ -1,7 +1,7 @@
 {
   "event_id": "UFC_134",
   "event_name": "UFC 134",
-  "event_date": "2025-07-12",
+  "event_date": "2011-08-27",
   "venue": "HSBC Arena",
   "location": null,
   "status": "completed",
@@ -503,7 +503,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T21:45:30.426523",
+  "scraped_at": "2025-07-12T22:42:10.614414",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_134"
   }
