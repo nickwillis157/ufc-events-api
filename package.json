@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "UFC Events API for iOS app",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "vercel dev",
-    "build": "echo 'Build complete'",
+    "build": "echo 'Static build complete'",
     "start": "echo 'Start complete'"
   },
   "dependencies": {

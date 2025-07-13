@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFC Events API</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .endpoint { background: #f5f5f5; padding: 15px; margin: 10px 0; border-radius: 8px; }
+        code { background: #e1e1e1; padding: 2px 6px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h1>🥊 UFC Events API</h1>
+    <p>Static API serving UFC event data with 641+ historical events.</p>
+    
+    <h2>API Endpoints</h2>
+    
+    <div class="endpoint">
+        <h3>GET /api/events/recent</h3>
+        <p>Returns the 20 most recent completed UFC events</p>
+        <code>https://ufc-events-api.vercel.app/api/events/recent</code>
+    </div>
+    
+    <div class="endpoint">
+        <h3>GET /api/events/upcoming</h3>
+        <p>Returns all upcoming UFC events</p>
+        <code>https://ufc-events-api.vercel.app/api/events/upcoming</code>
+    </div>
+    
+    <div class="endpoint">
+        <h3>GET /api/events/{event_id}</h3>
+        <p>Returns specific event details by ID</p>
+        <code>https://ufc-events-api.vercel.app/api/events/UFC_318</code>
+    </div>
+    
+    <h2>Data Structure</h2>
+    <p>Events include complete fight cards, fighter details, results, and venue information.</p>
+    
+    <h2>Usage</h2>
+    <p>Perfect for iOS/Android apps, web apps, or any application needing UFC data.</p>
+    
+    <footer style="margin-top: 40px; text-align: center; color: #666;">
+        <p>Built with ❤️ for UFC fans</p>
+    </footer>
+</body>
+</html>

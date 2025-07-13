@@ -2,7 +2,7 @@ import Foundation
 
 class NetworkService: ObservableObject {
     static let shared = NetworkService()
-    private let baseURL = "http://127.0.0.1:8000/api"
+    private let baseURL = "https://ufc-events-api.vercel.app/api"
     
     private init() {}
     
