@@ -14,13 +14,20 @@ export default function handler(req, res) {
 
         // Get all JSON files from data directory
         const dataDir = path.join(process.cwd(), 'data');
-        const files = fs.readdirSync(dataDir)
-            .filter(file => file.endsWith('.json'))
-            .map(file => {
-                const filePath = path.join(dataDir, file);
-                const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-                return data;
-            });
+        const files = [];
+        
+        for (const file of fs.readdirSync(dataDir)) {
+            if (file.endsWith('.json')) {
+                try {
+                    const filePath = path.join(dataDir, file);
+                    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+                    files.push(data);
+                } catch (fileError) {
+                    console.warn(`Skipping invalid JSON file: ${file}`, fileError.message);
+                    continue;
+                }
+            }
+        }
 
         // Filter for historical events (past events only)
         const today = new Date();
