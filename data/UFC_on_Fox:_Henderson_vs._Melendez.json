@@ -1,6 +1,6 @@
 {
   "event_id": "UFC_on_Fox:_Henderson_vs._Melendez",
-  "event_name": "2013 in UFC",
+  "event_name": "UFC on Fox: Henderson vs. Melendez",
   "event_date": "2013-04-20",
   "venue": null,
   "location": null,
@@ -23,7 +23,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": true
       },
       "fighter2": {
         "name": "John Dodson",
@@ -36,11 +37,12 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Flyweight",
-      "title_fight": "none",
-      "method": "Decision (unanimous) (49\u201346, 48\u201347, 48\u201347)",
+      "title_fight": "undisputed",
+      "method": "Decision (unanimous) (49–46, 48–47, 48–47)",
       "round": null,
       "time": null,
       "winner": "Demetrious Johnson",
@@ -54,7 +56,7 @@
     {
       "bout_order": 18,
       "fighter1": {
-        "name": "Jos\u00e9 Aldo",
+        "name": "José Aldo",
         "record": null,
         "rank": null,
         "country": null,
@@ -64,7 +66,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": true
       },
       "fighter2": {
         "name": "Frankie Edgar",
@@ -77,14 +80,15 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Featherweight",
-      "title_fight": "none",
-      "method": "Decision (unanimous) (49\u201346, 49\u201346, 48\u201347)",
+      "title_fight": "undisputed",
+      "method": "Decision (unanimous) (49–46, 49–46, 48–47)",
       "round": null,
       "time": null,
-      "winner": "Jos\u00e9 Aldo",
+      "winner": "José Aldo",
       "result": null,
       "stats": null,
       "referee": null,
@@ -95,7 +99,7 @@
     {
       "bout_order": 17,
       "fighter1": {
-        "name": "Renan Bar\u00e3o",
+        "name": "Renan Barão",
         "record": null,
         "rank": null,
         "country": null,
@@ -105,7 +109,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Michael McDonald",
@@ -118,14 +123,15 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
       "method": "Submission (arm-triangle choke)",
       "round": null,
       "time": null,
-      "winner": "Renan Bar\u00e3o",
+      "winner": "Renan Barão",
       "result": null,
       "stats": null,
       "referee": null,
@@ -146,7 +152,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": true
       },
       "fighter2": {
         "name": "Liz Carmouche",
@@ -159,10 +166,11 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Women's Bantamweight",
-      "title_fight": "none",
+      "title_fight": "undisputed",
       "method": "Submission (armbar)",
       "round": null,
       "time": null,
@@ -187,7 +195,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": true
       },
       "fighter2": {
         "name": "Nick Diaz",
@@ -200,11 +209,12 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Welterweight",
-      "title_fight": "none",
-      "method": "Decision (unanimous) (50\u201345, 50\u201345, 50\u201345)",
+      "title_fight": "undisputed",
+      "method": "Decision (unanimous) (50–45, 50–45, 50–45)",
       "round": null,
       "time": null,
       "winner": "Georges St-Pierre",
@@ -228,7 +238,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": true
       },
       "fighter2": {
         "name": "Gilbert Melendez",
@@ -241,11 +252,12 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Lightweight",
-      "title_fight": "none",
-      "method": "Decision (split) (47\u201348, 48\u201347, 48\u201347)",
+      "title_fight": "undisputed",
+      "method": "Decision (split) (47–48, 48–47, 48–47)",
       "round": null,
       "time": null,
       "winner": "Benson Henderson",
@@ -269,7 +281,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": true
       },
       "fighter2": {
         "name": "Chael Sonnen",
@@ -282,10 +295,11 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Light Heavyweight",
-      "title_fight": "none",
+      "title_fight": "undisputed",
       "method": "TKO (elbows and punches)",
       "round": null,
       "time": null,
@@ -310,10 +324,11 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": true
       },
       "fighter2": {
-        "name": "Ant\u00f4nio Silva",
+        "name": "Antônio Silva",
         "record": null,
         "rank": null,
         "country": null,
@@ -323,10 +338,11 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Heavyweight",
-      "title_fight": "none",
+      "title_fight": "undisputed",
       "method": "TKO (punches)",
       "round": null,
       "time": null,
@@ -351,7 +367,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Anderson Silva",
@@ -364,10 +381,11 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": true
       },
       "weight_class": "Middleweight",
-      "title_fight": "none",
+      "title_fight": "undisputed",
       "method": "KO (punches)",
       "round": null,
       "time": null,
@@ -392,7 +410,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": true
       },
       "fighter2": {
         "name": "John Moraga",
@@ -405,10 +424,11 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Flyweight",
-      "title_fight": "none",
+      "title_fight": "undisputed",
       "method": "Submission (armbar)",
       "round": null,
       "time": null,
@@ -423,7 +443,7 @@
     {
       "bout_order": 9,
       "fighter1": {
-        "name": "Jos\u00e9 Aldo",
+        "name": "José Aldo",
         "record": null,
         "rank": null,
         "country": null,
@@ -433,7 +453,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": true
       },
       "fighter2": {
         "name": "Chan Sung Jung",
@@ -446,14 +467,15 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Featherweight",
-      "title_fight": "none",
+      "title_fight": "undisputed",
       "method": "TKO (punches)",
       "round": null,
       "time": null,
-      "winner": "Jos\u00e9 Aldo",
+      "winner": "José Aldo",
       "result": null,
       "stats": null,
       "referee": null,
@@ -474,7 +496,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Benson Henderson",
@@ -487,10 +510,11 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": true
       },
       "weight_class": "Lightweight",
-      "title_fight": "none",
+      "title_fight": "undisputed",
       "method": "Submission (armbar)",
       "round": null,
       "time": null,
@@ -505,7 +529,7 @@
     {
       "bout_order": 7,
       "fighter1": {
-        "name": "Renan Bar\u00e3o",
+        "name": "Renan Barão",
         "record": null,
         "rank": null,
         "country": null,
@@ -515,7 +539,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Eddie Wineland",
@@ -528,14 +553,15 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
       "method": "TKO (spinning back kick and punches)",
       "round": null,
       "time": null,
-      "winner": "Renan Bar\u00e3o",
+      "winner": "Renan Barão",
       "result": null,
       "stats": null,
       "referee": null,
@@ -556,7 +582,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": true
       },
       "fighter2": {
         "name": "Alexander Gustafsson",
@@ -569,11 +596,12 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Light Heavyweight",
-      "title_fight": "none",
-      "method": "Decision (unanimous) (48\u201347, 48\u201347, 49\u201346)",
+      "title_fight": "undisputed",
+      "method": "Decision (unanimous) (48–47, 48–47, 49–46)",
       "round": null,
       "time": null,
       "winner": "Jon Jones",
@@ -597,7 +625,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": true
       },
       "fighter2": {
         "name": "Junior dos Santos",
@@ -610,10 +639,11 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Heavyweight",
-      "title_fight": "none",
+      "title_fight": "undisputed",
       "method": "TKO (slam and punch)",
       "round": null,
       "time": null,
@@ -638,7 +668,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": true
       },
       "fighter2": {
         "name": "Johny Hendricks",
@@ -651,11 +682,12 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Welterweight",
-      "title_fight": "none",
-      "method": "Decision (split) (48\u201347, 47\u201348, 48\u201347)",
+      "title_fight": "undisputed",
+      "method": "Decision (split) (48–47, 47–48, 48–47)",
       "round": null,
       "time": null,
       "winner": "Georges St-Pierre",
@@ -679,7 +711,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": true
       },
       "fighter2": {
         "name": "Joseph Benavidez",
@@ -692,10 +725,11 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Flyweight",
-      "title_fight": "none",
+      "title_fight": "undisputed",
       "method": "KO (punches)",
       "round": null,
       "time": null,
@@ -720,7 +754,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": true
       },
       "fighter2": {
         "name": "Miesha Tate",
@@ -733,10 +768,11 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Women's Bantamweight",
-      "title_fight": "none",
+      "title_fight": "undisputed",
       "method": "Submission (armbar)",
       "round": null,
       "time": null,
@@ -761,7 +797,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": true
       },
       "fighter2": {
         "name": "Anderson Silva",
@@ -774,10 +811,11 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Middleweight",
-      "title_fight": "none",
+      "title_fight": "undisputed",
       "method": "TKO (leg injury)",
       "round": null,
       "time": null,
@@ -790,7 +828,7 @@
       "segment": "main-card"
     }
   ],
-  "scraped_at": "2025-07-12T22:41:48.637596",
+  "scraped_at": "2025-07-13T12:07:16.868521",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_Fox:_Henderson_vs._Melendez"
   }

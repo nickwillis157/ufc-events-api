@@ -23,7 +23,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Shamil Gaziev",
@@ -36,7 +37,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -64,7 +66,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Tyson Pedro",
@@ -77,7 +80,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -105,7 +109,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Alex Perez",
@@ -118,7 +123,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
@@ -146,7 +152,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Bekzat Almakhan",
@@ -159,7 +166,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -187,7 +195,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Matt Schnell",
@@ -200,7 +209,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Flyweight",
       "title_fight": "none",
@@ -228,7 +238,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Jamie Pickett",
@@ -241,7 +252,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -269,7 +281,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Bernardo Sopaj",
@@ -282,7 +295,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -310,7 +324,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Javid Basharat",
@@ -323,7 +338,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Bantamweight",
       "title_fight": "none",
@@ -351,7 +367,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Cláudio Ribeiro",
@@ -364,7 +381,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -392,7 +410,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "AJ Cunningham",
@@ -405,7 +424,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -433,7 +453,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Abdul-Kareem Al-Selwady",
@@ -446,7 +467,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -462,7 +484,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T22:38:45.110542",
+  "scraped_at": "2025-07-13T11:55:04.276627",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Rozenstruik_vs._Gaziev"
   }

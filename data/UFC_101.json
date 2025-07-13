@@ -23,7 +23,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": true
       },
       "fighter2": {
         "name": "Kenny Florian",
@@ -36,10 +37,11 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Lightweight",
-      "title_fight": "none",
+      "title_fight": "undisputed",
       "method": "Submission (rear-naked choke)",
       "round": null,
       "time": null,
@@ -64,7 +66,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Forrest Griffin",
@@ -77,7 +80,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
@@ -105,7 +109,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Shane Nelson",
@@ -118,7 +123,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -146,7 +152,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Amir Sadollah",
@@ -159,7 +166,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -187,7 +195,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Kendall Grove",
@@ -200,7 +209,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -228,7 +238,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Josh Neer",
@@ -241,7 +252,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -269,7 +281,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Tamdan McCrory",
@@ -282,7 +295,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -310,7 +324,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Thales Leites",
@@ -323,7 +338,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -351,7 +367,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Dan Cramer",
@@ -364,7 +381,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -392,7 +410,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "George Roop",
@@ -405,7 +424,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -433,7 +453,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Danillo Villefort",
@@ -446,7 +467,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -462,7 +484,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T22:42:32.693074",
+  "scraped_at": "2025-07-13T12:10:12.989890",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_101"
   }

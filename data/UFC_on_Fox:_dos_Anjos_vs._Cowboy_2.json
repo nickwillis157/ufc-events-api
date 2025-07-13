@@ -23,7 +23,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": true
       },
       "fighter2": {
         "name": "Donald Cerrone",
@@ -36,10 +37,11 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Lightweight",
-      "title_fight": "none",
+      "title_fight": "undisputed",
       "method": "TKO (body kick and punches)",
       "round": null,
       "time": null,
@@ -64,7 +66,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Junior dos Santos",
@@ -77,7 +80,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -105,7 +109,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Michael Johnson",
@@ -118,7 +123,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -146,7 +152,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Randa Markos",
@@ -159,7 +166,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Women's Strawweight",
       "title_fight": "none",
@@ -187,7 +195,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Myles Jury",
@@ -200,7 +209,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Catchweight (150.5 lb)",
       "title_fight": "none",
@@ -228,7 +238,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "C. B. Dollaway",
@@ -241,7 +252,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -269,7 +281,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Sarah Kaufman",
@@ -282,7 +295,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Women's Bantamweight",
       "title_fight": "none",
@@ -310,7 +324,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Josh Samman",
@@ -323,7 +338,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -351,7 +367,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Danny Castillo",
@@ -364,7 +381,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -392,7 +410,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Jim Alers",
@@ -405,7 +424,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -433,7 +453,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Leon Edwards",
@@ -446,7 +467,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -474,7 +496,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Hayder Hassan",
@@ -487,7 +510,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -515,7 +539,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Luis Henrique",
@@ -528,7 +553,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -544,7 +570,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T22:40:58.450034",
+  "scraped_at": "2025-07-13T12:03:56.662766",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_Fox:_dos_Anjos_vs._Cowboy_2"
   }

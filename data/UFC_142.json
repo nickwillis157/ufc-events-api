@@ -23,7 +23,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": true
       },
       "fighter2": {
         "name": "Chad Mendes",
@@ -36,10 +37,11 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Featherweight",
-      "title_fight": "none",
+      "title_fight": "undisputed",
       "method": "KO (knee)",
       "round": null,
       "time": null,
@@ -64,7 +66,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Anthony Johnson",
@@ -77,7 +80,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Catchweight (197 lb)",
       "title_fight": "none",
@@ -105,7 +109,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Mike Massenzio",
@@ -118,7 +123,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
@@ -146,7 +152,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Erick Silva",
@@ -159,7 +166,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -187,7 +195,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Terry Etim",
@@ -200,7 +209,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -228,7 +238,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Sam Stout",
@@ -241,7 +252,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
@@ -269,7 +281,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Ednaldo Oliveira",
@@ -282,7 +295,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
@@ -310,7 +324,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Michihiro Omigawa",
@@ -323,7 +338,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -351,7 +367,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Ricardo Funch",
@@ -364,7 +381,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
@@ -392,7 +410,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "fighter2": {
         "name": "Antonio Carvalho",
@@ -405,7 +424,8 @@
         "reach": null,
         "stance": null,
         "nickname": null,
-        "bonus": null
+        "bonus": null,
+        "is_champion": false
       },
       "weight_class": "Featherweight",
       "title_fight": "none",
@@ -421,7 +441,7 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": "2025-07-12T22:42:05.141478",
+  "scraped_at": "2025-07-13T12:08:22.877170",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_142"
   }
