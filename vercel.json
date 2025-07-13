@@ -5,5 +5,7 @@
     }
   },
   "buildCommand": "echo 'Build complete'",
-  "outputDirectory": "public"
+  "outputDirectory": "public",
+  "installCommand": "npm install",
+  "framework": null
 }
