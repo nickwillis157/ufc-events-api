@@ -159,6 +159,28 @@ enum FightSegment: String, Codable {
     }
 }
 
+// MARK: - Pagination Models
+struct PaginatedResponse: Codable {
+    let events: [UFCEvent]
+    let pagination: PaginationInfo
+}
+
+struct PaginationInfo: Codable {
+    let page: Int
+    let limit: Int
+    let total: Int
+    let totalPages: Int
+    let hasNext: Bool
+    let hasPrev: Bool
+    
+    enum CodingKeys: String, CodingKey {
+        case page, limit, total
+        case totalPages = "totalPages"
+        case hasNext = "hasNext"
+        case hasPrev = "hasPrev"
+    }
+}
+
 // MARK: - Sample Data
 extension UFCEvent {
     static var sampleData: [UFCEvent] {

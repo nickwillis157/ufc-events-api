@@ -11,6 +11,11 @@ struct EventListView: View {
     @State private var availableYears: [String] = []
     @State private var isLoading: Bool = true
     @State private var errorMessage: String?
+    
+    // Pagination state
+    @State private var currentPage: Int = 1
+    @State private var hasMorePages: Bool = true
+    @State private var isLoadingMore: Bool = false
 
     var body: some View {
         NavigationView {
@@ -194,6 +199,27 @@ struct EventListView: View {
                     EventCardView(event: event)
                 }
                 .buttonStyle(PlainButtonStyle()) // To remove default NavigationLink styling
+                .onAppear {
+                    // Trigger loading more events when approaching the end
+                    if currentView == .recent && event == filteredEvents.last && hasMorePages && !isLoadingMore {
+                        loadMoreEvents()
+                    }
+                }
+            }
+            
+            // Show loading indicator at bottom for pagination
+            if currentView == .recent && isLoadingMore {
+                VStack {
+                    ProgressView()
+                        .progressViewStyle(CircularProgressViewStyle(tint: Color(hex: "4facfe")))
+                        .scaleEffect(1.2)
+                    Text("Loading more events...")
+                        .foregroundColor(.gray)
+                        .font(.caption)
+                        .padding(.top, 5)
+                }
+                .padding(.vertical, 20)
+                .frame(maxWidth: .infinity)
             }
         }
     }
@@ -203,6 +229,8 @@ struct EventListView: View {
     private func loadEvents() {
         isLoading = true
         errorMessage = nil
+        currentPage = 1
+        hasMorePages = true
         
         Task {
             do {
@@ -211,17 +239,25 @@ struct EventListView: View {
                 switch currentView {
                 case .upcoming:
                     fetchedEvents = try await networkService.fetchUpcomingEvents()
+                    await MainActor.run {
+                        self.events = fetchedEvents
+                        self.hasMorePages = false // Upcoming events don't use pagination
+                    }
                 case .recent:
-                    fetchedEvents = try await networkService.fetchRecentEvents()
+                    let response = try await networkService.fetchHistoricalEvents(page: 1, limit: 20)
+                    await MainActor.run {
+                        self.events = response.events
+                        self.hasMorePages = response.pagination.hasNext
+                        self.currentPage = 1
+                    }
                 }
                 
                 await MainActor.run {
-                    print("📱 Received \(fetchedEvents.count) events for \(currentView.rawValue)")
-                    for event in fetchedEvents {
+                    print("📱 Received \(self.events.count) events for \(currentView.rawValue)")
+                    for event in self.events.prefix(3) {
                         print("  - \(event.eventName) on \(event.eventDate)")
                     }
                     
-                    self.events = fetchedEvents
                     self.populateYearFilter()
                     self.filterEvents()
                     
@@ -239,6 +275,36 @@ struct EventListView: View {
                     self.populateYearFilter()
                     self.filterEvents()
                     self.isLoading = false
+                }
+            }
+        }
+    }
+    
+    private func loadMoreEvents() {
+        guard currentView == .recent && hasMorePages && !isLoadingMore else { return }
+        
+        isLoadingMore = true
+        let nextPage = currentPage + 1
+        
+        Task {
+            do {
+                let response = try await networkService.fetchHistoricalEvents(page: nextPage, limit: 20)
+                
+                await MainActor.run {
+                    print("📱 Loaded page \(nextPage) with \(response.events.count) more events")
+                    
+                    self.events.append(contentsOf: response.events)
+                    self.hasMorePages = response.pagination.hasNext
+                    self.currentPage = nextPage
+                    
+                    self.populateYearFilter()
+                    self.filterEvents()
+                    self.isLoadingMore = false
+                }
+            } catch {
+                await MainActor.run {
+                    print("📱 Failed to load more events: \(error.localizedDescription)")
+                    self.isLoadingMore = false
                 }
             }
         }
@@ -273,7 +339,6 @@ struct EventListView: View {
                 return eventStartOfDay < today
             }
             filtered.sort { $0.eventDate > $1.eventDate }
-            filtered = Array(filtered.prefix(10))
         }
         
         // Filter by search term

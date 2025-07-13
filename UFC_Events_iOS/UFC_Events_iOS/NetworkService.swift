@@ -6,26 +6,6 @@ class NetworkService: ObservableObject {
     
     private init() {}
     
-    func fetchEvents() async throws -> [UFCEvent] {
-        guard let url = URL(string: "\(baseURL)/events") else {
-            throw NetworkError.invalidURL
-        }
-        
-        let (data, response) = try await URLSession.shared.data(from: url)
-        
-        guard let httpResponse = response as? HTTPURLResponse,
-              httpResponse.statusCode == 200 else {
-            throw NetworkError.invalidResponse
-        }
-        
-        let decoder = JSONDecoder()
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "yyyy-MM-dd"
-        decoder.dateDecodingStrategy = .formatted(dateFormatter)
-        
-        return try decoder.decode([UFCEvent].self, from: data)
-    }
-    
     func fetchUpcomingEvents() async throws -> [UFCEvent] {
         guard let url = URL(string: "\(baseURL)/events/upcoming") else {
             throw NetworkError.invalidURL
@@ -69,6 +49,26 @@ class NetworkService: ObservableObject {
         decoder.dateDecodingStrategy = .formatted(dateFormatter)
         
         return try decoder.decode([UFCEvent].self, from: data)
+    }
+    
+    func fetchHistoricalEvents(page: Int = 1, limit: Int = 20) async throws -> PaginatedResponse {
+        guard let url = URL(string: "\(baseURL)/events/historical?page=\(page)&limit=\(limit)") else {
+            throw NetworkError.invalidURL
+        }
+        
+        let (data, response) = try await URLSession.shared.data(from: url)
+        
+        guard let httpResponse = response as? HTTPURLResponse,
+              httpResponse.statusCode == 200 else {
+            throw NetworkError.invalidResponse
+        }
+        
+        let decoder = JSONDecoder()
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        decoder.dateDecodingStrategy = .formatted(dateFormatter)
+        
+        return try decoder.decode(PaginatedResponse.self, from: data)
     }
     
     func fetchEvent(id: String) async throws -> UFCEvent {
