@@ -12,8 +12,180 @@
   "gate": null,
   "tv_broadcast": null,
   "start_time": null,
-  "fights": [],
-  "scraped_at": "2025-07-13T16:21:12.578615",
+  "fights": [
+    {
+      "bout_order": 3,
+      "fighter1": {
+        "name": "Magomed Ankalaev",
+        "record": "21-1-1 (1 NC)",
+        "record_breakdown": {
+          "wins": 21,
+          "losses": 1,
+          "draws": 1,
+          "no_contests": 1
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": true,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Magomed_Ankalaev"
+      },
+      "fighter2": {
+        "name": "Alex Pereira",
+        "record": "12-3-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Alex_Pereira"
+      },
+      "weight_class": "Light Heavyweight",
+      "title_fight": "undisputed",
+      "method": null,
+      "round": null,
+      "time": null,
+      "winner": null,
+      "result": null,
+      "stats": null,
+      "referee": null,
+      "bonuses": null,
+      "fight_url": null,
+      "segment": "main-card"
+    },
+    {
+      "bout_order": 2,
+      "fighter1": {
+        "name": "Merab Dvalishvili",
+        "record": "20-4-0",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": true,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Merab_Dvalishvili"
+      },
+      "fighter2": {
+        "name": "Cory Sandhagen",
+        "record": "18-5-0",
+        "record_breakdown": {
+          "wins": 18,
+          "losses": 5,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cory_Sandhagen"
+      },
+      "weight_class": "Bantamweight",
+      "title_fight": "undisputed",
+      "method": null,
+      "round": null,
+      "time": null,
+      "winner": null,
+      "result": null,
+      "stats": null,
+      "referee": null,
+      "bonuses": null,
+      "fight_url": null,
+      "segment": "main-card"
+    },
+    {
+      "bout_order": 1,
+      "fighter1": {
+        "name": "Jiří Procházka",
+        "record": "31-5-1",
+        "record_breakdown": {
+          "wins": 31,
+          "losses": 5,
+          "draws": 1,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jiří_Procházka"
+      },
+      "fighter2": {
+        "name": "Khalil Rountree Jr.",
+        "record": "14-6-0 (1 NC)",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 6,
+          "draws": null,
+          "no_contests": 1
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Khalil_Rountree_Jr"
+      },
+      "weight_class": "Light Heavyweight",
+      "title_fight": "none",
+      "method": null,
+      "round": null,
+      "time": null,
+      "winner": null,
+      "result": null,
+      "stats": null,
+      "referee": null,
+      "bonuses": null,
+      "fight_url": null,
+      "segment": "main-card"
+    }
+  ],
+  "scraped_at": "2025-08-02T11:15:50.936405",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_320"
   }

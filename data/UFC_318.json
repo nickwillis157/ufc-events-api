@@ -7,7 +7,7 @@
   "city": "New Orleans",
   "state": "Louisiana",
   "country": "United States",
-  "status": "scheduled",
+  "status": "completed",
   "attendance": null,
   "gate": null,
   "tv_broadcast": null,
@@ -59,10 +59,10 @@
       },
       "weight_class": "Lightweight",
       "title_fight": "undisputed",
-      "method": null,
+      "method": "Decision (unanimous) (48–47, 49–46, 49–46)",
       "round": null,
       "time": null,
-      "winner": null,
+      "winner": "Max Holloway",
       "result": null,
       "stats": null,
       "referee": null,
@@ -116,10 +116,10 @@
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
-      "method": null,
+      "method": "Decision (unanimous) (30–27, 30–27, 29–28)",
       "round": null,
       "time": null,
-      "winner": null,
+      "winner": "Paulo Costa",
       "result": null,
       "stats": null,
       "referee": null,
@@ -130,27 +130,6 @@
     {
       "bout_order": 12,
       "fighter1": {
-        "name": "Kevin Holland",
-        "record": "28-13-0 (1 NC)",
-        "record_breakdown": {
-          "wins": 28,
-          "losses": 13,
-          "draws": null,
-          "no_contests": 1
-        },
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null,
-        "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Kevin_Holland"
-      },
-      "fighter2": {
         "name": "Daniel Rodriguez",
         "record": "19-5-0",
         "record_breakdown": {
@@ -171,29 +150,14 @@
         "is_champion": false,
         "wikipedia_url": "https://en.wikipedia.org/wiki/Daniel_Rodriguez"
       },
-      "weight_class": "Welterweight",
-      "title_fight": "none",
-      "method": null,
-      "round": null,
-      "time": null,
-      "winner": null,
-      "result": null,
-      "stats": null,
-      "referee": null,
-      "bonuses": null,
-      "fight_url": null,
-      "segment": "main-card"
-    },
-    {
-      "bout_order": 11,
-      "fighter1": {
-        "name": "Dan Ige",
-        "record": "19-9-0",
+      "fighter2": {
+        "name": "Kevin Holland",
+        "record": "28-13-0 (1 NC)",
         "record_breakdown": {
-          "wins": 19,
-          "losses": 9,
+          "wins": 28,
+          "losses": 13,
           "draws": null,
-          "no_contests": null
+          "no_contests": 1
         },
         "rank": null,
         "country": null,
@@ -205,9 +169,24 @@
         "nickname": null,
         "bonus": null,
         "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Dan_Ige"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kevin_Holland"
       },
-      "fighter2": {
+      "weight_class": "Welterweight",
+      "title_fight": "none",
+      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
+      "round": null,
+      "time": null,
+      "winner": "Daniel Rodriguez",
+      "result": null,
+      "stats": null,
+      "referee": null,
+      "bonuses": null,
+      "fight_url": null,
+      "segment": "main-card"
+    },
+    {
+      "bout_order": 11,
+      "fighter1": {
         "name": "Patrício Pitbull",
         "record": "36-8-0",
         "record_breakdown": {
@@ -228,12 +207,33 @@
         "is_champion": false,
         "wikipedia_url": "https://en.wikipedia.org/wiki/Patrício_Pitbull"
       },
+      "fighter2": {
+        "name": "Dan Ige",
+        "record": "19-9-0",
+        "record_breakdown": {
+          "wins": 19,
+          "losses": 9,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dan_Ige"
+      },
       "weight_class": "Featherweight",
       "title_fight": "none",
-      "method": null,
+      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
       "round": null,
       "time": null,
-      "winner": null,
+      "winner": "Patrício Pitbull",
       "result": null,
       "stats": null,
       "referee": null,
@@ -287,10 +287,10 @@
       },
       "weight_class": "Lightweight",
       "title_fight": "none",
-      "method": null,
+      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
       "round": null,
       "time": null,
-      "winner": null,
+      "winner": "Michael Johnson",
       "result": null,
       "stats": null,
       "referee": null,
@@ -301,27 +301,6 @@
     {
       "bout_order": 9,
       "fighter1": {
-        "name": "Kyler Phillips",
-        "record": "12-3-0",
-        "record_breakdown": {
-          "wins": 12,
-          "losses": 3,
-          "draws": null,
-          "no_contests": null
-        },
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null,
-        "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Kyler_Phillips"
-      },
-      "fighter2": {
         "name": "Vinicius Oliveira",
         "record": "22-3-0",
         "record_breakdown": {
@@ -342,28 +321,13 @@
         "is_champion": false,
         "wikipedia_url": "https://en.wikipedia.org/wiki/Vinicius_Oliveira"
       },
-      "weight_class": "Bantamweight",
-      "title_fight": "none",
-      "method": null,
-      "round": null,
-      "time": null,
-      "winner": null,
-      "result": null,
-      "stats": null,
-      "referee": null,
-      "bonuses": null,
-      "fight_url": null,
-      "segment": "prelims"
-    },
-    {
-      "bout_order": 8,
-      "fighter1": {
-        "name": "Marvin Vettori",
-        "record": "19-7-1",
+      "fighter2": {
+        "name": "Kyler Phillips",
+        "record": "12-3-0",
         "record_breakdown": {
-          "wins": 19,
-          "losses": 7,
-          "draws": 1,
+          "wins": 12,
+          "losses": 3,
+          "draws": null,
           "no_contests": null
         },
         "rank": null,
@@ -376,9 +340,24 @@
         "nickname": null,
         "bonus": null,
         "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Marvin_Vettori"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kyler_Phillips"
       },
-      "fighter2": {
+      "weight_class": "Bantamweight",
+      "title_fight": "none",
+      "method": "Decision (unanimous) (29–28, 29–28, 29–28)",
+      "round": null,
+      "time": null,
+      "winner": "Vinicius Oliveira",
+      "result": null,
+      "stats": null,
+      "referee": null,
+      "bonuses": null,
+      "fight_url": null,
+      "segment": "prelims"
+    },
+    {
+      "bout_order": 8,
+      "fighter1": {
         "name": "Brendan Allen",
         "record": "24-7-0",
         "record_breakdown": {
@@ -399,28 +378,13 @@
         "is_champion": false,
         "wikipedia_url": "https://en.wikipedia.org/wiki/Brendan_Allen"
       },
-      "weight_class": "Middleweight",
-      "title_fight": "none",
-      "method": null,
-      "round": null,
-      "time": null,
-      "winner": null,
-      "result": null,
-      "stats": null,
-      "referee": null,
-      "bonuses": null,
-      "fight_url": null,
-      "segment": "prelims"
-    },
-    {
-      "bout_order": 7,
-      "fighter1": {
-        "name": "Francisco Prado",
-        "record": "12-3-0",
+      "fighter2": {
+        "name": "Marvin Vettori",
+        "record": "19-7-1",
         "record_breakdown": {
-          "wins": 12,
-          "losses": 3,
-          "draws": null,
+          "wins": 19,
+          "losses": 7,
+          "draws": 1,
           "no_contests": null
         },
         "rank": null,
@@ -433,9 +397,24 @@
         "nickname": null,
         "bonus": null,
         "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Francisco_Prado"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Marvin_Vettori"
       },
-      "fighter2": {
+      "weight_class": "Middleweight",
+      "title_fight": "none",
+      "method": "Decision (unanimous) (30–27, 30–27, 29–28)",
+      "round": null,
+      "time": null,
+      "winner": "Brendan Allen",
+      "result": null,
+      "stats": null,
+      "referee": null,
+      "bonuses": null,
+      "fight_url": null,
+      "segment": "prelims"
+    },
+    {
+      "bout_order": 7,
+      "fighter1": {
         "name": "Nikolay Veretennikov",
         "record": "12-6-0",
         "record_breakdown": {
@@ -456,12 +435,33 @@
         "is_champion": false,
         "wikipedia_url": "https://en.wikipedia.org/wiki/Nikolay_Veretennikov"
       },
+      "fighter2": {
+        "name": "Francisco Prado",
+        "record": "12-3-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Francisco_Prado"
+      },
       "weight_class": "Welterweight",
       "title_fight": "none",
-      "method": null,
+      "method": "Decision (split) (28–29, 29–28, 29–28)",
       "round": null,
       "time": null,
-      "winner": null,
+      "winner": "Nikolay Veretennikov",
       "result": null,
       "stats": null,
       "referee": null,
@@ -515,10 +515,10 @@
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
-      "method": null,
+      "method": "TKO (punches)",
       "round": null,
       "time": null,
-      "winner": null,
+      "winner": "Ateba Abega Gautier",
       "result": null,
       "stats": null,
       "referee": null,
@@ -529,6 +529,22 @@
     {
       "bout_order": 5,
       "fighter1": {
+        "name": "Islam Dulatov",
+        "record": null,
+        "record_breakdown": null,
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": null
+      },
+      "fighter2": {
         "name": "Adam Fugitt",
         "record": "10-4-0",
         "record_breakdown": {
@@ -549,28 +565,12 @@
         "is_champion": false,
         "wikipedia_url": "https://en.wikipedia.org/wiki/Adam_Fugitt"
       },
-      "fighter2": {
-        "name": "Islam Dulatov",
-        "record": null,
-        "record_breakdown": null,
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null,
-        "is_champion": false,
-        "wikipedia_url": null
-      },
       "weight_class": "Welterweight",
       "title_fight": "none",
-      "method": null,
+      "method": "KO (punches)",
       "round": null,
       "time": null,
-      "winner": null,
+      "winner": "Islam Dulatov",
       "result": null,
       "stats": null,
       "referee": null,
@@ -624,10 +624,10 @@
       },
       "weight_class": "Light Heavyweight",
       "title_fight": "none",
-      "method": null,
+      "method": "Submission (armbar)",
       "round": null,
       "time": null,
-      "winner": null,
+      "winner": "Jimmy Crute",
       "result": null,
       "stats": null,
       "referee": null,
@@ -681,10 +681,10 @@
       },
       "weight_class": "Heavyweight",
       "title_fight": "none",
-      "method": null,
+      "method": "Submission (guillotine choke)",
       "round": null,
       "time": null,
-      "winner": null,
+      "winner": "Ryan Spann",
       "result": null,
       "stats": null,
       "referee": null,
@@ -733,10 +733,10 @@
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
-      "method": null,
+      "method": "Submission (armbar)",
       "round": null,
       "time": null,
-      "winner": null,
+      "winner": "Brunno Ferreira",
       "result": null,
       "stats": null,
       "referee": null,
@@ -790,10 +790,10 @@
       },
       "weight_class": "Women's Flyweight",
       "title_fight": "none",
-      "method": null,
+      "method": "TKO (knee to the body and punches)",
       "round": null,
       "time": null,
-      "winner": null,
+      "winner": "Carli Judice",
       "result": null,
       "stats": null,
       "referee": null,
@@ -802,7 +802,7 @@
       "segment": "early-prelims"
     }
   ],
-  "scraped_at": "2025-07-13T16:21:19.555442",
+  "scraped_at": "2025-08-02T11:16:06.275810",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_318"
   }

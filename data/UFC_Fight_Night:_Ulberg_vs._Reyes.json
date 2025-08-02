@@ -1,12 +1,12 @@
 {
-  "event_id": "UFC_321",
-  "event_name": "UFC 321",
-  "event_date": "2025-10-25",
-  "venue": "Etihad Arena",
-  "location": "Abu Dhabi, United Arab Emirates",
-  "city": "Abu Dhabi",
+  "event_id": "UFC_Fight_Night:_Ulberg_vs._Reyes",
+  "event_name": "UFC Fight Night: Ulberg vs. Reyes",
+  "event_date": "2025-09-28",
+  "venue": "RAC Arena",
+  "location": "Perth, Australia",
+  "city": "Perth",
   "state": null,
-  "country": "United Arab Emirates",
+  "country": "Australia",
   "status": "scheduled",
   "attendance": null,
   "gate": null,
@@ -16,10 +16,119 @@
     {
       "bout_order": 6,
       "fighter1": {
-        "name": "Tom Aspinall",
-        "record": "15-3-0",
+        "name": "Carlos Ulberg",
+        "record": "12-1-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Carlos_Ulberg"
+      },
+      "fighter2": {
+        "name": "Dominick Reyes",
+        "record": "15-4-0",
         "record_breakdown": {
           "wins": 15,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dominick_Reyes"
+      },
+      "weight_class": "Light Heavyweight",
+      "title_fight": "none",
+      "method": null,
+      "round": null,
+      "time": null,
+      "winner": null,
+      "result": null,
+      "stats": null,
+      "referee": null,
+      "bonuses": null,
+      "fight_url": null,
+      "segment": "main-card"
+    },
+    {
+      "bout_order": 5,
+      "fighter1": {
+        "name": "Michelle Montague",
+        "record": null,
+        "record_breakdown": null,
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": null
+      },
+      "fighter2": {
+        "name": "Luana Carolina",
+        "record": "11-4-0",
+        "record_breakdown": {
+          "wins": 11,
+          "losses": 4,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Luana_Carolina"
+      },
+      "weight_class": "Women's Bantamweight",
+      "title_fight": "none",
+      "method": null,
+      "round": null,
+      "time": null,
+      "winner": null,
+      "result": null,
+      "stats": null,
+      "referee": null,
+      "bonuses": null,
+      "fight_url": null,
+      "segment": "main-card"
+    },
+    {
+      "bout_order": 4,
+      "fighter1": {
+        "name": "Loma Lookboonmee",
+        "record": "10-3-0",
+        "record_breakdown": {
+          "wins": 10,
           "losses": 3,
           "draws": null,
           "no_contests": null
@@ -33,11 +142,125 @@
         "stance": null,
         "nickname": null,
         "bonus": null,
-        "is_champion": true,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Tom_Aspinall"
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Loma_Lookboonmee"
       },
       "fighter2": {
-        "name": "Ciryl Gane",
+        "name": "Alexia Thainara",
+        "record": "12-1-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Alexia_Thainara"
+      },
+      "weight_class": "Women's Strawweight",
+      "title_fight": "none",
+      "method": null,
+      "round": null,
+      "time": null,
+      "winner": null,
+      "result": null,
+      "stats": null,
+      "referee": null,
+      "bonuses": null,
+      "fight_url": null,
+      "segment": "main-card"
+    },
+    {
+      "bout_order": 3,
+      "fighter1": {
+        "name": "Colby Thicknesse",
+        "record": "7-1-0",
+        "record_breakdown": {
+          "wins": 7,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Colby_Thicknesse"
+      },
+      "fighter2": {
+        "name": "Josias Musasa",
+        "record": "8-1-0",
+        "record_breakdown": {
+          "wins": 8,
+          "losses": 1,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Josias_Musasa"
+      },
+      "weight_class": "Bantamweight",
+      "title_fight": "none",
+      "method": null,
+      "round": null,
+      "time": null,
+      "winner": null,
+      "result": null,
+      "stats": null,
+      "referee": null,
+      "bonuses": null,
+      "fight_url": null,
+      "segment": "main-card"
+    },
+    {
+      "bout_order": 2,
+      "fighter1": {
+        "name": "Choi Doo-ho",
+        "record": "16-4-1",
+        "record_breakdown": {
+          "wins": 16,
+          "losses": 4,
+          "draws": 1,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Choi_Doo-ho"
+      },
+      "fighter2": {
+        "name": "Daniel Santos",
         "record": "12-2-0",
         "record_breakdown": {
           "wins": 12,
@@ -55,232 +278,9 @@
         "nickname": null,
         "bonus": null,
         "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Ciryl_Gane"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Daniel_Santos"
       },
-      "weight_class": "Heavyweight",
-      "title_fight": "undisputed",
-      "method": null,
-      "round": null,
-      "time": null,
-      "winner": null,
-      "result": null,
-      "stats": null,
-      "referee": null,
-      "bonuses": null,
-      "fight_url": null,
-      "segment": "main-card"
-    },
-    {
-      "bout_order": 5,
-      "fighter1": {
-        "name": "Alexander Volkov",
-        "record": "38-11-0",
-        "record_breakdown": {
-          "wins": 38,
-          "losses": 11,
-          "draws": null,
-          "no_contests": null
-        },
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null,
-        "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Alexander_Volkov"
-      },
-      "fighter2": {
-        "name": "Jailton Almeida",
-        "record": "22-3-0",
-        "record_breakdown": {
-          "wins": 22,
-          "losses": 3,
-          "draws": null,
-          "no_contests": null
-        },
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null,
-        "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Jailton_Almeida"
-      },
-      "weight_class": "Heavyweight",
-      "title_fight": "none",
-      "method": null,
-      "round": null,
-      "time": null,
-      "winner": null,
-      "result": null,
-      "stats": null,
-      "referee": null,
-      "bonuses": null,
-      "fight_url": null,
-      "segment": "main-card"
-    },
-    {
-      "bout_order": 4,
-      "fighter1": {
-        "name": "Aleksandar Rakić",
-        "record": "14-5-0",
-        "record_breakdown": {
-          "wins": 14,
-          "losses": 5,
-          "draws": null,
-          "no_contests": null
-        },
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null,
-        "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Aleksandar_Rakić"
-      },
-      "fighter2": {
-        "name": "Azamat Murzakanov",
-        "record": "15-0-0",
-        "record_breakdown": {
-          "wins": 15,
-          "losses": 0,
-          "draws": null,
-          "no_contests": null
-        },
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null,
-        "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Azamat_Murzakanov"
-      },
-      "weight_class": "Light Heavyweight",
-      "title_fight": "none",
-      "method": null,
-      "round": null,
-      "time": null,
-      "winner": null,
-      "result": null,
-      "stats": null,
-      "referee": null,
-      "bonuses": null,
-      "fight_url": null,
-      "segment": "main-card"
-    },
-    {
-      "bout_order": 3,
-      "fighter1": {
-        "name": "Hamdy Abdelwahab",
-        "record": "6-1-0 (1 NC)",
-        "record_breakdown": {
-          "wins": 6,
-          "losses": 1,
-          "draws": null,
-          "no_contests": 1
-        },
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null,
-        "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Hamdy_Abdelwahab"
-      },
-      "fighter2": {
-        "name": "Chris Barnett",
-        "record": "23-9-0",
-        "record_breakdown": {
-          "wins": 23,
-          "losses": 9,
-          "draws": null,
-          "no_contests": null
-        },
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null,
-        "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Barnett"
-      },
-      "weight_class": "Heavyweight",
-      "title_fight": "none",
-      "method": null,
-      "round": null,
-      "time": null,
-      "winner": null,
-      "result": null,
-      "stats": null,
-      "referee": null,
-      "bonuses": null,
-      "fight_url": null,
-      "segment": "main-card"
-    },
-    {
-      "bout_order": 2,
-      "fighter1": {
-        "name": "Ikram Aliskerov",
-        "record": "16-2-0",
-        "record_breakdown": {
-          "wins": 16,
-          "losses": 2,
-          "draws": null,
-          "no_contests": null
-        },
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null,
-        "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Ikram_Aliskerov"
-      },
-      "fighter2": {
-        "name": "Park Jun-yong",
-        "record": null,
-        "record_breakdown": null,
-        "rank": null,
-        "country": null,
-        "age": null,
-        "height": null,
-        "weight": null,
-        "reach": null,
-        "stance": null,
-        "nickname": null,
-        "bonus": null,
-        "is_champion": false,
-        "wikipedia_url": null
-      },
-      "weight_class": "Middleweight",
+      "weight_class": "Featherweight",
       "title_fight": "none",
       "method": null,
       "round": null,
@@ -296,11 +296,11 @@
     {
       "bout_order": 1,
       "fighter1": {
-        "name": "Azat Maksum",
-        "record": "17-2-0",
+        "name": "Navajo Stirling",
+        "record": "7-0-0",
         "record_breakdown": {
-          "wins": 17,
-          "losses": 2,
+          "wins": 7,
+          "losses": 0,
           "draws": null,
           "no_contests": null
         },
@@ -314,16 +314,16 @@
         "nickname": null,
         "bonus": null,
         "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Azat_Maksum"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Navajo_Stirling"
       },
       "fighter2": {
-        "name": "Mitch Raposo",
-        "record": "9-2-0",
+        "name": "Rodolfo Bellato",
+        "record": "12-2-1 (1 NC)",
         "record_breakdown": {
-          "wins": 9,
+          "wins": 12,
           "losses": 2,
-          "draws": null,
-          "no_contests": null
+          "draws": 1,
+          "no_contests": 1
         },
         "rank": null,
         "country": null,
@@ -335,9 +335,9 @@
         "nickname": null,
         "bonus": null,
         "is_champion": false,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Mitch_Raposo"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rodolfo_Bellato"
       },
-      "weight_class": "Flyweight",
+      "weight_class": "Light Heavyweight",
       "title_fight": "none",
       "method": null,
       "round": null,
@@ -351,8 +351,8 @@
       "segment": "main-card"
     }
   ],
-  "scraped_at": "2025-08-02T11:15:49.277763",
+  "scraped_at": "2025-08-02T11:15:51.578323",
   "source_urls": {
-    "wikipedia": "https://en.wikipedia.org/wiki/UFC_321"
+    "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Ulberg_vs._Reyes"
   }
 }

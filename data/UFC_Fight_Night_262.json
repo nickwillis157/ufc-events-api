@@ -1,0 +1,130 @@
+{
+  "event_id": "UFC_Fight_Night_262",
+  "event_name": "UFC Fight Night 262",
+  "event_date": "2025-10-18",
+  "venue": "Rogers Arena",
+  "location": "Vancouver,British Columbia, Canada",
+  "city": "Vancouver",
+  "state": "British Columbia",
+  "country": "Canada",
+  "status": "scheduled",
+  "attendance": null,
+  "gate": null,
+  "tv_broadcast": null,
+  "start_time": null,
+  "fights": [
+    {
+      "bout_order": 2,
+      "fighter1": {
+        "name": "Manon Fiorot",
+        "record": "12-2-0",
+        "record_breakdown": {
+          "wins": 12,
+          "losses": 2,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Manon_Fiorot"
+      },
+      "fighter2": {
+        "name": "Jasmine Jasudavicius",
+        "record": "14-3-0",
+        "record_breakdown": {
+          "wins": 14,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jasmine_Jasudavicius"
+      },
+      "weight_class": "Women's Flyweight",
+      "title_fight": "none",
+      "method": null,
+      "round": null,
+      "time": null,
+      "winner": null,
+      "result": null,
+      "stats": null,
+      "referee": null,
+      "bonuses": null,
+      "fight_url": null,
+      "segment": "main-card"
+    },
+    {
+      "bout_order": 1,
+      "fighter1": {
+        "name": "Azamat Bekoev",
+        "record": "20-3-0",
+        "record_breakdown": {
+          "wins": 20,
+          "losses": 3,
+          "draws": null,
+          "no_contests": null
+        },
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Azamat_Bekoev"
+      },
+      "fighter2": {
+        "name": "Yousri Belgaroui",
+        "record": null,
+        "record_breakdown": null,
+        "rank": null,
+        "country": null,
+        "age": null,
+        "height": null,
+        "weight": null,
+        "reach": null,
+        "stance": null,
+        "nickname": null,
+        "bonus": null,
+        "is_champion": false,
+        "wikipedia_url": null
+      },
+      "weight_class": "Middleweight",
+      "title_fight": "none",
+      "method": null,
+      "round": null,
+      "time": null,
+      "winner": null,
+      "result": null,
+      "stats": null,
+      "referee": null,
+      "bonuses": null,
+      "fight_url": null,
+      "segment": "main-card"
+    }
+  ],
+  "scraped_at": "2025-08-02T11:15:49.574417",
+  "source_urls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night_262"
+  }
+}

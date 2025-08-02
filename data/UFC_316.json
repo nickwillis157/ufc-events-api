@@ -287,7 +287,7 @@
       },
       "weight_class": "Welterweight",
       "title_fight": "none",
-      "method": "Submission (brabo choke)",
+      "method": "Submission (anaconda choke)",
       "round": null,
       "time": null,
       "winner": "Kevin Holland",
@@ -750,4 +750,8 @@
       "segment": "early-prelims"
     }
   ],
-  "scraped_at": 
+  "scraped_at": "2025-08-02T11:16:09.940139",
+  "source_urls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/UFC_316"
+  }
+}

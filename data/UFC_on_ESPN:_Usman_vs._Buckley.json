@@ -287,7 +287,7 @@
       },
       "weight_class": "Middleweight",
       "title_fight": "none",
-      "method": "Technical Decision (unanimous) (30–27, 29–28, 29–28)",
+      "method": "Draw (majority) (19–19, 19–19, 18–20)",
       "round": null,
       "time": null,
       "winner": "Mansur Abdul-Malik",
@@ -750,4 +750,8 @@
       "segment": "prelims"
     }
   ],
-  "scraped_at": 
+  "scraped_at": "2025-08-02T11:16:09.312565",
+  "source_urls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/UFC_on_ESPN:_Usman_vs._Buckley"
+  }
+}

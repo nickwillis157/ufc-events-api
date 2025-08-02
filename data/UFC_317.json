@@ -576,7 +576,7 @@
       "referee": null,
       "bonuses": null,
       "fight_url": null,
-      "segment": "prelims"
+      "segment": "early-prelims"
     },
     {
       "bout_order": 1,
@@ -633,7 +633,11 @@
       "referee": null,
       "bonuses": null,
       "fight_url": null,
-      "segment": "prelims"
+      "segment": "early-prelims"
     }
   ],
-  "scraped_at": 
+  "scraped_at": "2025-08-02T11:16:07.624987",
+  "source_urls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/UFC_317"
+  }
+}

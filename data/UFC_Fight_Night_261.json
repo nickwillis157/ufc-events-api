@@ -1,19 +1,19 @@
 {
   "event_id": "UFC_Fight_Night_261",
   "event_name": "UFC Fight Night 261",
-  "event_date": "2025-11-22",
-  "venue": "Ali Bin Hamad al-Attiyah Arena",
-  "location": "Doha, Qatar",
-  "city": "Doha",
+  "event_date": "2025-10-11",
+  "venue": "Farmasi Arena",
+  "location": "Rio de Janeiro, Brazil",
+  "city": "Rio de Janeiro",
   "state": null,
-  "country": "Qatar",
+  "country": "Brazil",
   "status": "scheduled",
   "attendance": null,
   "gate": null,
   "tv_broadcast": null,
   "start_time": null,
   "fights": [],
-  "scraped_at": "2025-07-13T16:21:09.565724",
+  "scraped_at": "2025-08-02T11:15:50.514368",
   "source_urls": {
     "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night_261"
   }
